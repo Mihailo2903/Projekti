@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Vicevi
+{% endblock %}
+
+{% block content %}
+    <h2>{{category.name}}</h2>
+    {% for joke in jokes %}
+    <div class="joke inputlabel">
+        <h2> {{joke.title}} </h2>
+        <p>{{joke.content|linebreaks}}</p>
+        <form method="get" action="{% url 'joke' joke.id_joke %}">
+            {% csrf_token %}
+            <input type="submit" value="Otvori na posebnoj stranici" class="submitform submitauth">
+        </form>
+    </div>
+    {% endfor %}
+{% endblock %}
+
+

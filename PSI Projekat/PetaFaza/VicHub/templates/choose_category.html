@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Izbor kategorije
+{% endblock %}
+
+{% block content %}
+    <form method="post" action="{% url 'accept_joke' joke.id_joke %}">
+        {% csrf_token %}
+        <!--  vic  -->
+        <h2>{{joke.title}}</h2>
+        <h5>Autor: {{autor.username}}</h5>
+        <div class="singlejoke inputlabel">
+            <p>
+                {{ joke.content|linebreaks }}
+                <hr>
+            </p>
+            <input type="submit" value="Odaberi kategoriju" name="button_single" class="submitform submitauth">
+        </div>
+
+        <!--  kategorije za selectovanje  -->
+            <div class="users">
+                {% for category in categories %}
+                    <input type="checkbox" id="{{ category.id_category }}" name="kategorija" value="{{ category.id_category }}">
+                    <label for="{{ category.id_category }}">
+                        <div class="inputlabel2">
+                                {{ category.name }}
+                        </div>
+                    </label>
+                {% endfor %}
+            </div>
+    </form>
+{% endblock %}

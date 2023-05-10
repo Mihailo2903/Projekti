@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    New Content Review
+{% endblock %}
+
+{% block content %}
+    <h2>Odobravanje viceva</h2>
+    {% for joke in all_pending_jokes %}
+        <div class="joke inputlabel">
+        <h2>{{ joke.title }}</h2>
+        <p>
+            {{ joke.content }}
+        </p>
+        <table class="table-for-joke">
+            <tr>
+                <td>
+                    <form method="post" action="{% url 'choose_category' joke.id_joke %}">
+                        {% csrf_token %}
+                        <input type="submit" value="Odobri" class="submitauth2">
+                    </form>
+                </td>
+                <td>
+                    <form method="post" action="{% url 'reject_joke' joke.id_joke %}">
+                        {% csrf_token %}
+                        <input type="submit" value="Odbaci" class="submitauth2">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+    {% endfor %}
+{% endblock %}

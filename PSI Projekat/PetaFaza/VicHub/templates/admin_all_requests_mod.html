@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Admin page - all users
+{% endblock %}
+
+{% block content %}
+    <div class="users">
+        <ul class="users">
+            {% for request in all_requests_for_mod %}
+                {% if request.status == 'P' %}
+                    <li class="inputlabel2">
+                        <h3>Korisnik: {{ request.id_user }}</h3>
+                        <a href="{% url 'accept_mod_request' request.id_request %}">Odobri</a>
+                        <a href="{% url 'reject_mod_request' request.id_request %}">Odbij</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

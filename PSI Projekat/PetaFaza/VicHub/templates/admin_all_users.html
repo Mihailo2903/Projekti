@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Admin page - all users
+{% endblock %}
+
+{% block content %}
+    <div class="users" style="align-content: center">
+        <ul class="users" style="text-align: center">
+
+            {% for user1 in users %}
+                <li class="inputlabel3" >
+                    <table>
+                        <tr>
+                            <td> Username: {{ user1.username }}</td>
+                        </tr>
+                        <tr>
+                            <td> Email: {{ user1.email }}</td>
+                        </tr>
+                        <tr>
+                            <td>Date of birth: {{ user1.date_of_birth }}</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                {% if user.status == 'A' %}
+                                    <a href="{% url 'delete_user_admin' user1.id_user %}">Obriši</a>
+                                    {% if user1.type == 'M' %}
+                                        <a href="{% url 'remove_mod' user1.id_user %}">Oduzmi moderatora</a>
+                                    {% endif %}
+                                {% endif %}
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+<!--
+    {% if messages %}
+        <div class="inputlabel">
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+    {% endif %} -->
+{% endblock %}
+

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Profil
+{% endblock %}
+
+{% block content %}
+    <h2>Profil</h2>
+    <div class="inputlabel profile">
+        <img src="{% static 'img/profile.png' %}" alt="asdasd" class="profilepic">
+        <p>Korisnicko ime: {{user.username}}</p>
+        <p>Ime: {{user.first_name}}</p>
+        <p>Prezime: {{user.last_name}}</p>
+        <p>Email: {{user.email}}</p>
+        <p>Datum rodjenja: {{user.date_of_birth}}</p>
+        {% if user.subscribed == 'Y' %}
+            <a href="{% url 'unsubscribe_from_bilten' %}" style="text-decoration: none; color: black;">Odjavi se sa biltena</a>
+        {% else %}
+            <a href="{% url 'subscribe_to_bilten' %}" style="text-decoration: none; color: black;">Prijavi se na bilten</a>
+        {% endif %}
+    <br> <br>
+            <a href="{% url 'change_personal_data' %}" style="text-decoration: none; color: black;">Promeni lične podatke</a>
+    </div>
+{% endblock %}

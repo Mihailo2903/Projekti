@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Kategorije
+{% endblock %}
+
+{% block content %}
+    <div class="users">
+        <ul class="users">
+            {% for category in categories%}
+                <li class="inputlabel2">
+                    <a href="{% url 'category' category.id_category %}">{{category.name}}</a>
+                </li>
+            {% endfor %}
+            {% if user.type == 'M' or user.type == 'A' %}
+                <li class="inputlabel2">
+                    <a href="{% url 'add_category' %}">+ Dodaj novu kategoriju</a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+{% endblock %}
