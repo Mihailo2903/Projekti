@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="skripta.js"></script>
+    <title>Asocijacije</title>
+</head>
+<body>
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-sm-2 sideLeft">
+                <h2 id="plaviIme">Plavi igrač</h2>
+                <p id="plaviPoeni">Broj poena: 0</p>
+                <p id="plaviVreme">Sekundi za potez: /</p>
+            </div>
+            <div class="col-sm-8 center">
+                <div class="header">
+                    <h1 id="preostalo">Preostalo vreme: 4:00</h1>
+                    <p id="igrac">Plavi igrač na potezu</p>
+                </div>
+
+                <div class="content">
+                    <div class="red">
+                        <div class="l1 l" id="A1">11</div>
+                        
+                          <button type="button" class="btn btn-info" id="dalje">Nastavi dalje</button>
+                       
+                        <div class="r1 r" id="B1">11</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l2 l" id="A2">22</div>
+                        <div class="r2 r" id="B2">22</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l3 l" id="A3">33</div>
+                        <div class="r3 r" id="B3">33</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l4 l" id="A4">44</div>
+                        <div class="r4 r" id="B4">44</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l5 lk" id="A">
+                            <input type="text" name="" id="UnosA" disabled autocomplete="off">
+                        </div>
+                        <div class="r5 rk" id="B">
+                            <input type="text" name="" id="UnosB" disabled autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="red fleks">
+                        <button type="button" class="btn btn-success" id="novaIgra">Nova igra</button>
+                        <div class="solution" id="solution">                         
+                            <input type="text" name="" id="UnosKonacno" disabled autocomplete="off">
+                        </div>
+                        <button type="button" class="btn btn-danger" id="napusti">Napusti igru</button>
+                    </div>
+
+                    <div class="red">
+                        <div class="l7 lk" id="C">
+                            <input type="text" name="" id="UnosC" disabled autocomplete="off">
+                        </div>
+                        <div class="r7 rk" id="D">
+                            <input type="text" name="" id="UnosD" disabled autocomplete="off">
+                        </div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l8 l" id="C4">aa</div>
+                        <div class="r8 r" id="D4">aa</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l9 l" id="C3">aa</div>
+                        <div class="r9 r" id="D3">aa</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l10 l" id="C2">aa</div>                            
+                        <div class="r10 r" id="D2">aa</div>
+                    </div>
+
+                    <div class="red">
+                        <div class="l11 l" id="C1">aa</div>   
+                        <div class="r11 r" id="D1">aa</div>
+                    </div>
+
+                </div>               
+            </div>
+            <div class="col-sm-2 sideRight">
+                <h2 id="crveniIme">Crveni igrač</h2>
+                <p id="crveniPoeni">Broj poena: 0</p>
+                <p id="crveniVreme">Sekundi za potez: /</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

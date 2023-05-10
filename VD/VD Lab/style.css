@@ -1,0 +1,178 @@
+html,
+body {
+    height: 100%;
+}
+
+.center {
+    height: 100%;
+    background: lightgreen;
+}
+
+.sideLeft, .sideRight {
+    height: 100%;
+    background: aqua;
+    text-align: center;
+}
+
+.sideLeft h2, .sideLeft p{
+    margin-top: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sideRight h2, .sideRight p{
+    margin-top: 20px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sideLeft h2, .sideRight h2{
+    margin-top: 20px;
+}
+
+.und{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.crveno{ 
+    color: red;
+    font-weight: bolder;
+}
+
+.plavo{ 
+    color: blue;
+    font-weight: bolder;
+}
+
+.unos{
+    border-radius: 4px;
+}
+
+.imena{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+}
+
+.header h1{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header p{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.content{
+    width: 100%;
+    height: 84%;
+}
+
+
+.red{
+    width: 100%;
+    height: 8%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.red input[type=text]{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+
+.l1,.r1,.l2,.r2,.l3,.r3,.l4,.r4,.l5,.r5,.l7,.r7,.l8,.r8,.l9,.r9,.l10,.r10,.l11,.r11{
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+    border: 1px solid black;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.fleks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.solution{
+    width: 30%;
+    height: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+    font-weight: bold;
+
+    /*display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    text-align: center;*/
+}
+
+.l, .lk{
+    float: left;
+}
+.r, .rk{
+    float: right;
+}
+
+.l1, .l11{
+    margin-left: 5%;
+}
+.r1, .r11{
+    margin-right: 5%;
+}
+.l2, .l10{
+    margin-left: 10%;
+}
+.r2, .r10{
+    margin-right: 10%;
+}
+.l3, .l9{
+    margin-left: 15%;
+}
+.r3, .r9{
+    margin-right: 15%;
+}
+.l4, .l8{
+    margin-left: 20%;
+}
+.r4, .r8{
+    margin-right: 20%;
+}
+.l5, .l7{
+    margin-left: 25%;
+}
+.r5, .r7{
+    margin-right: 25%;
+}
+
+
+#novaIgra, #dalje, #napusti{
+    width: 15%;
+}
