@@ -1,0 +1,153 @@
+INFO  14:49:43,736 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantikaFinal.mj
+INFO  14:49:43,774 - #2 program
+INFO  14:49:43,774 - #48 Prog
+INFO  14:49:43,774 - #7 const
+INFO  14:49:43,775 - #48 int
+INFO  14:49:43,775 - #48 ci1
+INFO  14:49:43,775 - #33 =
+INFO  14:49:43,775 - #47 3
+INFO  14:49:43,775 - #38 ,
+INFO  14:49:43,776 - #48 ci2
+INFO  14:49:43,776 - #33 =
+INFO  14:49:43,776 - #47 2
+INFO  14:49:43,776 - #37 ;
+INFO  14:49:43,776 - #7 const
+INFO  14:49:43,776 - #48 bool
+INFO  14:49:43,776 - #48 cb1
+INFO  14:49:43,776 - #33 =
+INFO  14:49:43,776 - #50 true
+INFO  14:49:43,776 - #38 ,
+INFO  14:49:43,776 - #48 cb2
+INFO  14:49:43,777 - #33 =
+INFO  14:49:43,777 - #50 false
+INFO  14:49:43,777 - #37 ;
+INFO  14:49:43,777 - #48 int
+INFO  14:49:43,777 - #48 a
+INFO  14:49:43,786 - #38 ,
+INFO  14:49:43,787 - #48 b
+INFO  14:49:43,787 - #38 ,
+INFO  14:49:43,788 - #48 c
+INFO  14:49:43,788 - #33 =
+ERROR 14:49:43,788 - 
+Sintaksna greska na liniji 5
+INFO  14:49:43,788 - #47 3
+INFO  14:49:43,788 - #37 ;
+INFO  14:49:43,788 - #41 {
+INFO  14:49:43,789 - #15 void
+INFO  14:49:43,789 - #48 main
+ERROR 14:49:43,789 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 5
+INFO  14:49:43,796 - #43 (
+INFO  14:49:43,796 - #44 )
+INFO  14:49:43,796 - #41 {
+INFO  14:49:43,796 - #14 return
+INFO  14:49:43,797 - #37 ;
+INFO  14:49:43,797 - #42 }
+INFO  14:49:43,797 - #42 }
+INFO  14:49:43,802 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclarationConst(
+          Const_Declaration(
+            TypeConst(
+              Type(
+               int
+              ) [Type]
+            ) [TypeConst]
+            ListConstDecl(
+              SingleConstDecl(
+                ConstantDecl(
+                 ci1
+                  IntegerConstant(
+                   3
+                  ) [IntegerConstant]
+                ) [ConstantDecl]
+              ) [SingleConstDecl]
+              ConstantDecl(
+               ci2
+                IntegerConstant(
+                 2
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeConst]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               cb1
+                BoolConstant(
+                 true
+                ) [BoolConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             cb2
+              BoolConstant(
+               false
+              ) [BoolConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              VariableDecl(
+               a
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+            VariableDecl(
+             b
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          ErrorVariableDeclaration(
+          ) [ErrorVariableDeclaration]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnNoParamStatement(
+        ) [ReturnNoParamStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:49:43,802 - ===================================
+ERROR 14:49:43,805 - Parsiranje nije uspesno
+INFO  14:49:43,805 - ===================================

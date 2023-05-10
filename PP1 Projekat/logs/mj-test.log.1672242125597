@@ -1,0 +1,134 @@
+INFO  16:41:35,253 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantika.mj
+INFO  16:41:35,296 - #2 program
+INFO  16:41:35,296 - #48 Program
+INFO  16:41:35,296 - #7 const
+INFO  16:41:35,297 - #48 int
+INFO  16:41:35,297 - #48 a
+INFO  16:41:35,298 - #33 =
+INFO  16:41:35,298 - #47 3
+INFO  16:41:35,298 - #38 ,
+INFO  16:41:35,298 - #48 b
+INFO  16:41:35,298 - #33 =
+INFO  16:41:35,298 - #47 4
+INFO  16:41:35,298 - #37 ;
+INFO  16:41:35,299 - #7 const
+INFO  16:41:35,299 - #48 bool
+INFO  16:41:35,299 - #48 ba
+INFO  16:41:35,299 - #33 =
+INFO  16:41:35,299 - #50 true
+INFO  16:41:35,299 - #38 ,
+INFO  16:41:35,299 - #48 c4
+INFO  16:41:35,300 - #33 =
+INFO  16:41:35,300 - #50 false
+INFO  16:41:35,300 - #37 ;
+INFO  16:41:35,303 - #7 const
+INFO  16:41:35,303 - #48 char
+INFO  16:41:35,303 - #48 p
+INFO  16:41:35,303 - #33 =
+INFO  16:41:35,304 - #49 c
+INFO  16:41:35,304 - #38 ,
+INFO  16:41:35,304 - #48 a3
+INFO  16:41:35,304 - #33 =
+INFO  16:41:35,304 - #47 1
+INFO  16:41:35,304 - #37 ;
+INFO  16:41:35,304 - #41 {
+INFO  16:41:35,304 - #42 }
+INFO  16:41:35,310 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclarationConst(
+          Const_Declaration(
+            TypeConst(
+              Type(
+               int
+              ) [Type]
+            ) [TypeConst]
+            ListConstDecl(
+              SingleConstDecl(
+                ConstantDecl(
+                 a
+                  IntegerConstant(
+                   3
+                  ) [IntegerConstant]
+                ) [ConstantDecl]
+              ) [SingleConstDecl]
+              ConstantDecl(
+               b
+                IntegerConstant(
+                 4
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeConst]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               ba
+                BoolConstant(
+                 true
+                ) [BoolConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             c4
+              BoolConstant(
+               false
+              ) [BoolConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationConst(
+      Const_Declaration(
+        TypeConst(
+          Type(
+           char
+          ) [Type]
+        ) [TypeConst]
+        ListConstDecl(
+          SingleConstDecl(
+            ConstantDecl(
+             p
+              CharConstant(
+               c
+              ) [CharConstant]
+            ) [ConstantDecl]
+          ) [SingleConstDecl]
+          ConstantDecl(
+           a3
+            IntegerConstant(
+             1
+            ) [IntegerConstant]
+          ) [ConstantDecl]
+        ) [ListConstDecl]
+      ) [Const_Declaration]
+    ) [DeclarationConst]
+  ) [DeclarationList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:41:35,310 - ===================================
+INFO  16:41:35,313 - Deklarisana konstanta a vrednosti 3 na liniji 3
+INFO  16:41:35,313 - Deklarisana konstanta b vrednosti 4 na liniji 3
+INFO  16:41:35,313 - Deklarisana konstanta ba vrednosti 1 na liniji 4
+INFO  16:41:35,313 - Deklarisana konstanta c4 vrednosti 0 na liniji 4
+INFO  16:41:35,313 - Deklarisana konstanta p vrednosti 99 na liniji 5
+ERROR 16:41:35,313 - GRESKA: Los tip konstane a3 na liniji 5
+ERROR 16:41:35,313 - Parsiranje nije uspesno
+INFO  16:41:35,313 - ===================================

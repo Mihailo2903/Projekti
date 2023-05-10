@@ -1,0 +1,254 @@
+INFO  14:55:56,398 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantikaFinal.mj
+INFO  14:55:56,433 - #2 program
+INFO  14:55:56,433 - #48 Prog
+INFO  14:55:56,433 - #7 const
+INFO  14:55:56,434 - #48 int
+INFO  14:55:56,435 - #48 ci1
+INFO  14:55:56,435 - #33 =
+INFO  14:55:56,435 - #47 3
+INFO  14:55:56,435 - #38 ,
+INFO  14:55:56,436 - #48 ci2
+INFO  14:55:56,436 - #33 =
+INFO  14:55:56,436 - #47 2
+INFO  14:55:56,436 - #37 ;
+INFO  14:55:56,436 - #7 const
+INFO  14:55:56,436 - #48 bool
+INFO  14:55:56,436 - #48 cb1
+INFO  14:55:56,436 - #33 =
+INFO  14:55:56,436 - #50 true
+INFO  14:55:56,436 - #38 ,
+INFO  14:55:56,436 - #48 cb2
+INFO  14:55:56,437 - #33 =
+INFO  14:55:56,437 - #50 false
+INFO  14:55:56,437 - #37 ;
+INFO  14:55:56,437 - #48 int
+INFO  14:55:56,437 - #48 a
+INFO  14:55:56,438 - #38 ,
+INFO  14:55:56,438 - #48 b
+INFO  14:55:56,438 - #37 ;
+INFO  14:55:56,438 - #48 bool
+INFO  14:55:56,438 - #48 n
+INFO  14:55:56,438 - #38 ,
+INFO  14:55:56,438 - #48 m
+INFO  14:55:56,438 - #38 ,
+INFO  14:55:56,438 - #48 v
+INFO  14:55:56,438 - #37 ;
+INFO  14:55:56,438 - #48 int
+INFO  14:55:56,438 - #48 niz
+INFO  14:55:56,438 - #45 [
+INFO  14:55:56,438 - #46 ]
+INFO  14:55:56,439 - #37 ;
+INFO  14:55:56,439 - #48 bool
+INFO  14:55:56,439 - #48 bniz
+INFO  14:55:56,439 - #45 [
+INFO  14:55:56,439 - #46 ]
+INFO  14:55:56,439 - #37 ;
+INFO  14:55:56,439 - #48 int
+INFO  14:55:56,439 - #48 a
+INFO  14:55:56,439 - #37 ;
+INFO  14:55:56,439 - #41 {
+INFO  14:55:56,439 - #15 void
+INFO  14:55:56,439 - #48 main
+INFO  14:55:56,439 - #43 (
+INFO  14:55:56,440 - #44 )
+INFO  14:55:56,440 - #48 int
+INFO  14:55:56,440 - #48 a
+INFO  14:55:56,440 - #37 ;
+INFO  14:55:56,440 - #41 {
+INFO  14:55:56,441 - #14 return
+INFO  14:55:56,441 - #37 ;
+INFO  14:55:56,441 - #42 }
+INFO  14:55:56,441 - #42 }
+INFO  14:55:56,445 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                NoDeclarations(
+                ) [NoDeclarations]
+                DeclarationConst(
+                  Const_Declaration(
+                    TypeConst(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [TypeConst]
+                    ListConstDecl(
+                      SingleConstDecl(
+                        ConstantDecl(
+                         ci1
+                          IntegerConstant(
+                           3
+                          ) [IntegerConstant]
+                        ) [ConstantDecl]
+                      ) [SingleConstDecl]
+                      ConstantDecl(
+                       ci2
+                        IntegerConstant(
+                         2
+                        ) [IntegerConstant]
+                      ) [ConstantDecl]
+                    ) [ListConstDecl]
+                  ) [Const_Declaration]
+                ) [DeclarationConst]
+              ) [DeclarationList]
+              DeclarationConst(
+                Const_Declaration(
+                  TypeConst(
+                    Type(
+                     bool
+                    ) [Type]
+                  ) [TypeConst]
+                  ListConstDecl(
+                    SingleConstDecl(
+                      ConstantDecl(
+                       cb1
+                        BoolConstant(
+                         true
+                        ) [BoolConstant]
+                      ) [ConstantDecl]
+                    ) [SingleConstDecl]
+                    ConstantDecl(
+                     cb2
+                      BoolConstant(
+                       false
+                      ) [BoolConstant]
+                    ) [ConstantDecl]
+                  ) [ListConstDecl]
+                ) [Const_Declaration]
+              ) [DeclarationConst]
+            ) [DeclarationList]
+            DeclarationVar(
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  SingleVarDecl(
+                    VariableDecl(
+                     a
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                  VariableDecl(
+                   b
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [DeclarationVar]
+          ) [DeclarationList]
+          DeclarationVar(
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 bool
+                ) [Type]
+              ) [TypeVar]
+              ListVarDecl(
+                ListVarDecl(
+                  SingleVarDecl(
+                    VariableDecl(
+                     n
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                  VariableDecl(
+                   m
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+                VariableDecl(
+                 v
+                ) [VariableDecl]
+              ) [ListVarDecl]
+            ) [Var_Declaration]
+          ) [DeclarationVar]
+        ) [DeclarationList]
+        DeclarationVar(
+          Var_Declaration(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            SingleVarDecl(
+              ArrayVariableDecl(
+               niz
+              ) [ArrayVariableDecl]
+            ) [SingleVarDecl]
+          ) [Var_Declaration]
+        ) [DeclarationVar]
+      ) [DeclarationList]
+      DeclarationVar(
+        Var_Declaration(
+          TypeVar(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            ArrayVariableDecl(
+             bniz
+            ) [ArrayVariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [DeclarationVar]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        SingleVarDecl(
+          VariableDecl(
+           a
+          ) [VariableDecl]
+        ) [SingleVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      MethodFieldsDeclaration(
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             a
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        ReturnNoParamStatement(
+        ) [ReturnNoParamStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:55:56,446 - ===================================
+ERROR 14:55:56,449 - GRESKA: Promenljiva a vec deklarisana, greska na liniji 9
+ERROR 14:55:56,449 - Parsiranje nije uspesno
+INFO  14:55:56,449 - ===================================

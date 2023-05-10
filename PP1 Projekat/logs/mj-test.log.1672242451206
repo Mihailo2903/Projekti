@@ -1,0 +1,160 @@
+INFO  16:46:20,984 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantika.mj
+INFO  16:46:21,019 - #2 program
+INFO  16:46:21,019 - #48 Program
+INFO  16:46:21,019 - #7 const
+INFO  16:46:21,020 - #48 int
+INFO  16:46:21,020 - #48 a
+INFO  16:46:21,021 - #33 =
+INFO  16:46:21,021 - #47 3
+INFO  16:46:21,021 - #38 ,
+INFO  16:46:21,021 - #48 b
+INFO  16:46:21,021 - #33 =
+INFO  16:46:21,021 - #47 4
+INFO  16:46:21,021 - #38 ,
+INFO  16:46:21,021 - #48 zz
+INFO  16:46:21,021 - #33 =
+INFO  16:46:21,021 - #49 c
+INFO  16:46:21,022 - #37 ;
+INFO  16:46:21,022 - #7 const
+INFO  16:46:21,022 - #48 bool
+INFO  16:46:21,022 - #48 ba
+INFO  16:46:21,022 - #33 =
+INFO  16:46:21,022 - #50 true
+INFO  16:46:21,022 - #38 ,
+INFO  16:46:21,022 - #48 c4
+INFO  16:46:21,022 - #33 =
+INFO  16:46:21,023 - #50 false
+INFO  16:46:21,023 - #38 ,
+INFO  16:46:21,023 - #48 b
+INFO  16:46:21,023 - #33 =
+INFO  16:46:21,023 - #50 false
+INFO  16:46:21,023 - #37 ;
+INFO  16:46:21,023 - #7 const
+INFO  16:46:21,023 - #48 char
+INFO  16:46:21,023 - #48 p
+INFO  16:46:21,023 - #33 =
+INFO  16:46:21,023 - #49 c
+INFO  16:46:21,023 - #38 ,
+INFO  16:46:21,023 - #48 a3
+INFO  16:46:21,023 - #33 =
+INFO  16:46:21,023 - #47 1
+INFO  16:46:21,023 - #37 ;
+INFO  16:46:21,023 - #41 {
+INFO  16:46:21,023 - #42 }
+INFO  16:46:21,028 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclarationConst(
+          Const_Declaration(
+            TypeConst(
+              Type(
+               int
+              ) [Type]
+            ) [TypeConst]
+            ListConstDecl(
+              ListConstDecl(
+                SingleConstDecl(
+                  ConstantDecl(
+                   a
+                    IntegerConstant(
+                     3
+                    ) [IntegerConstant]
+                  ) [ConstantDecl]
+                ) [SingleConstDecl]
+                ConstantDecl(
+                 b
+                  IntegerConstant(
+                   4
+                  ) [IntegerConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+              ConstantDecl(
+               zz
+                CharConstant(
+                 c
+                ) [CharConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeConst]
+          ListConstDecl(
+            ListConstDecl(
+              SingleConstDecl(
+                ConstantDecl(
+                 ba
+                  BoolConstant(
+                   true
+                  ) [BoolConstant]
+                ) [ConstantDecl]
+              ) [SingleConstDecl]
+              ConstantDecl(
+               c4
+                BoolConstant(
+                 false
+                ) [BoolConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+            ConstantDecl(
+             b
+              BoolConstant(
+               false
+              ) [BoolConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationConst(
+      Const_Declaration(
+        TypeConst(
+          Type(
+           char
+          ) [Type]
+        ) [TypeConst]
+        ListConstDecl(
+          SingleConstDecl(
+            ConstantDecl(
+             p
+              CharConstant(
+               c
+              ) [CharConstant]
+            ) [ConstantDecl]
+          ) [SingleConstDecl]
+          ConstantDecl(
+           a3
+            IntegerConstant(
+             1
+            ) [IntegerConstant]
+          ) [ConstantDecl]
+        ) [ListConstDecl]
+      ) [Const_Declaration]
+    ) [DeclarationConst]
+  ) [DeclarationList]
+  NoMethodDeclarationList(
+  ) [NoMethodDeclarationList]
+) [Program]
+INFO  16:46:21,029 - ===================================
+INFO  16:46:21,030 - Deklarisana konstanta a vrednosti 3 na liniji 3
+INFO  16:46:21,031 - Deklarisana konstanta b vrednosti 4 na liniji 3
+ERROR 16:46:21,031 - GRESKA: Los tip konstane zz na liniji 3
+INFO  16:46:21,031 - Deklarisana konstanta ba vrednosti 1 na liniji 4
+INFO  16:46:21,031 - Deklarisana konstanta c4 vrednosti 0 na liniji 4
+ERROR 16:46:21,031 - GRESKA: Konstanta b vec deklarisana  na liniji 4
+INFO  16:46:21,031 - Deklarisana konstanta p vrednosti 99 na liniji 5
+ERROR 16:46:21,031 - GRESKA: Los tip konstane a3 na liniji 5
+ERROR 16:46:21,031 - Parsiranje nije uspesno
+INFO  16:46:21,031 - ===================================

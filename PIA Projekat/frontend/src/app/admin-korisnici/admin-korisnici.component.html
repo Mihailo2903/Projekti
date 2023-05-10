@@ -1,0 +1,43 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Svi korisnici</h2> <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr> 
+                <th>Korisničko ime</th>
+                <th>Ime</th>
+                <th>Prezime</th>
+                <th>Mejl</th>
+                <th>Tip</th>
+                <th>Status</th>
+                <th>Odobravanje</th>
+                <th>Ažuriranje</th>
+                <th>Brisanje</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let kor of korisnici">
+                <td>{{kor.korisnicko_ime}}</td>
+                <td>{{kor.ime}}</td>
+                <td>{{kor.prezime}}</td>
+                <td>{{kor.mejl}}</td>
+                <td>{{kor.tip}}</td>
+                <td>{{kor.status}}</td>
+                <td>
+                    <span *ngIf="kor.status=='naCekanju'">
+                        <button class="btn btn-success" (click)="prihvati(kor)">Prihvati</button> &nbsp;
+                        <button class="btn btn-danger" (click)="odbij(kor)">Odbij</button>
+                    </span>
+                </td>
+                <td>
+                    <button class="btn btn-primary" (click)="azuriraj(kor)">Ažuriraj</button>
+                </td>
+                <td>
+                    <button class="btn btn-danger" (click)="obrisi(kor)">Obriši</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<app-footer></app-footer>
+

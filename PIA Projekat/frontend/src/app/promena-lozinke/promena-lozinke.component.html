@@ -1,0 +1,69 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Promeni lozinku</h2> <br>
+    <span *ngIf="ulogovan==null">
+        <table>
+            <tr>
+                <td>Unesite mejl: &nbsp;</td>
+                <td>
+                    <input type="text" name="mejl" [(ngModel)]="mejlNeulogovan">
+                </td>
+            </tr>
+            <tr>
+                <td>Unesite privremenu ili staru lozinku: &nbsp;</td>
+                <td>
+                    <input type="password" name="mejl" [(ngModel)]="staraNeulogovan">
+                </td>
+            </tr>
+            <tr>
+                <td>Unesite novu lozinku: &nbsp;</td>
+                <td>
+                    <input type="password" name="mejl" [(ngModel)]="novaNeulogovan">
+                </td>
+            </tr>
+            <tr>
+                <td>Potvrdite novu lozinku: &nbsp;</td>
+                <td>
+                    <input type="password" name="mejl" [(ngModel)]="potvrdaNeulogovan">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center1">
+                    <button (click)="promeniNeulogovan()" class="btn btn-info" style="margin-top: 20px;">Promeni lozinku</button>
+                </td>     
+            </tr>
+        </table>
+       <span style="color: red;">{{porukaNeulogovan}}</span>
+       <span style="color: green;">{{porukaNeulogovanUspeh}}</span>
+    </span>
+    <span *ngIf="ulogovan!=null">
+        <table>
+            <tr>
+                <td>Unesite privremenu ili staru lozinku: &nbsp;</td>
+                <td>
+                    <input type="password" name="mejl" [(ngModel)]="staraUlogovan">
+                </td>
+            </tr>
+            <tr>
+                <td>Unesite novu lozinku: &nbsp;</td>
+                <td>
+                    <input type="password" name="mejl" [(ngModel)]="novaUlogovan">
+                </td>
+            </tr>
+            <tr>
+                <td>Potvrdite novu lozinku: &nbsp;</td>
+                <td>
+                    <input type="password" name="mejl" [(ngModel)]="potvrdaUlogovan">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center1">
+                    <button (click)="promeniUlogovan()" class="btn btn-info" style="margin-top: 20px;">Promeni lozinku</button>
+                </td>     
+            </tr>
+        </table>
+        <span style="color: red;">{{porukaUlogovan}}</span> 
+        <span style="color: green;">{{porukaUlogovanUspeh}}</span>
+    </span>
+</div>
+<app-footer></app-footer>

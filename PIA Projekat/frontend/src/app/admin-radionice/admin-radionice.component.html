@@ -1,0 +1,71 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Predlozi za nove radionice</h2> <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja</th>
+                <th>Mesto održavanja</th>
+                <th>Organizator</th>
+                <th>Kratak opis</th>
+                <th>Glavna slika</th>
+                <th>Odobravanje radionice</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of neodobrene">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td>{{rad.kratak_opis}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+                <td>
+                    <span *ngIf="rad.uslov==true">
+                        <button class="btn btn-success" (click)="odobri(rad)">Odobri</button> &nbsp;
+                        <button class="btn btn-danger" (click)="odbij(rad)">Odbij</button>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Prihvaćene radionice</h2> <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja</th>
+                <th>Mesto održavanja</th>
+                <th>Organizator</th>
+                <th>Kratak opis</th>
+                <th>Glavna slika</th>
+                <th>Vidi detalje</th>
+                <th>Ažuriraj</th>
+                <th>Obriši</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of radionice">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td>{{rad.kratak_opis}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+                <td><button class="btn btn-success" (click)="otvoriDetalje(rad)">Vidi detalje</button></td>
+                <td><button class="btn btn-primary" (click)="azuriraj(rad)">Ažuriraj</button></td>
+                <td><button class="btn btn-danger" (click)="obrisi(rad)">Obriši</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<app-footer></app-footer>
+

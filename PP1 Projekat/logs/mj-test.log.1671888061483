@@ -1,0 +1,106 @@
+INFO  14:20:31,022 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\oporavak.mj
+INFO  14:20:31,056 - #2 program
+INFO  14:20:31,057 - #48 first
+INFO  14:20:31,057 - #41 {
+INFO  14:20:31,057 - #15 void
+INFO  14:20:31,057 - #48 a
+INFO  14:20:31,057 - #43 (
+INFO  14:20:31,058 - #44 )
+INFO  14:20:31,058 - #41 {
+INFO  14:20:31,058 - #8 if
+INFO  14:20:31,059 - #43 (
+INFO  14:20:31,059 - #48 b
+INFO  14:20:31,059 - #21 +
+INFO  14:20:31,060 - #47 3
+INFO  14:20:31,060 - #44 )
+INFO  14:20:31,061 - #48 a
+INFO  14:20:31,062 - #33 =
+INFO  14:20:31,062 - #47 3
+INFO  14:20:31,062 - #37 ;
+INFO  14:20:31,063 - #42 }
+INFO  14:20:31,063 - #42 }
+INFO  14:20:31,064 - Program(
+ first
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       a
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        IfStatement(
+          RegularConditionIf(
+            Condition(
+              SingleCondTerm(
+                CondTerm(
+                  SingleCondFact(
+                    CondFactExpression(
+                      Expr(
+                        TermsList(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                FactorSingleDesignator(
+                                  DesignatorIdent(
+                                   b
+                                  ) [DesignatorIdent]
+                                ) [FactorSingleDesignator]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                          PlusOperator(
+                          ) [PlusOperator]
+                          Term(
+                            SingleFactor(
+                              FactorNumConstant(
+                               3
+                              ) [FactorNumConstant]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [TermsList]
+                      ) [Expr]
+                    ) [CondFactExpression]
+                  ) [SingleCondFact]
+                ) [CondTerm]
+              ) [SingleCondTerm]
+            ) [Condition]
+          ) [RegularConditionIf]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignSimple(
+                DesignatorIdent(
+                 a
+                ) [DesignatorIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorNumConstant(
+                         3
+                        ) [FactorNumConstant]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Expr]
+              ) [DesignatorAssignSimple]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+          NoElseStatement(
+          ) [NoElseStatement]
+        ) [IfStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:20:31,069 - ===================================

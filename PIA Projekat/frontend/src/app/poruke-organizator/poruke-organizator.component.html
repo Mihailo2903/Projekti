@@ -1,0 +1,86 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Poruke učesnika sa radionicom {{radionica.naziv}}</h2> <br>
+    <div class="istaKolona">
+        <div class="levi">
+            <h3>Učesnici</h3>
+            <br>
+            <table class="table table-bordered table-striped table-hover ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Učesnik</th>
+                        <th>Vidi poruke</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let u of ucesnici">
+                        <td>{{u.korisnicko_ime}}</td>        
+                        <td>
+                            <span *ngIf="u.otvorenaNit==false">
+                                <button class="btn btn-success" (click)="vidiPoruke(u)">Vidi poruke</button>
+                            </span>
+                            <span *ngIf="u.otvorenaNit==true">
+                                <button class="btn btn-danger" (click)="sakrijPoruke(u)">Sakrij poruke</button>
+                            </span>
+                        </td>    
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="desni">
+            <div *ngFor="let nit of nizNiti" class="jednaNit">
+                <div class="prostorPoruke">
+                    <div *ngFor="let por of nit.poruke" style="padding-right: 10px;">
+                        <div *ngIf="por.tip == 'korisnik'" class="porukaDiv porukaDivLevo">
+                            <img *ngIf="nit.ucesnikSlika!=null" src="{{nit.ucesnikSlika}}" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                            <img *ngIf="nit.ucesnikSlika==null" src="assets/anoniman.png" alt="" height="60px" width="60px" class="rounded rounded-circle">  &nbsp;
+                            <div style="display: inline-block;">
+                                <div class="porukaZag">
+                                    <span style="font-weight: bold;">
+                                        {{nit.ucesnik}}
+                                    </span>
+                                    <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                    <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                                </div>
+                                <div class="poruka porukaKor">
+                                {{por.sadrzaj}}
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="por.tip != 'korisnik'" class="porukaDiv porukaDivDesno">
+                            <div style="display: inline-block;">
+                                <div class="porukaZag">
+                                    <span style="font-weight: bold;">
+                                        {{organizator}}
+                                    </span>
+                                    <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                    <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                                </div>
+                                <div class="poruka porukaOrg">
+                                    {{por.sadrzaj}}
+                                </div>
+                            </div> &nbsp;
+                            <img *ngIf="slikaOrg!=null" src="{{slikaOrg}}" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                            <img *ngIf="slikaOrg==null" src="assets/anoniman.png" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                        </div>           
+                    </div>
+                </div>
+                <hr>
+                <span *ngIf="ulogovan.korisnicko_ime == organizator" class="slanjePoruke">
+                    <span>
+                         Poruka: &nbsp; <input type="text" style="width: 250px;" [(ngModel)]="nit.novaPoruka" >
+                    </span>
+                    <span style="padding-right: 10px;">
+                        <button  class="btn btn-success" (click)="posaljiPoruku(nit)">
+                            Pošalji
+                        </button>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div> 
+<app-footer></app-footer>
+
+

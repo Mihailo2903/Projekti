@@ -1,0 +1,52 @@
+program Prog
+
+int tip;
+float fl;
+tip tipProm;
+
+const int ci1=0, ci1=0;
+const int ci2 = 'a';
+
+int a,b,c;
+int b;
+
+char ch;
+
+int niz[];
+
+{
+	float floatMet() { return 1;}
+	void m(){};
+	void m(){};
+	void paramM(int a){}
+	
+	int intFun(){return 'a';}
+	
+	int noRet() {}
+	int met(int p1, int p1, float bb){ return 'c';}
+	
+	int main(){
+		z = 3;
+		niz['c']=3;
+		b[0]=3;
+		funkcija();
+		m(3); paramM();
+		paramM('a');
+		c = 'a';
+		ch = 3;
+		ch = -ch;
+		ch = ch + 3; ch = ch * 4;
+		break; continue;
+		niz.foreach(c=> c=2;);
+		a.foreach(c=> b++;);
+		niz.foreach(ch=> c++;);
+		
+		a = fun(3); ch++; 
+		[a,b,ch] = niz;
+		[a,b] = c;
+		
+		while(a){} return;
+		if(a) {}
+	
+	}
+}

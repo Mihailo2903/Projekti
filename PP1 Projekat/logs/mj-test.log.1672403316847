@@ -1,0 +1,255 @@
+INFO  13:27:53,212 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantika.mj
+INFO  13:27:53,246 - #2 program
+INFO  13:27:53,246 - #48 Program
+INFO  13:27:53,246 - #7 const
+INFO  13:27:53,247 - #48 int
+INFO  13:27:53,247 - #48 a
+INFO  13:27:53,248 - #33 =
+INFO  13:27:53,248 - #47 3
+INFO  13:27:53,248 - #38 ,
+INFO  13:27:53,248 - #48 b
+INFO  13:27:53,248 - #33 =
+INFO  13:27:53,248 - #47 4
+INFO  13:27:53,248 - #38 ,
+INFO  13:27:53,248 - #48 zz
+INFO  13:27:53,249 - #33 =
+INFO  13:27:53,249 - #49 c
+INFO  13:27:53,249 - #37 ;
+INFO  13:27:53,249 - #7 const
+INFO  13:27:53,249 - #48 bool
+INFO  13:27:53,249 - #48 ba
+INFO  13:27:53,249 - #33 =
+INFO  13:27:53,249 - #50 true
+INFO  13:27:53,249 - #38 ,
+INFO  13:27:53,250 - #48 c4
+INFO  13:27:53,250 - #33 =
+INFO  13:27:53,250 - #50 false
+INFO  13:27:53,250 - #38 ,
+INFO  13:27:53,250 - #48 b
+INFO  13:27:53,250 - #33 =
+INFO  13:27:53,250 - #50 false
+INFO  13:27:53,250 - #37 ;
+INFO  13:27:53,251 - #7 const
+INFO  13:27:53,251 - #48 char
+INFO  13:27:53,251 - #48 p
+INFO  13:27:53,251 - #33 =
+INFO  13:27:53,251 - #49 c
+INFO  13:27:53,251 - #38 ,
+INFO  13:27:53,251 - #48 a3
+INFO  13:27:53,251 - #33 =
+INFO  13:27:53,251 - #47 1
+INFO  13:27:53,251 - #37 ;
+INFO  13:27:53,251 - #48 int
+INFO  13:27:53,251 - #48 a33
+INFO  13:27:53,251 - #38 ,
+INFO  13:27:53,251 - #48 b33
+INFO  13:27:53,251 - #38 ,
+INFO  13:27:53,251 - #48 c33
+INFO  13:27:53,251 - #37 ;
+INFO  13:27:53,252 - #48 int
+INFO  13:27:53,252 - #48 a22
+INFO  13:27:53,252 - #45 [
+INFO  13:27:53,252 - #46 ]
+INFO  13:27:53,252 - #38 ,
+INFO  13:27:53,252 - #48 b43
+INFO  13:27:53,252 - #38 ,
+INFO  13:27:53,252 - #48 cod
+INFO  13:27:53,252 - #45 [
+INFO  13:27:53,252 - #46 ]
+INFO  13:27:53,252 - #37 ;
+INFO  13:27:53,252 - #41 {
+INFO  13:27:53,252 - #15 void
+INFO  13:27:53,253 - #48 m
+INFO  13:27:53,253 - #43 (
+INFO  13:27:53,253 - #44 )
+INFO  13:27:53,253 - #41 {
+INFO  13:27:53,254 - #42 }
+INFO  13:27:53,254 - #42 }
+INFO  13:27:53,258 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarations(
+            ) [NoDeclarations]
+            DeclarationConst(
+              Const_Declaration(
+                TypeConst(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeConst]
+                ListConstDecl(
+                  ListConstDecl(
+                    SingleConstDecl(
+                      ConstantDecl(
+                       a
+                        IntegerConstant(
+                         3
+                        ) [IntegerConstant]
+                      ) [ConstantDecl]
+                    ) [SingleConstDecl]
+                    ConstantDecl(
+                     b
+                      IntegerConstant(
+                       4
+                      ) [IntegerConstant]
+                    ) [ConstantDecl]
+                  ) [ListConstDecl]
+                  ConstantDecl(
+                   zz
+                    CharConstant(
+                     c
+                    ) [CharConstant]
+                  ) [ConstantDecl]
+                ) [ListConstDecl]
+              ) [Const_Declaration]
+            ) [DeclarationConst]
+          ) [DeclarationList]
+          DeclarationConst(
+            Const_Declaration(
+              TypeConst(
+                Type(
+                 bool
+                ) [Type]
+              ) [TypeConst]
+              ListConstDecl(
+                ListConstDecl(
+                  SingleConstDecl(
+                    ConstantDecl(
+                     ba
+                      BoolConstant(
+                       true
+                      ) [BoolConstant]
+                    ) [ConstantDecl]
+                  ) [SingleConstDecl]
+                  ConstantDecl(
+                   c4
+                    BoolConstant(
+                     false
+                    ) [BoolConstant]
+                  ) [ConstantDecl]
+                ) [ListConstDecl]
+                ConstantDecl(
+                 b
+                  BoolConstant(
+                   false
+                  ) [BoolConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+            ) [Const_Declaration]
+          ) [DeclarationConst]
+        ) [DeclarationList]
+        DeclarationConst(
+          Const_Declaration(
+            TypeConst(
+              Type(
+               char
+              ) [Type]
+            ) [TypeConst]
+            ListConstDecl(
+              SingleConstDecl(
+                ConstantDecl(
+                 p
+                  CharConstant(
+                   c
+                  ) [CharConstant]
+                ) [ConstantDecl]
+              ) [SingleConstDecl]
+              ConstantDecl(
+               a3
+                IntegerConstant(
+                 1
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationVar(
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          ListVarDecl(
+            ListVarDecl(
+              SingleVarDecl(
+                VariableDecl(
+                 a33
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+              VariableDecl(
+               b33
+              ) [VariableDecl]
+            ) [ListVarDecl]
+            VariableDecl(
+             c33
+            ) [VariableDecl]
+          ) [ListVarDecl]
+        ) [Var_Declaration]
+      ) [DeclarationVar]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              ArrayVariableDecl(
+               a22
+              ) [ArrayVariableDecl]
+            ) [SingleVarDecl]
+            VariableDecl(
+             b43
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          ArrayVariableDecl(
+           cod
+          ) [ArrayVariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       m
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:27:53,258 - ===================================
+INFO  13:27:53,260 - Deklarisana konstanta a vrednosti 3 na liniji 3
+INFO  13:27:53,260 - Deklarisana konstanta b vrednosti 4 na liniji 3
+ERROR 13:27:53,260 - GRESKA: Los tip konstane zz , greska na liniji 3
+INFO  13:27:53,260 - Deklarisana konstanta ba vrednosti 1 na liniji 4
+INFO  13:27:53,260 - Deklarisana konstanta c4 vrednosti 0 na liniji 4
+ERROR 13:27:53,261 - GRESKA: Konstanta b vec deklarisana, greska na liniji 4
+INFO  13:27:53,261 - Deklarisana konstanta p vrednosti 99 na liniji 5
+ERROR 13:27:53,261 - GRESKA: Los tip konstane a3 , greska na liniji 5
+INFO  13:27:53,261 - Deklarisana promenljiva a33 tipa int na liniji 7
+INFO  13:27:53,261 - Deklarisana promenljiva b33 tipa int na liniji 7
+INFO  13:27:53,261 - Deklarisana promenljiva c33 tipa int na liniji 7
+INFO  13:27:53,261 - Deklarisana promenljiva a22 tipa int[] na liniji 8
+INFO  13:27:53,261 - Deklarisana promenljiva b43 tipa int na liniji 8
+INFO  13:27:53,261 - Deklarisana promenljiva cod tipa int[] na liniji 8
+ERROR 13:27:53,261 - Parsiranje nije uspesno
+INFO  13:27:53,261 - ===================================

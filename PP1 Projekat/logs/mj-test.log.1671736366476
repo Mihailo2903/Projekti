@@ -1,0 +1,228 @@
+INFO  20:10:17,990 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\programSintaksa.mj
+INFO  20:10:18,008 - #2 program
+INFO  20:10:18,008 - #48 first
+INFO  20:10:18,008 - #7 const
+INFO  20:10:18,009 - #48 int
+INFO  20:10:18,009 - #48 a
+INFO  20:10:18,009 - #33 =
+INFO  20:10:18,010 - #47 2
+INFO  20:10:18,010 - #38 ,
+INFO  20:10:18,010 - #48 b
+INFO  20:10:18,010 - #33 =
+INFO  20:10:18,010 - #47 3
+INFO  20:10:18,010 - #38 ,
+INFO  20:10:18,010 - #48 c
+INFO  20:10:18,010 - #33 =
+INFO  20:10:18,011 - #47 4
+INFO  20:10:18,011 - #37 ;
+INFO  20:10:18,011 - #7 const
+INFO  20:10:18,011 - #48 int
+INFO  20:10:18,011 - #48 d
+INFO  20:10:18,011 - #33 =
+INFO  20:10:18,011 - #47 3
+INFO  20:10:18,011 - #38 ,
+INFO  20:10:18,011 - #48 c
+INFO  20:10:18,011 - #33 =
+INFO  20:10:18,011 - #47 5
+INFO  20:10:18,011 - #37 ;
+INFO  20:10:18,012 - #48 int
+INFO  20:10:18,012 - #48 tt
+INFO  20:10:18,012 - #38 ,
+INFO  20:10:18,012 - #48 taa
+INFO  20:10:18,012 - #45 [
+INFO  20:10:18,012 - #46 ]
+INFO  20:10:18,012 - #38 ,
+INFO  20:10:18,012 - #48 t
+INFO  20:10:18,013 - #37 ;
+INFO  20:10:18,013 - #41 {
+INFO  20:10:18,013 - #15 void
+INFO  20:10:18,014 - #48 metoda
+INFO  20:10:18,014 - #43 (
+INFO  20:10:18,014 - #44 )
+INFO  20:10:18,014 - #48 int
+INFO  20:10:18,014 - #48 a
+INFO  20:10:18,015 - #38 ,
+INFO  20:10:18,015 - #48 b
+INFO  20:10:18,015 - #38 ,
+INFO  20:10:18,015 - #48 c
+INFO  20:10:18,015 - #38 ,
+INFO  20:10:18,015 - #48 d
+INFO  20:10:18,015 - #38 ,
+INFO  20:10:18,015 - #48 e
+INFO  20:10:18,015 - #45 [
+INFO  20:10:18,015 - #46 ]
+INFO  20:10:18,015 - #37 ;
+INFO  20:10:18,015 - #48 float
+INFO  20:10:18,015 - #48 aa
+INFO  20:10:18,015 - #38 ,
+INFO  20:10:18,015 - #48 se
+INFO  20:10:18,015 - #37 ;
+INFO  20:10:18,016 - #41 {
+INFO  20:10:18,016 - #42 }
+INFO  20:10:18,016 - #48 int
+INFO  20:10:18,016 - #48 metoda2
+INFO  20:10:18,016 - #43 (
+INFO  20:10:18,016 - #44 )
+INFO  20:10:18,016 - #41 {
+INFO  20:10:18,017 - #42 }
+INFO  20:10:18,017 - #42 }
+INFO  20:10:18,018 - Program(
+ first
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclarationConst(
+          Const_Declaration(
+            Type(
+             int
+            ) [Type]
+            ListConstDecl(
+              ListConstDecl(
+                SingleConstDecl(
+                  ConstantDecl(
+                   a
+                    IntegerConstant(
+                     2
+                    ) [IntegerConstant]
+                  ) [ConstantDecl]
+                ) [SingleConstDecl]
+                ConstantDecl(
+                 b
+                  IntegerConstant(
+                   3
+                  ) [IntegerConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+              ConstantDecl(
+               c
+                IntegerConstant(
+                 4
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          Type(
+           int
+          ) [Type]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               d
+                IntegerConstant(
+                 3
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             c
+              IntegerConstant(
+               5
+              ) [IntegerConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        Type(
+         int
+        ) [Type]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              VariableDecl(
+               tt
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+            ArrayVariableDecl(
+             taa
+            ) [ArrayVariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           t
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      Method_Declaration(
+        ReturnVoid(
+         metoda
+        ) [ReturnVoid]
+        MethodFieldsDeclaration(
+          MethodFieldsDeclaration(
+            NoMethodFieldsDeclaration(
+            ) [NoMethodFieldsDeclaration]
+            Var_Declaration(
+              Type(
+               int
+              ) [Type]
+              ListVarDecl(
+                ListVarDecl(
+                  ListVarDecl(
+                    ListVarDecl(
+                      SingleVarDecl(
+                        VariableDecl(
+                         a
+                        ) [VariableDecl]
+                      ) [SingleVarDecl]
+                      VariableDecl(
+                       b
+                      ) [VariableDecl]
+                    ) [ListVarDecl]
+                    VariableDecl(
+                     c
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                  VariableDecl(
+                   d
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+                ArrayVariableDecl(
+                 e
+                ) [ArrayVariableDecl]
+              ) [ListVarDecl]
+            ) [Var_Declaration]
+          ) [MethodFieldsDeclaration]
+          Var_Declaration(
+            Type(
+             float
+            ) [Type]
+            ListVarDecl(
+              SingleVarDecl(
+                VariableDecl(
+                 aa
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+              VariableDecl(
+               se
+              ) [VariableDecl]
+            ) [ListVarDecl]
+          ) [Var_Declaration]
+        ) [MethodFieldsDeclaration]
+      ) [Method_Declaration]
+    ) [MethodDeclarationList]
+    Method_Declaration(
+      ReturnType(
+        Type(
+         int
+        ) [Type]
+       metoda2
+      ) [ReturnType]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  20:10:18,018 - ===================================

@@ -1,0 +1,34 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Top 5 radionica</h2> <br>
+    <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja</th>
+                <th>Mesto održavanja</th>
+                <th>Organizator</th>
+                <th>Kratak opis</th>
+                <th>Broj lajkova</th>
+                <th>Glavna slika</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of radionice">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td>{{rad.kratak_opis}}</td>               
+                <td>{{rad.broj_lajkova}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<app-footer></app-footer>
+

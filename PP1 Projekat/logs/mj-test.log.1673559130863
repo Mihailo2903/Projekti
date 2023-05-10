@@ -1,0 +1,130 @@
+INFO  22:30:10,203 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\proba.mj
+INFO  22:30:10,239 - #2 program
+INFO  22:30:10,239 - #48 Prog
+INFO  22:30:10,239 - #48 int
+INFO  22:30:10,240 - #48 a
+INFO  22:30:10,241 - #38 ,
+INFO  22:30:10,241 - #48 b
+INFO  22:30:10,241 - #38 ,
+INFO  22:30:10,241 - #48 c
+INFO  22:30:10,242 - #38 ,
+INFO  22:30:10,242 - #48 d
+INFO  22:30:10,242 - #45 [
+INFO  22:30:10,242 - #46 ]
+INFO  22:30:10,242 - #37 ;
+INFO  22:30:10,242 - #41 {
+INFO  22:30:10,242 - #15 void
+INFO  22:30:10,243 - #48 main
+INFO  22:30:10,243 - #43 (
+INFO  22:30:10,243 - #44 )
+INFO  22:30:10,244 - #41 {
+INFO  22:30:10,244 - #48 a
+INFO  22:30:10,245 - #33 =
+INFO  22:30:10,245 - #47 3
+INFO  22:30:10,246 - #37 ;
+INFO  22:30:10,247 - #12 print
+INFO  22:30:10,247 - #43 (
+INFO  22:30:10,247 - #48 a
+INFO  22:30:10,247 - #44 )
+INFO  22:30:10,247 - #37 ;
+INFO  22:30:10,247 - #42 }
+INFO  22:30:10,247 - #42 }
+INFO  22:30:10,251 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            ListVarDecl(
+              SingleVarDecl(
+                VariableDecl(
+                 a
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+              VariableDecl(
+               b
+              ) [VariableDecl]
+            ) [ListVarDecl]
+            VariableDecl(
+             c
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          ArrayVariableDecl(
+           d
+          ) [ArrayVariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignSimple(
+                DesignatorIdent(
+                 a
+                ) [DesignatorIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorNumConstant(
+                         3
+                        ) [FactorNumConstant]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Expr]
+              ) [DesignatorAssignSimple]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+        ) [StatementList]
+        PrintNoParamStatement(
+          Expr(
+            SingleTerm(
+              Term(
+                SingleFactor(
+                  FactorSingleDesignator(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [FactorSingleDesignator]
+                ) [SingleFactor]
+              ) [Term]
+            ) [SingleTerm]
+          ) [Expr]
+        ) [PrintNoParamStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  22:30:10,251 - ===================================
+INFO  22:30:10,253 - Upotreba promenljive a, Var, int, 0, 0 na liniji 10
+INFO  22:30:10,254 - Upotreba promenljive a, Var, int, 0, 0 na liniji 11
+INFO  22:30:10,256 - Parsiranje uspeno
+INFO  22:30:10,256 - ===================================

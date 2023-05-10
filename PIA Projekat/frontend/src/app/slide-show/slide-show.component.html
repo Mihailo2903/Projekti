@@ -1,0 +1,8 @@
+<div class="slideshow">
+    <img *ngFor="let image of images; let i = index" src="{{image}}" [hidden]="i !== currentImageIndex">
+</div>
+<br>
+<button (click)="prevImage()" class="btn btn-primary">Prethodna slika</button>
+&nbsp;
+<button (click)="nextImage()" class="btn btn-primary">Sledeća slika</button>
+  

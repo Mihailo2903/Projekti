@@ -1,0 +1,89 @@
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.center1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+td, th{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.levi{
+    width: 22%;
+}
+
+.desni{
+    width: 75%;
+}
+
+.istaKolona{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.porukaDiv{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.porukaDivDesno{
+    text-align: right;
+}
+
+.porukaDivLevo{
+    text-align: left;
+}
+
+.poruka{
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: pre-line;
+    display: inline-block;
+}
+
+.porukaKor{  
+    background-color: blue;
+}
+
+.porukaOrg{
+    background-color: red;
+    text-align: left !important;
+}
+
+.porukaZag{
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.slanjePoruke{
+    display: flex !important;
+    flex-direction: row !important; 
+    justify-content: space-between !important;
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+}
+
+.prostorPoruke{
+    height: 480px;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: beige;
+}

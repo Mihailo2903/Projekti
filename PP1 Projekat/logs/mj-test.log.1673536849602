@@ -1,0 +1,136 @@
+INFO  16:17:13,429 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\proba.mj
+INFO  16:17:13,471 - #2 program
+INFO  16:17:13,471 - #48 Prog
+INFO  16:17:13,471 - #48 int
+INFO  16:17:13,472 - #48 a
+INFO  16:17:13,473 - #38 ,
+INFO  16:17:13,473 - #48 b
+INFO  16:17:13,473 - #38 ,
+INFO  16:17:13,473 - #48 c
+INFO  16:17:13,473 - #37 ;
+INFO  16:17:13,473 - #41 {
+INFO  16:17:13,473 - #15 void
+INFO  16:17:13,474 - #48 main
+INFO  16:17:13,474 - #43 (
+INFO  16:17:13,474 - #44 )
+INFO  16:17:13,474 - #41 {
+INFO  16:17:13,475 - #8 if
+INFO  16:17:13,475 - #43 (
+INFO  16:17:13,475 - #48 a
+INFO  16:17:13,475 - #27 >
+INFO  16:17:13,476 - #48 b
+INFO  16:17:13,477 - #44 )
+INFO  16:17:13,478 - #48 b
+INFO  16:17:13,478 - #34 ++
+INFO  16:17:13,478 - #37 ;
+INFO  16:17:13,478 - #42 }
+INFO  16:17:13,479 - #42 }
+INFO  16:17:13,483 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              VariableDecl(
+               a
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+            VariableDecl(
+             b
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           c
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        IfStatement(
+          RegularConditionIf(
+            Condition(
+              SingleCondTerm(
+                CondTerm(
+                  SingleCondFact(
+                    CondFactExpressionRelop(
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorSingleDesignator(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                              ) [FactorSingleDesignator]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                      GreaterOperator(
+                      ) [GreaterOperator]
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorSingleDesignator(
+                                DesignatorIdent(
+                                 b
+                                ) [DesignatorIdent]
+                              ) [FactorSingleDesignator]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [CondFactExpressionRelop]
+                  ) [SingleCondFact]
+                ) [CondTerm]
+              ) [SingleCondTerm]
+            ) [Condition]
+          ) [RegularConditionIf]
+          DesignStatement(
+            DesignStatementOperation(
+              DesignatorIdent(
+               b
+              ) [DesignatorIdent]
+              DesignatorInc(
+              ) [DesignatorInc]
+            ) [DesignStatementOperation]
+          ) [DesignStatement]
+          NoElseStatement(
+          ) [NoElseStatement]
+        ) [IfStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:17:13,484 - ===================================
+INFO  16:17:13,488 - Upotreba promenljive a, Var, int, 0, 0 na liniji 6
+INFO  16:17:13,489 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  16:17:13,489 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  16:17:13,491 - Parsiranje uspeno
+INFO  16:17:13,491 - ===================================

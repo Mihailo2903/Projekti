@@ -1,0 +1,55 @@
+program Prog
+int a,b,c,d,e[];
+char cc[], cc1,cc2;
+bool bb0,bb1,bb2;
+const int nula=0;
+
+{	int ma(int g){a++ ; return 2 + g; }
+
+	void mb(int f){ a++; c++;}
+	
+	void mc(int f) int g;{}
+	
+	void main() bool bb[];{
+		a = 2;
+		b = 3; c = 4;
+		if(a<b && a>c || a>0 && a<-1 || false ) 
+			if(8<5) print(1); 
+			else print(2);
+		else print(3);
+		
+		if(ma(9)>10){
+			b++;
+			if(b==4){
+				print(b);
+			}
+			else print(b*100);		
+			print('u');
+		}
+		d = 1;
+		while( d<=10 ){
+			if(d % 2 == 1){			
+				if(d == 9)
+					break;
+				d++;
+				continue;
+			}
+			print(d);
+			d++;
+		}
+		print(d); print(eol); print(d); print(eol);
+		a = 5;
+		b = 5;
+		while( a> 0){
+			while(b > 0){
+			if(a + b == 5) break;
+				print(b);
+				b--;
+			}
+			b=5;
+			a--;
+			print(eol);
+		}
+		
+	}
+}

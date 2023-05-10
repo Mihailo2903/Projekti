@@ -1,0 +1,46 @@
+<div class="navbar1">
+    <span *ngIf="ulogovan!=null && slika!=null"><img src="{{slika}}" class="slika1" (click)="naUcesnika()"></span>
+    <span *ngIf="ulogovan!=null && slika==null"><img src="assets/anoniman.png" class="slika1" (click)="naUcesnika()"></span>
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='ucesnik'" (click)="naProfil()" style="float:left;">Profil</a> <!--{{ulogovan.korisnicko_ime}}-->
+    <a *ngIf="ulogovan==null || (ulogovan!=null && ulogovan.tip=='ucesnik')" (click)="naPregled()">Aktuelne radionice</a>
+    <a *ngIf="ulogovan==null" (click)="naTop5()">Top 5 radionica</a>
+
+    <!--Organizaor-->
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='organizator'" (click)="naSveRadionice()">Pregled svih radionica</a>
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='organizator'" (click)="naDodajRadionicu()">Dodaj radionicu</a>
+
+    <!--Admin-->
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='admin'" (click)="naSveKorisnike()">Pregled korisnika</a>
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='admin'" (click)="naRegistraciju()">Dodaj korisnika</a>
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='admin'" (click)="naRadioniceAdmin()">Pregled radionica</a>
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='admin'" (click)="naDodajRadionicu()">Dodaj radionicu</a>
+
+
+    <div *ngIf="ulogovan!=null && ulogovan.tip=='ucesnik'" class="dropdown1">
+      <button class="dropbtn1">Moje radionice
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown1-content">
+        <a (click)="naMojeRadionice()">Posećene radionice</a>
+        <a (click)="naPrijavljeneRadionice()">Prijavljene radionice</a>
+      </div>
+    </div>
+
+    <div *ngIf="ulogovan!=null && ulogovan.tip=='ucesnik'" class="dropdown1">
+      <button class="dropbtn1">Moje aktivnosti
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown1-content">
+        <a (click)="naAktivnosti()">Lajkovi i Komentari</a>
+        <a (click)="naPorukeUcesnik()">Poruke</a>
+      </div>
+    </div>
+
+    <a *ngIf="ulogovan!=null && ulogovan.tip=='ucesnik'" (click)="naPostaniOrganizator()" >Postani organizator</a> 
+
+    <a *ngIf="ulogovan==null" routerLink="" style="float:right;">Uloguj se</a>
+    <a *ngIf="ulogovan!=null" routerLink="" style="float:right;">Izloguj se</a>
+    <a *ngIf="ulogovan==null" (click)="naRegistraciju()" style="float:right;">Registruj se</a>    
+    <a *ngIf="ulogovan!=null" (click)="naPromenuLozinke()" style="float:right;">Promena lozinke</a>  
+</div>
+

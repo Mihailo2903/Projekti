@@ -1,0 +1,112 @@
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+.center1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+td, th{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.levi{
+    width: 30%;
+}
+
+.lajkovi{
+    height: 400px !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.lajkuj{
+    padding-right: 2%;
+}
+
+.desni{
+    width: 60%;
+}
+
+.istaKolona{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.desni1{
+    width: 60%;
+}
+
+.istaKolona1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.porukaDiv1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.porukaDivDesno1{
+    text-align: right;
+}
+
+.porukaDivLevo1{
+    text-align: left;
+}
+
+.poruka1{
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: pre-line;
+    display: inline-block;
+}
+
+.porukaKor1{  
+    background-color: darkturquoise;
+}
+
+.porukaOrg1{
+    background-color: red;
+    text-align: left !important;
+}
+
+.porukaZag1{
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+.slanjePoruke1{
+    display: flex !important;
+    flex-direction: row !important; 
+    justify-content: space-between !important;
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+}
+
+.prostorPoruke1{
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+

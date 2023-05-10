@@ -1,0 +1,18 @@
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.center1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dugmad{
+    display: inline-flex;
+    flex-direction: column;
+}

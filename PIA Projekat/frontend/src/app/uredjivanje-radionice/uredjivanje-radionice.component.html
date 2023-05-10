@@ -1,0 +1,122 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Uredi radionicu {{radionica.naziv}} - preostalo mesta: {{radionica.preostalo_mesta}}</h2> <br>
+</div>
+<div class="istaKolona">
+    <div class="levi">
+        <table>
+            <tr>
+                <td>Naziv radionice:</td>
+                <td>
+                    <input type="text" name="naziv" [(ngModel)]="naziv">
+                </td>
+            </tr>
+            <tr>
+                <td>Mesto održavanja:</td>
+                <td>
+                    <input type="text" name="mesto" [(ngModel)]="mesto">
+                </td>
+            </tr>
+            <tr>
+                <td>Datum održavanja:</td>
+                <td>
+                    <input type="date" name="datum" [(ngModel)]="datum">
+                </td>
+            </tr>
+            <tr>
+                <td>Kratak opis:</td>
+                <td>
+                    <input type="text" name="kratak" style="width: 300px;" [(ngModel)]="kratak">
+                </td>
+            </tr>
+            <tr>
+                <td>Duži opis:</td>
+                <td>
+                    <textarea name="duzi" cols="40" rows="3" [(ngModel)]="dug"></textarea>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>Glavna slika:</td>
+                <td> 
+                    <img src="{{slika}}" width="100" height="100">
+                    <input type="file" id="dugmeZaSliku" style="display: none;" (change)="onFileChange($event)" accept=".jpg, .png, .jpeg" />
+                    &nbsp;
+                    <label for="dugmeZaSliku" class="btn btn-info">
+                        Promenite glavnu sliku
+                    </label>
+                </td>     
+            </tr> 
+    
+            <tr>
+                <td>Ostale slike:</td>
+                <td style="display: flex; flex-direction: row; justify-content: space-evenly; padding-left: 0;"> 
+                    <div *ngFor="let slika1 of sporedneSlike; let i=index" style="display: inline-block; text-align: center;">
+                        <img  src="{{slika1}}" width="100" height="100"> <br> <br>
+                        <button class="btn btn-danger" (click)="izbaci(i)">
+                            Izbaci
+                        </button>
+                    </div>
+                    &nbsp;
+                    
+                </td>
+            </tr> 
+        </table>
+        <input type="file" id="dugmeZaSlike" style="display: none;" (change)="onFileChangeMultiple($event)"  accept=".jpg, .png, .jpeg"  multiple="multiple"/>
+        <div class="center1">
+            <label for="dugmeZaSlike" class="btn btn-info">
+                Dodaj još slika
+            </label>    
+        </div>
+        <span style="color: red;" [style.white-space]="'pre'">{{previseSlika}}</span>
+        <span style="color: red;" [style.white-space]="'pre'">{{poruka}}</span>
+
+       <div style="display: flex; justify-content: space-evenly;">
+        <button (click)="azuriraj()" class="btn btn-success">Ažuriraj radionicu</button>
+        &nbsp;
+        <button class="btn btn-warning" (click)="sacuvajJSON()">Sačuvaj radionicu kao šablon</button>
+        &nbsp;
+        <button class="btn btn-danger" (click)="otkazi()">Otkaži radionicu</button>
+       </div>
+    </div>
+
+    <div class="srednji">
+        <table class="table table-striped table-bordered table-hover tab">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Odobreni učesnici</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let u of ucesca">
+                    <td>{{u.korisnik}}</td>         
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="desni">
+        <table class="table table-striped table-bordered table-hover tab">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Zahtevi na čekanju</th>
+                    <th>Odobri</th>
+                    <th>Odbij</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let r of radionica.rezervisani">
+                    <td>{{r}}</td>
+                    <td><button (click)="odobri(r)" class="btn btn-success">Odobri</button></td>        
+                    <td><button (click)="odbij(r)" class="btn btn-danger">Odbij</button></td>  
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+<app-footer></app-footer>
+
+

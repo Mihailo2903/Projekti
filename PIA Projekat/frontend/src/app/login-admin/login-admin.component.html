@@ -1,0 +1,29 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Uloguj se kao admin</h2> <br>
+    <table>
+        <tr>
+            <td>Korisničko ime:</td>
+            <td>
+                <input type="text" name="username" [(ngModel)]="korisnicko_ime">
+            </td>
+        </tr>
+        <tr>
+            <td>Lozinka:</td>
+            <td>
+                <input type="password" name="password" [(ngModel)]="lozinka">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="center1">
+                <button (click)="login()" class="btn btn-primary" style="margin-top: 20px;">Uloguj se</button>
+            </td>     
+        </tr>
+    </table>
+    <span style="color: red;">{{poruka}}</span>
+    <br> 
+    <a routerLink="ponistavanjeLozinke"> Zaboravljena lozinka</a> <br>
+</div>
+<app-footer></app-footer>
+
+

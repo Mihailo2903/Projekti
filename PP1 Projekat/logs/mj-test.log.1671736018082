@@ -1,0 +1,126 @@
+INFO  19:22:48,070 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\programSintaksa.mj
+INFO  19:22:48,082 - #2 program
+INFO  19:22:48,082 - #48 first
+INFO  19:22:48,082 - #7 const
+INFO  19:22:48,083 - #48 int
+INFO  19:22:48,083 - #48 a
+INFO  19:22:48,083 - #33 =
+INFO  19:22:48,083 - #47 2
+INFO  19:22:48,083 - #38 ,
+INFO  19:22:48,084 - #48 b
+INFO  19:22:48,084 - #33 =
+INFO  19:22:48,085 - #47 3
+INFO  19:22:48,085 - #38 ,
+INFO  19:22:48,085 - #48 c
+INFO  19:22:48,085 - #33 =
+INFO  19:22:48,085 - #47 4
+INFO  19:22:48,085 - #37 ;
+INFO  19:22:48,085 - #7 const
+INFO  19:22:48,085 - #48 int
+INFO  19:22:48,085 - #48 d
+INFO  19:22:48,085 - #33 =
+INFO  19:22:48,085 - #47 3
+INFO  19:22:48,085 - #38 ,
+INFO  19:22:48,089 - #48 c
+INFO  19:22:48,089 - #33 =
+INFO  19:22:48,089 - #47 5
+INFO  19:22:48,089 - #37 ;
+INFO  19:22:48,089 - #48 int
+INFO  19:22:48,089 - #48 tt
+INFO  19:22:48,089 - #38 ,
+INFO  19:22:48,089 - #48 taa
+INFO  19:22:48,089 - #45 [
+INFO  19:22:48,089 - #46 ]
+INFO  19:22:48,089 - #38 ,
+INFO  19:22:48,090 - #48 t
+INFO  19:22:48,090 - #37 ;
+INFO  19:22:48,090 - #41 {
+INFO  19:22:48,090 - #42 }
+INFO  19:22:48,091 - Program(
+ first
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclarationConst(
+          Const_Declaration(
+            Type(
+             int
+            ) [Type]
+            ListConstDecl(
+              ListConstDecl(
+                SingleConstDecl(
+                  ConstantDecl(
+                   a
+                    IntegerConstant(
+                     2
+                    ) [IntegerConstant]
+                  ) [ConstantDecl]
+                ) [SingleConstDecl]
+                ConstantDecl(
+                 b
+                  IntegerConstant(
+                   3
+                  ) [IntegerConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+              ConstantDecl(
+               c
+                IntegerConstant(
+                 4
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          Type(
+           int
+          ) [Type]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               d
+                IntegerConstant(
+                 3
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             c
+              IntegerConstant(
+               5
+              ) [IntegerConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        Type(
+         int
+        ) [Type]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              VariableDecl(
+               tt
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+            ArrayVariableDecl(
+             taa
+            ) [ArrayVariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           t
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+) [Program]
+INFO  19:22:48,091 - ===================================

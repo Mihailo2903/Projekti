@@ -1,0 +1,39 @@
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.center1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+table.stil tr td, table.stil tr th{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    align-items: center;
+    align-content: center;
+}
+
+table.stil tr td:first-child{
+    background-color: mediumaquamarine;
+    color: white;
+    font-weight: bold;
+}
+
+table.stil{
+    width: 50%;
+}
+
+.duziOpis{
+    height: 100px;
+    width: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}

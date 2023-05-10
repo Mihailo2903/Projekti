@@ -1,0 +1,52 @@
+program Prog
+int a,b,c,d,e[];
+char cc[], cc1,cc2;
+bool bb0,bb1,bb2;
+const int nula=0;
+int i, suma;
+
+{	
+	int ma(int g){a++ ; return 2 + g; }
+
+	void main() bool bb[]; {
+		e = new int[5];
+		c = 4;
+		while(c>=0){
+			e[c] = c*c;
+			c--;
+		}
+		b = 0;
+		
+		e.foreach(a => {
+			b = a;
+			e.foreach(d => {
+				c = d;
+				if(c == 9 && b == 4) continue;		
+				if(b == 16)
+					break;	
+				print(c);
+			});		
+			print(eol);
+		});
+		
+		i = 0;
+		while( i <= 100 ){
+			suma = suma + i;
+			i++;
+		}
+		print(suma); print(eol);
+		
+		while(i>0){
+			i--;
+			if(i==9) break;
+			if(i%10 == 0){
+				print(i);
+				i = i-10;
+				continue;
+			}
+			if(i==19) break;
+		}
+		
+		print(i);
+	}
+}

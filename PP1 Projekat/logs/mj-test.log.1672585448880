@@ -1,0 +1,584 @@
+INFO  16:03:57,483 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantikaFinal.mj
+INFO  16:03:57,521 - #2 program
+INFO  16:03:57,521 - #48 Prog
+INFO  16:03:57,521 - #7 const
+INFO  16:03:57,521 - #48 int
+INFO  16:03:57,521 - #48 ci1
+INFO  16:03:57,522 - #33 =
+INFO  16:03:57,522 - #47 3
+INFO  16:03:57,522 - #38 ,
+INFO  16:03:57,522 - #48 ci2
+INFO  16:03:57,522 - #33 =
+INFO  16:03:57,522 - #47 2
+INFO  16:03:57,522 - #37 ;
+INFO  16:03:57,523 - #7 const
+INFO  16:03:57,523 - #48 bool
+INFO  16:03:57,523 - #48 cb1
+INFO  16:03:57,523 - #33 =
+INFO  16:03:57,523 - #50 true
+INFO  16:03:57,523 - #38 ,
+INFO  16:03:57,523 - #48 cb2
+INFO  16:03:57,523 - #33 =
+INFO  16:03:57,523 - #50 false
+INFO  16:03:57,524 - #37 ;
+INFO  16:03:57,524 - #48 int
+INFO  16:03:57,524 - #48 a
+INFO  16:03:57,524 - #38 ,
+INFO  16:03:57,525 - #48 b
+INFO  16:03:57,525 - #37 ;
+INFO  16:03:57,525 - #48 bool
+INFO  16:03:57,525 - #48 n
+INFO  16:03:57,525 - #38 ,
+INFO  16:03:57,525 - #48 m
+INFO  16:03:57,525 - #38 ,
+INFO  16:03:57,525 - #48 v
+INFO  16:03:57,525 - #37 ;
+INFO  16:03:57,525 - #48 int
+INFO  16:03:57,525 - #48 niz
+INFO  16:03:57,525 - #45 [
+INFO  16:03:57,525 - #46 ]
+INFO  16:03:57,525 - #37 ;
+INFO  16:03:57,525 - #48 bool
+INFO  16:03:57,526 - #48 bniz
+INFO  16:03:57,526 - #45 [
+INFO  16:03:57,526 - #46 ]
+INFO  16:03:57,526 - #37 ;
+INFO  16:03:57,526 - #4 class
+INFO  16:03:57,526 - #48 Klasa
+INFO  16:03:57,526 - #41 {
+INFO  16:03:57,527 - #48 int
+INFO  16:03:57,528 - #48 a
+INFO  16:03:57,528 - #38 ,
+INFO  16:03:57,528 - #48 b
+INFO  16:03:57,528 - #37 ;
+INFO  16:03:57,528 - #41 {
+INFO  16:03:57,528 - #48 int
+INFO  16:03:57,528 - #48 met
+INFO  16:03:57,528 - #43 (
+INFO  16:03:57,528 - #48 int
+INFO  16:03:57,528 - #48 cc
+INFO  16:03:57,528 - #38 ,
+INFO  16:03:57,528 - #48 int
+INFO  16:03:57,528 - #48 g
+INFO  16:03:57,528 - #44 )
+INFO  16:03:57,529 - #48 int
+INFO  16:03:57,529 - #48 ab
+INFO  16:03:57,529 - #37 ;
+INFO  16:03:57,529 - #41 {
+INFO  16:03:57,529 - #14 return
+INFO  16:03:57,530 - #47 2
+INFO  16:03:57,530 - #37 ;
+INFO  16:03:57,531 - #42 }
+INFO  16:03:57,531 - #42 }
+INFO  16:03:57,531 - #42 }
+INFO  16:03:57,532 - #48 Klasa
+INFO  16:03:57,532 - #48 klase
+INFO  16:03:57,532 - #45 [
+INFO  16:03:57,532 - #46 ]
+INFO  16:03:57,533 - #37 ;
+INFO  16:03:57,533 - #41 {
+INFO  16:03:57,533 - #48 int
+INFO  16:03:57,533 - #48 mm
+INFO  16:03:57,533 - #43 (
+INFO  16:03:57,533 - #48 int
+INFO  16:03:57,533 - #48 a
+INFO  16:03:57,533 - #38 ,
+INFO  16:03:57,533 - #48 int
+INFO  16:03:57,533 - #48 b
+INFO  16:03:57,533 - #44 )
+INFO  16:03:57,533 - #48 int
+INFO  16:03:57,533 - #48 c
+INFO  16:03:57,533 - #37 ;
+INFO  16:03:57,533 - #41 {
+INFO  16:03:57,533 - #14 return
+INFO  16:03:57,533 - #48 c
+INFO  16:03:57,533 - #21 +
+INFO  16:03:57,533 - #47 43
+INFO  16:03:57,534 - #37 ;
+INFO  16:03:57,535 - #42 }
+INFO  16:03:57,535 - #15 void
+INFO  16:03:57,535 - #48 main
+INFO  16:03:57,535 - #43 (
+INFO  16:03:57,535 - #44 )
+INFO  16:03:57,536 - #48 int
+INFO  16:03:57,536 - #48 a
+INFO  16:03:57,537 - #37 ;
+INFO  16:03:57,537 - #48 Klasa
+INFO  16:03:57,537 - #48 kl
+INFO  16:03:57,537 - #37 ;
+INFO  16:03:57,537 - #41 {
+INFO  16:03:57,537 - #48 a
+INFO  16:03:57,537 - #33 =
+INFO  16:03:57,537 - #48 mm
+INFO  16:03:57,537 - #43 (
+INFO  16:03:57,537 - #48 ci1
+INFO  16:03:57,537 - #38 ,
+INFO  16:03:57,537 - #48 ci2
+INFO  16:03:57,537 - #38 ,
+INFO  16:03:57,537 - #48 a
+INFO  16:03:57,537 - #44 )
+INFO  16:03:57,538 - #37 ;
+INFO  16:03:57,538 - #14 return
+INFO  16:03:57,538 - #37 ;
+INFO  16:03:57,538 - #42 }
+INFO  16:03:57,539 - #42 }
+INFO  16:03:57,543 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  NoDeclarations(
+                  ) [NoDeclarations]
+                  DeclarationConst(
+                    Const_Declaration(
+                      TypeConst(
+                        Type(
+                         int
+                        ) [Type]
+                      ) [TypeConst]
+                      ListConstDecl(
+                        SingleConstDecl(
+                          ConstantDecl(
+                           ci1
+                            IntegerConstant(
+                             3
+                            ) [IntegerConstant]
+                          ) [ConstantDecl]
+                        ) [SingleConstDecl]
+                        ConstantDecl(
+                         ci2
+                          IntegerConstant(
+                           2
+                          ) [IntegerConstant]
+                        ) [ConstantDecl]
+                      ) [ListConstDecl]
+                    ) [Const_Declaration]
+                  ) [DeclarationConst]
+                ) [DeclarationList]
+                DeclarationConst(
+                  Const_Declaration(
+                    TypeConst(
+                      Type(
+                       bool
+                      ) [Type]
+                    ) [TypeConst]
+                    ListConstDecl(
+                      SingleConstDecl(
+                        ConstantDecl(
+                         cb1
+                          BoolConstant(
+                           true
+                          ) [BoolConstant]
+                        ) [ConstantDecl]
+                      ) [SingleConstDecl]
+                      ConstantDecl(
+                       cb2
+                        BoolConstant(
+                         false
+                        ) [BoolConstant]
+                      ) [ConstantDecl]
+                    ) [ListConstDecl]
+                  ) [Const_Declaration]
+                ) [DeclarationConst]
+              ) [DeclarationList]
+              DeclarationVar(
+                Var_Declaration(
+                  TypeVar(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [TypeVar]
+                  ListVarDecl(
+                    SingleVarDecl(
+                      VariableDecl(
+                       a
+                      ) [VariableDecl]
+                    ) [SingleVarDecl]
+                    VariableDecl(
+                     b
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                ) [Var_Declaration]
+              ) [DeclarationVar]
+            ) [DeclarationList]
+            DeclarationVar(
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   bool
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  ListVarDecl(
+                    SingleVarDecl(
+                      VariableDecl(
+                       n
+                      ) [VariableDecl]
+                    ) [SingleVarDecl]
+                    VariableDecl(
+                     m
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                  VariableDecl(
+                   v
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [DeclarationVar]
+          ) [DeclarationList]
+          DeclarationVar(
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 int
+                ) [Type]
+              ) [TypeVar]
+              SingleVarDecl(
+                ArrayVariableDecl(
+                 niz
+                ) [ArrayVariableDecl]
+              ) [SingleVarDecl]
+            ) [Var_Declaration]
+          ) [DeclarationVar]
+        ) [DeclarationList]
+        DeclarationVar(
+          Var_Declaration(
+            TypeVar(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar]
+            SingleVarDecl(
+              ArrayVariableDecl(
+               bniz
+              ) [ArrayVariableDecl]
+            ) [SingleVarDecl]
+          ) [Var_Declaration]
+        ) [DeclarationVar]
+      ) [DeclarationList]
+      DeclarationClass(
+        Class_Declaration(
+          TypeClass(
+           Klasa
+            NotExtended(
+            ) [NotExtended]
+          ) [TypeClass]
+          ClassBody(
+            ClassVarsDeclarations(
+              NoClassVarsDeclarations(
+              ) [NoClassVarsDeclarations]
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  SingleVarDecl(
+                    VariableDecl(
+                     a
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                  VariableDecl(
+                   b
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [ClassVarsDeclarations]
+            ClassMethodsDeclarations(
+              ClassMethodsDeclList(
+                NoClassMethodDeclList(
+                ) [NoClassMethodDeclList]
+                Method_Declaration(
+                  ReturnType(
+                    Type(
+                     int
+                    ) [Type]
+                   met
+                  ) [ReturnType]
+                  MethodParametersList(
+                    MethodParameters(
+                      SingleMethodParameter(
+                        VarMethodParameter(
+                          Type(
+                           int
+                          ) [Type]
+                         cc
+                        ) [VarMethodParameter]
+                      ) [SingleMethodParameter]
+                      VarMethodParameter(
+                        Type(
+                         int
+                        ) [Type]
+                       g
+                      ) [VarMethodParameter]
+                    ) [MethodParameters]
+                  ) [MethodParametersList]
+                  MethodFieldsDeclaration(
+                    NoMethodFieldsDeclaration(
+                    ) [NoMethodFieldsDeclaration]
+                    Var_Declaration(
+                      TypeVar(
+                        Type(
+                         int
+                        ) [Type]
+                      ) [TypeVar]
+                      SingleVarDecl(
+                        VariableDecl(
+                         ab
+                        ) [VariableDecl]
+                      ) [SingleVarDecl]
+                    ) [Var_Declaration]
+                  ) [MethodFieldsDeclaration]
+                  StatementList(
+                    NoStatementList(
+                    ) [NoStatementList]
+                    ReturnStatement(
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorNumConstant(
+                               2
+                              ) [FactorNumConstant]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [ReturnStatement]
+                  ) [StatementList]
+                ) [Method_Declaration]
+              ) [ClassMethodsDeclList]
+            ) [ClassMethodsDeclarations]
+          ) [ClassBody]
+        ) [Class_Declaration]
+      ) [DeclarationClass]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           Klasa
+          ) [Type]
+        ) [TypeVar]
+        SingleVarDecl(
+          ArrayVariableDecl(
+           klase
+          ) [ArrayVariableDecl]
+        ) [SingleVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      Method_Declaration(
+        ReturnType(
+          Type(
+           int
+          ) [Type]
+         mm
+        ) [ReturnType]
+        MethodParametersList(
+          MethodParameters(
+            SingleMethodParameter(
+              VarMethodParameter(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [VarMethodParameter]
+            ) [SingleMethodParameter]
+            VarMethodParameter(
+              Type(
+               int
+              ) [Type]
+             b
+            ) [VarMethodParameter]
+          ) [MethodParameters]
+        ) [MethodParametersList]
+        MethodFieldsDeclaration(
+          NoMethodFieldsDeclaration(
+          ) [NoMethodFieldsDeclaration]
+          Var_Declaration(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            SingleVarDecl(
+              VariableDecl(
+               c
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+          ) [Var_Declaration]
+        ) [MethodFieldsDeclaration]
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          ReturnStatement(
+            Expr(
+              TermsList(
+                SingleTerm(
+                  Term(
+                    SingleFactor(
+                      FactorSingleDesignator(
+                        DesignatorIdent(
+                         c
+                        ) [DesignatorIdent]
+                      ) [FactorSingleDesignator]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [SingleTerm]
+                PlusOperator(
+                ) [PlusOperator]
+                Term(
+                  SingleFactor(
+                    FactorNumConstant(
+                     43
+                    ) [FactorNumConstant]
+                  ) [SingleFactor]
+                ) [Term]
+              ) [TermsList]
+            ) [Expr]
+          ) [ReturnStatement]
+        ) [StatementList]
+      ) [Method_Declaration]
+    ) [MethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      MethodFieldsDeclaration(
+        MethodFieldsDeclaration(
+          NoMethodFieldsDeclaration(
+          ) [NoMethodFieldsDeclaration]
+          Var_Declaration(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            SingleVarDecl(
+              VariableDecl(
+               a
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+          ) [Var_Declaration]
+        ) [MethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             Klasa
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             kl
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignSimple(
+                DesignatorIdent(
+                 a
+                ) [DesignatorIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorFuncCallParams(
+                          DesignatorIdent(
+                           mm
+                          ) [DesignatorIdent]
+                          ActPars(
+                            ExpressionList(
+                              ExpressionList(
+                                SingleExpression(
+                                  Expr(
+                                    SingleTerm(
+                                      Term(
+                                        SingleFactor(
+                                          FactorSingleDesignator(
+                                            DesignatorIdent(
+                                             ci1
+                                            ) [DesignatorIdent]
+                                          ) [FactorSingleDesignator]
+                                        ) [SingleFactor]
+                                      ) [Term]
+                                    ) [SingleTerm]
+                                  ) [Expr]
+                                ) [SingleExpression]
+                                Expr(
+                                  SingleTerm(
+                                    Term(
+                                      SingleFactor(
+                                        FactorSingleDesignator(
+                                          DesignatorIdent(
+                                           ci2
+                                          ) [DesignatorIdent]
+                                        ) [FactorSingleDesignator]
+                                      ) [SingleFactor]
+                                    ) [Term]
+                                  ) [SingleTerm]
+                                ) [Expr]
+                              ) [ExpressionList]
+                              Expr(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      FactorSingleDesignator(
+                                        DesignatorIdent(
+                                         a
+                                        ) [DesignatorIdent]
+                                      ) [FactorSingleDesignator]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Expr]
+                            ) [ExpressionList]
+                          ) [ActPars]
+                        ) [FactorFuncCallParams]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Expr]
+              ) [DesignatorAssignSimple]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+        ) [StatementList]
+        ReturnNoParamStatement(
+        ) [ReturnNoParamStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  16:03:57,543 - ===================================
+INFO  16:03:57,547 - Upotreba lokalne promenljive c metode mm, Var, int, 2, 1 na liniji 20
+INFO  16:03:57,547 - Upotreba lokalne promenljive a metode main, Var, int, 0, 1 na liniji 26
+INFO  16:03:57,547 - Poziv metode mm, Meth, int, 0, 0 na liniji 26
+INFO  16:03:57,548 - Upotreba konstante ci1, Con, int, 3, 0 na liniji 26
+INFO  16:03:57,549 - Upotreba konstante ci2, Con, int, 2, 0 na liniji 26
+INFO  16:03:57,549 - Upotreba lokalne promenljive a metode main, Var, int, 0, 1 na liniji 26
+ERROR 16:03:57,549 - GRESKA: Losi parametri funkcije mm na liniji 26
+ERROR 16:03:57,549 - GRESKA: Nekompatibilni tipovi pri dodeli na liniji 26
+ERROR 16:03:57,549 - Parsiranje nije uspesno
+INFO  16:03:57,549 - ===================================

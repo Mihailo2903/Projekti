@@ -1,0 +1,417 @@
+INFO  13:59:07,395 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantika.mj
+INFO  13:59:07,433 - #2 program
+INFO  13:59:07,433 - #48 Program
+INFO  13:59:07,433 - #7 const
+INFO  13:59:07,434 - #48 int
+INFO  13:59:07,434 - #48 a
+INFO  13:59:07,435 - #33 =
+INFO  13:59:07,435 - #47 3
+INFO  13:59:07,435 - #38 ,
+INFO  13:59:07,435 - #48 b
+INFO  13:59:07,435 - #33 =
+INFO  13:59:07,435 - #47 4
+INFO  13:59:07,435 - #38 ,
+INFO  13:59:07,435 - #48 zz
+INFO  13:59:07,435 - #33 =
+INFO  13:59:07,436 - #49 c
+INFO  13:59:07,436 - #37 ;
+INFO  13:59:07,436 - #7 const
+INFO  13:59:07,436 - #48 bool
+INFO  13:59:07,436 - #48 ba
+INFO  13:59:07,436 - #33 =
+INFO  13:59:07,436 - #50 true
+INFO  13:59:07,436 - #38 ,
+INFO  13:59:07,440 - #48 c4
+INFO  13:59:07,440 - #33 =
+INFO  13:59:07,441 - #50 false
+INFO  13:59:07,441 - #38 ,
+INFO  13:59:07,441 - #48 b
+INFO  13:59:07,441 - #33 =
+INFO  13:59:07,441 - #50 false
+INFO  13:59:07,442 - #37 ;
+INFO  13:59:07,442 - #7 const
+INFO  13:59:07,442 - #48 char
+INFO  13:59:07,442 - #48 p
+INFO  13:59:07,442 - #33 =
+INFO  13:59:07,442 - #49 c
+INFO  13:59:07,443 - #38 ,
+INFO  13:59:07,443 - #48 a3
+INFO  13:59:07,443 - #33 =
+INFO  13:59:07,443 - #47 1
+INFO  13:59:07,443 - #37 ;
+INFO  13:59:07,443 - #48 int
+INFO  13:59:07,443 - #48 a33
+INFO  13:59:07,445 - #38 ,
+INFO  13:59:07,446 - #48 b33
+INFO  13:59:07,446 - #38 ,
+INFO  13:59:07,446 - #48 c33
+INFO  13:59:07,446 - #37 ;
+INFO  13:59:07,446 - #48 int
+INFO  13:59:07,446 - #48 a22
+INFO  13:59:07,446 - #45 [
+INFO  13:59:07,446 - #46 ]
+INFO  13:59:07,447 - #38 ,
+INFO  13:59:07,447 - #48 b43
+INFO  13:59:07,447 - #38 ,
+INFO  13:59:07,447 - #48 cod
+INFO  13:59:07,447 - #45 [
+INFO  13:59:07,447 - #46 ]
+INFO  13:59:07,447 - #37 ;
+INFO  13:59:07,447 - #48 bool
+INFO  13:59:07,448 - #48 d34
+INFO  13:59:07,449 - #37 ;
+INFO  13:59:07,449 - #48 char
+INFO  13:59:07,449 - #48 er
+INFO  13:59:07,449 - #38 ,
+INFO  13:59:07,449 - #48 de
+INFO  13:59:07,449 - #38 ,
+INFO  13:59:07,449 - #48 gg
+INFO  13:59:07,449 - #45 [
+INFO  13:59:07,449 - #46 ]
+INFO  13:59:07,449 - #37 ;
+INFO  13:59:07,449 - #48 float
+INFO  13:59:07,449 - #48 b6
+INFO  13:59:07,449 - #37 ;
+INFO  13:59:07,450 - #4 class
+INFO  13:59:07,450 - #48 Klasa
+INFO  13:59:07,450 - #41 {
+INFO  13:59:07,452 - #48 int
+INFO  13:59:07,452 - #48 ff
+INFO  13:59:07,453 - #37 ;
+INFO  13:59:07,453 - #48 int
+INFO  13:59:07,454 - #48 cc
+INFO  13:59:07,454 - #38 ,
+INFO  13:59:07,454 - #48 juk
+INFO  13:59:07,454 - #37 ;
+INFO  13:59:07,454 - #48 int
+INFO  13:59:07,454 - #48 a33
+INFO  13:59:07,454 - #37 ;
+INFO  13:59:07,454 - #42 }
+INFO  13:59:07,456 - #41 {
+INFO  13:59:07,457 - #15 void
+INFO  13:59:07,457 - #48 m
+INFO  13:59:07,457 - #43 (
+INFO  13:59:07,457 - #44 )
+INFO  13:59:07,458 - #41 {
+INFO  13:59:07,459 - #42 }
+INFO  13:59:07,460 - #42 }
+INFO  13:59:07,470 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  DeclarationList(
+                    NoDeclarations(
+                    ) [NoDeclarations]
+                    DeclarationConst(
+                      Const_Declaration(
+                        TypeConst(
+                          Type(
+                           int
+                          ) [Type]
+                        ) [TypeConst]
+                        ListConstDecl(
+                          ListConstDecl(
+                            SingleConstDecl(
+                              ConstantDecl(
+                               a
+                                IntegerConstant(
+                                 3
+                                ) [IntegerConstant]
+                              ) [ConstantDecl]
+                            ) [SingleConstDecl]
+                            ConstantDecl(
+                             b
+                              IntegerConstant(
+                               4
+                              ) [IntegerConstant]
+                            ) [ConstantDecl]
+                          ) [ListConstDecl]
+                          ConstantDecl(
+                           zz
+                            CharConstant(
+                             c
+                            ) [CharConstant]
+                          ) [ConstantDecl]
+                        ) [ListConstDecl]
+                      ) [Const_Declaration]
+                    ) [DeclarationConst]
+                  ) [DeclarationList]
+                  DeclarationConst(
+                    Const_Declaration(
+                      TypeConst(
+                        Type(
+                         bool
+                        ) [Type]
+                      ) [TypeConst]
+                      ListConstDecl(
+                        ListConstDecl(
+                          SingleConstDecl(
+                            ConstantDecl(
+                             ba
+                              BoolConstant(
+                               true
+                              ) [BoolConstant]
+                            ) [ConstantDecl]
+                          ) [SingleConstDecl]
+                          ConstantDecl(
+                           c4
+                            BoolConstant(
+                             false
+                            ) [BoolConstant]
+                          ) [ConstantDecl]
+                        ) [ListConstDecl]
+                        ConstantDecl(
+                         b
+                          BoolConstant(
+                           false
+                          ) [BoolConstant]
+                        ) [ConstantDecl]
+                      ) [ListConstDecl]
+                    ) [Const_Declaration]
+                  ) [DeclarationConst]
+                ) [DeclarationList]
+                DeclarationConst(
+                  Const_Declaration(
+                    TypeConst(
+                      Type(
+                       char
+                      ) [Type]
+                    ) [TypeConst]
+                    ListConstDecl(
+                      SingleConstDecl(
+                        ConstantDecl(
+                         p
+                          CharConstant(
+                           c
+                          ) [CharConstant]
+                        ) [ConstantDecl]
+                      ) [SingleConstDecl]
+                      ConstantDecl(
+                       a3
+                        IntegerConstant(
+                         1
+                        ) [IntegerConstant]
+                      ) [ConstantDecl]
+                    ) [ListConstDecl]
+                  ) [Const_Declaration]
+                ) [DeclarationConst]
+              ) [DeclarationList]
+              DeclarationVar(
+                Var_Declaration(
+                  TypeVar(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [TypeVar]
+                  ListVarDecl(
+                    ListVarDecl(
+                      SingleVarDecl(
+                        VariableDecl(
+                         a33
+                        ) [VariableDecl]
+                      ) [SingleVarDecl]
+                      VariableDecl(
+                       b33
+                      ) [VariableDecl]
+                    ) [ListVarDecl]
+                    VariableDecl(
+                     c33
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                ) [Var_Declaration]
+              ) [DeclarationVar]
+            ) [DeclarationList]
+            DeclarationVar(
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  ListVarDecl(
+                    SingleVarDecl(
+                      ArrayVariableDecl(
+                       a22
+                      ) [ArrayVariableDecl]
+                    ) [SingleVarDecl]
+                    VariableDecl(
+                     b43
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                  ArrayVariableDecl(
+                   cod
+                  ) [ArrayVariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [DeclarationVar]
+          ) [DeclarationList]
+          DeclarationVar(
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 bool
+                ) [Type]
+              ) [TypeVar]
+              SingleVarDecl(
+                VariableDecl(
+                 d34
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+            ) [Var_Declaration]
+          ) [DeclarationVar]
+        ) [DeclarationList]
+        DeclarationVar(
+          Var_Declaration(
+            TypeVar(
+              Type(
+               char
+              ) [Type]
+            ) [TypeVar]
+            ListVarDecl(
+              ListVarDecl(
+                SingleVarDecl(
+                  VariableDecl(
+                   er
+                  ) [VariableDecl]
+                ) [SingleVarDecl]
+                VariableDecl(
+                 de
+                ) [VariableDecl]
+              ) [ListVarDecl]
+              ArrayVariableDecl(
+               gg
+              ) [ArrayVariableDecl]
+            ) [ListVarDecl]
+          ) [Var_Declaration]
+        ) [DeclarationVar]
+      ) [DeclarationList]
+      DeclarationVar(
+        Var_Declaration(
+          TypeVar(
+            Type(
+             float
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             b6
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [DeclarationVar]
+    ) [DeclarationList]
+    DeclarationClass(
+      Class_Declaration(
+        TypeClass(
+         Klasa
+          NotExtended(
+          ) [NotExtended]
+        ) [TypeClass]
+        ClassBody(
+          ClassVarsDeclarations(
+            ClassVarsDeclarations(
+              ClassVarsDeclarations(
+                NoClassVarsDeclarations(
+                ) [NoClassVarsDeclarations]
+                Var_Declaration(
+                  TypeVar(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [TypeVar]
+                  SingleVarDecl(
+                    VariableDecl(
+                     ff
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                ) [Var_Declaration]
+              ) [ClassVarsDeclarations]
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  SingleVarDecl(
+                    VariableDecl(
+                     cc
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                  VariableDecl(
+                   juk
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [ClassVarsDeclarations]
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 int
+                ) [Type]
+              ) [TypeVar]
+              SingleVarDecl(
+                VariableDecl(
+                 a33
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+            ) [Var_Declaration]
+          ) [ClassVarsDeclarations]
+          NoClassMethodsDeclarations(
+          ) [NoClassMethodsDeclarations]
+        ) [ClassBody]
+      ) [Class_Declaration]
+    ) [DeclarationClass]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       m
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:59:07,471 - ===================================
+INFO  13:59:07,476 - Deklarisana konstanta a vrednosti 3 na liniji 3
+INFO  13:59:07,476 - Deklarisana konstanta b vrednosti 4 na liniji 3
+ERROR 13:59:07,478 - GRESKA: Los tip konstane zz , greska na liniji 3
+INFO  13:59:07,478 - Deklarisana konstanta ba vrednosti 1 na liniji 4
+INFO  13:59:07,479 - Deklarisana konstanta c4 vrednosti 0 na liniji 4
+ERROR 13:59:07,479 - GRESKA: Konstanta b vec deklarisana, greska na liniji 4
+INFO  13:59:07,479 - Deklarisana konstanta p vrednosti 99 na liniji 5
+ERROR 13:59:07,479 - GRESKA: Los tip konstane a3 , greska na liniji 5
+INFO  13:59:07,479 - Deklarisana promenljiva a33 tipa int na liniji 7
+INFO  13:59:07,479 - Deklarisana promenljiva b33 tipa int na liniji 7
+INFO  13:59:07,479 - Deklarisana promenljiva c33 tipa int na liniji 7
+INFO  13:59:07,479 - Deklarisana promenljiva a22 tipa int[] na liniji 8
+INFO  13:59:07,479 - Deklarisana promenljiva b43 tipa int na liniji 8
+INFO  13:59:07,479 - Deklarisana promenljiva cod tipa int[] na liniji 8
+INFO  13:59:07,479 - Deklarisana promenljiva d34 tipa bool na liniji 10
+INFO  13:59:07,480 - Deklarisana promenljiva er tipa char na liniji 10
+INFO  13:59:07,480 - Deklarisana promenljiva de tipa char na liniji 10
+INFO  13:59:07,480 - Deklarisana promenljiva gg tipa char[] na liniji 10
+ERROR 13:59:07,480 - GRESKA: Nije pronadjen tip, greskafloat na liniji 11
+ERROR 13:59:07,480 - GRESKA: Nepostojeci tip promenljive float , greska na liniji 11
+INFO  13:59:07,481 - Deklarisano polje ff tipa int u klasi Klasa na liniji 14
+INFO  13:59:07,481 - Deklarisano polje cc tipa int u klasi Klasa na liniji 15
+INFO  13:59:07,482 - Deklarisano polje juk tipa int u klasi Klasa na liniji 15
+INFO  13:59:07,482 - Deklarisano polje a33 tipa int u klasi Klasa na liniji 16
+ERROR 13:59:07,482 - Parsiranje nije uspesno
+INFO  13:59:07,482 - ===================================

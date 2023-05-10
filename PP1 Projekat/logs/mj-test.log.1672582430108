@@ -1,0 +1,442 @@
+INFO  15:12:45,180 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantikaFinal.mj
+INFO  15:12:45,223 - #2 program
+INFO  15:12:45,223 - #48 Prog
+INFO  15:12:45,223 - #7 const
+INFO  15:12:45,224 - #48 int
+INFO  15:12:45,224 - #48 ci1
+INFO  15:12:45,225 - #33 =
+INFO  15:12:45,225 - #47 3
+INFO  15:12:45,225 - #38 ,
+INFO  15:12:45,225 - #48 ci2
+INFO  15:12:45,225 - #33 =
+INFO  15:12:45,225 - #47 2
+INFO  15:12:45,226 - #37 ;
+INFO  15:12:45,226 - #7 const
+INFO  15:12:45,226 - #48 bool
+INFO  15:12:45,226 - #48 cb1
+INFO  15:12:45,226 - #33 =
+INFO  15:12:45,226 - #50 true
+INFO  15:12:45,226 - #38 ,
+INFO  15:12:45,226 - #48 cb2
+INFO  15:12:45,226 - #33 =
+INFO  15:12:45,226 - #50 false
+INFO  15:12:45,227 - #37 ;
+INFO  15:12:45,227 - #48 int
+INFO  15:12:45,227 - #48 a
+INFO  15:12:45,227 - #38 ,
+INFO  15:12:45,228 - #48 b
+INFO  15:12:45,228 - #37 ;
+INFO  15:12:45,228 - #48 bool
+INFO  15:12:45,228 - #48 n
+INFO  15:12:45,228 - #38 ,
+INFO  15:12:45,228 - #48 m
+INFO  15:12:45,228 - #38 ,
+INFO  15:12:45,228 - #48 v
+INFO  15:12:45,228 - #37 ;
+INFO  15:12:45,228 - #48 int
+INFO  15:12:45,228 - #48 niz
+INFO  15:12:45,228 - #45 [
+INFO  15:12:45,228 - #46 ]
+INFO  15:12:45,229 - #37 ;
+INFO  15:12:45,229 - #48 bool
+INFO  15:12:45,229 - #48 bniz
+INFO  15:12:45,229 - #45 [
+INFO  15:12:45,229 - #46 ]
+INFO  15:12:45,229 - #37 ;
+INFO  15:12:45,229 - #4 class
+INFO  15:12:45,229 - #48 Klasa
+INFO  15:12:45,229 - #41 {
+INFO  15:12:45,230 - #48 int
+INFO  15:12:45,231 - #48 a
+INFO  15:12:45,231 - #38 ,
+INFO  15:12:45,231 - #48 b
+INFO  15:12:45,231 - #37 ;
+INFO  15:12:45,231 - #41 {
+INFO  15:12:45,231 - #42 }
+INFO  15:12:45,231 - #42 }
+INFO  15:12:45,232 - #48 Klasa
+INFO  15:12:45,232 - #48 klase
+INFO  15:12:45,232 - #45 [
+INFO  15:12:45,232 - #46 ]
+INFO  15:12:45,232 - #37 ;
+INFO  15:12:45,232 - #41 {
+INFO  15:12:45,233 - #15 void
+INFO  15:12:45,233 - #48 main
+INFO  15:12:45,233 - #43 (
+INFO  15:12:45,233 - #44 )
+INFO  15:12:45,234 - #48 int
+INFO  15:12:45,234 - #48 a
+INFO  15:12:45,234 - #37 ;
+INFO  15:12:45,234 - #41 {
+INFO  15:12:45,235 - #48 niz
+INFO  15:12:45,235 - #33 =
+INFO  15:12:45,235 - #11 new
+INFO  15:12:45,236 - #48 int
+INFO  15:12:45,236 - #45 [
+INFO  15:12:45,236 - #47 2
+INFO  15:12:45,236 - #46 ]
+INFO  15:12:45,237 - #37 ;
+INFO  15:12:45,237 - #48 bniz
+INFO  15:12:45,237 - #33 =
+INFO  15:12:45,237 - #11 new
+INFO  15:12:45,237 - #48 bool
+INFO  15:12:45,237 - #45 [
+INFO  15:12:45,237 - #47 3
+INFO  15:12:45,237 - #46 ]
+INFO  15:12:45,238 - #37 ;
+INFO  15:12:45,238 - #48 klase
+INFO  15:12:45,238 - #33 =
+INFO  15:12:45,238 - #11 new
+INFO  15:12:45,238 - #48 Klasa
+INFO  15:12:45,238 - #45 [
+INFO  15:12:45,238 - #47 5
+INFO  15:12:45,238 - #46 ]
+INFO  15:12:45,238 - #37 ;
+INFO  15:12:45,238 - #14 return
+INFO  15:12:45,238 - #37 ;
+INFO  15:12:45,238 - #42 }
+INFO  15:12:45,239 - #42 }
+INFO  15:12:45,244 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  NoDeclarations(
+                  ) [NoDeclarations]
+                  DeclarationConst(
+                    Const_Declaration(
+                      TypeConst(
+                        Type(
+                         int
+                        ) [Type]
+                      ) [TypeConst]
+                      ListConstDecl(
+                        SingleConstDecl(
+                          ConstantDecl(
+                           ci1
+                            IntegerConstant(
+                             3
+                            ) [IntegerConstant]
+                          ) [ConstantDecl]
+                        ) [SingleConstDecl]
+                        ConstantDecl(
+                         ci2
+                          IntegerConstant(
+                           2
+                          ) [IntegerConstant]
+                        ) [ConstantDecl]
+                      ) [ListConstDecl]
+                    ) [Const_Declaration]
+                  ) [DeclarationConst]
+                ) [DeclarationList]
+                DeclarationConst(
+                  Const_Declaration(
+                    TypeConst(
+                      Type(
+                       bool
+                      ) [Type]
+                    ) [TypeConst]
+                    ListConstDecl(
+                      SingleConstDecl(
+                        ConstantDecl(
+                         cb1
+                          BoolConstant(
+                           true
+                          ) [BoolConstant]
+                        ) [ConstantDecl]
+                      ) [SingleConstDecl]
+                      ConstantDecl(
+                       cb2
+                        BoolConstant(
+                         false
+                        ) [BoolConstant]
+                      ) [ConstantDecl]
+                    ) [ListConstDecl]
+                  ) [Const_Declaration]
+                ) [DeclarationConst]
+              ) [DeclarationList]
+              DeclarationVar(
+                Var_Declaration(
+                  TypeVar(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [TypeVar]
+                  ListVarDecl(
+                    SingleVarDecl(
+                      VariableDecl(
+                       a
+                      ) [VariableDecl]
+                    ) [SingleVarDecl]
+                    VariableDecl(
+                     b
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                ) [Var_Declaration]
+              ) [DeclarationVar]
+            ) [DeclarationList]
+            DeclarationVar(
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   bool
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  ListVarDecl(
+                    SingleVarDecl(
+                      VariableDecl(
+                       n
+                      ) [VariableDecl]
+                    ) [SingleVarDecl]
+                    VariableDecl(
+                     m
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                  VariableDecl(
+                   v
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [DeclarationVar]
+          ) [DeclarationList]
+          DeclarationVar(
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 int
+                ) [Type]
+              ) [TypeVar]
+              SingleVarDecl(
+                ArrayVariableDecl(
+                 niz
+                ) [ArrayVariableDecl]
+              ) [SingleVarDecl]
+            ) [Var_Declaration]
+          ) [DeclarationVar]
+        ) [DeclarationList]
+        DeclarationVar(
+          Var_Declaration(
+            TypeVar(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeVar]
+            SingleVarDecl(
+              ArrayVariableDecl(
+               bniz
+              ) [ArrayVariableDecl]
+            ) [SingleVarDecl]
+          ) [Var_Declaration]
+        ) [DeclarationVar]
+      ) [DeclarationList]
+      DeclarationClass(
+        Class_Declaration(
+          TypeClass(
+           Klasa
+            NotExtended(
+            ) [NotExtended]
+          ) [TypeClass]
+          ClassBody(
+            ClassVarsDeclarations(
+              NoClassVarsDeclarations(
+              ) [NoClassVarsDeclarations]
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  SingleVarDecl(
+                    VariableDecl(
+                     a
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                  VariableDecl(
+                   b
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [ClassVarsDeclarations]
+            ClassMethodsDeclarations(
+              NoClassMethodDeclList(
+              ) [NoClassMethodDeclList]
+            ) [ClassMethodsDeclarations]
+          ) [ClassBody]
+        ) [Class_Declaration]
+      ) [DeclarationClass]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           Klasa
+          ) [Type]
+        ) [TypeVar]
+        SingleVarDecl(
+          ArrayVariableDecl(
+           klase
+          ) [ArrayVariableDecl]
+        ) [SingleVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      MethodFieldsDeclaration(
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             a
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              NoStatementList(
+              ) [NoStatementList]
+              DesignStatement(
+                DesignatorStatementAssign(
+                  DesignatorAssignSimple(
+                    DesignatorIdent(
+                     niz
+                    ) [DesignatorIdent]
+                    AssignOperator(
+                    ) [AssignOperator]
+                    Expr(
+                      SingleTerm(
+                        Term(
+                          SingleFactor(
+                            FactorNewArray(
+                              Type(
+                               int
+                              ) [Type]
+                              Expr(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      FactorNumConstant(
+                                       2
+                                      ) [FactorNumConstant]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Expr]
+                            ) [FactorNewArray]
+                          ) [SingleFactor]
+                        ) [Term]
+                      ) [SingleTerm]
+                    ) [Expr]
+                  ) [DesignatorAssignSimple]
+                ) [DesignatorStatementAssign]
+              ) [DesignStatement]
+            ) [StatementList]
+            DesignStatement(
+              DesignatorStatementAssign(
+                DesignatorAssignSimple(
+                  DesignatorIdent(
+                   bniz
+                  ) [DesignatorIdent]
+                  AssignOperator(
+                  ) [AssignOperator]
+                  Expr(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          FactorNewArray(
+                            Type(
+                             bool
+                            ) [Type]
+                            Expr(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    FactorNumConstant(
+                                     3
+                                    ) [FactorNumConstant]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Expr]
+                          ) [FactorNewArray]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                  ) [Expr]
+                ) [DesignatorAssignSimple]
+              ) [DesignatorStatementAssign]
+            ) [DesignStatement]
+          ) [StatementList]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignSimple(
+                DesignatorIdent(
+                 klase
+                ) [DesignatorIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorNewArray(
+                          Type(
+                           Klasa
+                          ) [Type]
+                          Expr(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  FactorNumConstant(
+                                   5
+                                  ) [FactorNumConstant]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Expr]
+                        ) [FactorNewArray]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Expr]
+              ) [DesignatorAssignSimple]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+        ) [StatementList]
+        ReturnNoParamStatement(
+        ) [ReturnNoParamStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:12:45,245 - ===================================
+INFO  15:12:45,248 - Upotreba promenljive niz, Var, arr of int, 5, 0 na liniji 19
+INFO  15:12:45,248 - Upotreba promenljive bniz, Var, arr of bool, 6, 0 na liniji 20
+INFO  15:12:45,248 - Upotreba promenljive klase, Var, arr of class, 7, 0 na liniji 21
+INFO  15:12:45,249 - Parsiranje uspeno
+INFO  15:12:45,249 - ===================================

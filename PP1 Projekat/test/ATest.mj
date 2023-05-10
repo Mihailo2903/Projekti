@@ -1,0 +1,29 @@
+program MJProgram
+
+int a,b,c;
+int niz[];
+char ch, chniz[];
+bool flag , bniz[];
+
+{
+	void main() {
+		a = 2; b=4; c=5;
+		a++; b--;
+		print(a); print(b); print(a*a*c/b);
+		
+		niz = new int[a+b];
+		niz[0] = 3; niz[1]=4; niz[2]=5; niz[3]=2; niz[4]=7; niz[5]=8;
+		[a,,b,,c,,] = niz;
+		print(eol);
+		print(a); print(b); print(c);	
+		print(chr(97));
+		print(eol);
+		print(ord('a')); print(ord('i'));
+		flag = false;
+		print(eol);
+		print(2,2); print(1,2);
+		return;
+		print(100);
+	
+	}
+}

@@ -1,0 +1,97 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Predloži novu radionicu</h2> <br>
+    <table>
+        <tr>
+            <td>Naziv radionice:</td>
+            <td>
+                <input type="text" name="naziv" [(ngModel)]="naziv">
+            </td>
+        </tr>
+        <tr>
+            <td>Mesto održavanja:</td>
+            <td>
+                <input type="text" name="mesto" [(ngModel)]="mesto">
+            </td>
+        </tr>
+        <tr>
+            <td>Datum održavanja:</td>
+            <td>
+                <input type="date" name="datum" [(ngModel)]="datum">
+            </td>
+        </tr>
+        <tr>
+            <td>Broj mesta:</td>
+            <td>
+                <input type="number" name="mesta" [(ngModel)]="broj_mesta">
+            </td>
+        </tr>
+        <tr>
+            <td>Kratak opis:</td>
+            <td>
+                <input type="text" name="kratak" [(ngModel)]="kratak">
+            </td>
+        </tr>
+        <tr>
+            <td>Duži opis:</td>
+            <td>
+                <textarea name="duzi" cols="30" rows="2" [(ngModel)]="dug"></textarea>
+            </td>
+        </tr>
+
+       <tr>
+            <td colspan="2" class="center1">
+                <input type="file" id="dugmeZaSliku" style="display: none;" (change)="onFileChange($event)" accept=".jpg, .png, .jpeg" />
+                <label for="dugmeZaSliku" class="btn btn-info">
+                    Unesite glavnu sliku 
+                </label>
+                <span *ngIf="slika != null">   
+                    &nbsp;        
+                    <td><img src="{{slika}}" width="100" height="100"></td>
+                </span>
+            </td>
+        </tr> 
+
+        <tr>
+            <td colspan="2" class="center1">
+                <input type="file" id="dugmeZaSlike" style="display: none;" (change)="onFileChangeMultiple($event)"  accept=".jpg, .png, .jpeg" multiple="multiple"/>
+                <label for="dugmeZaSlike" class="btn btn-info">
+                    Unesite sporedne slike 
+                </label>
+                <br>
+                <div *ngFor="let slika1 of sporedneSlike; let i=index" style="display: inline-block;">
+                    <img src="{{slika1}}" width="100" height="100"> <br>
+                    <button class="btn btn-danger" (click)="izbaci(i)">Izbaci</button>
+                </div>
+            </td>
+        </tr> 
+        <tr>
+            <td colspan="2" class="center1">
+                <input type="file" id="dugmeZaImport" style="display: none;" (change)="importJson($event)" accept=".json" />
+                <label for="dugmeZaImport" class="btn btn-warning">
+                    Učitaj radionicu kao šablon
+                </label>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="center1">
+                <button  class="btn btn-success" (click)="posaljiPredlog()">
+                    <span *ngIf="ulogovan.tip!='admin'">
+                        Pošalji predlog na odobravanje
+                    </span>
+                    <span *ngIf="ulogovan.tip=='admin'">
+                        Dodaj radionicu
+                    </span>
+                </button>
+            </td>     
+        </tr> 
+    </table>
+    <span style="color: red;" [style.white-space]="'pre'">{{poruka}}</span>
+    <span style="color: green;" [style.white-space]="'pre'">{{porukaUspeh}}</span>
+    <span style="color: red;" [style.white-space]="'pre'">{{previseSlika}}</span>
+</div>
+<app-footer></app-footer>
+
+

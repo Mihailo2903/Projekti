@@ -1,0 +1,43 @@
+program first 
+const int a = 2 , b = 3 , c = 4;
+int a,b,c;
+
+class Proba {
+
+	int a,b,c;
+	int ab[];
+	{
+		void m3(int a, int b[], int a) int a,b;{}
+	}
+}
+
+class Trt{
+	int a;
+	{}
+}
+
+const int d=3, c=5;
+int tt, taa[], t;
+{	
+	void metoda() int a,b,c,d,e[]; float aa,se; {}
+	int metoda2() double r,t,f[]; {}
+	
+	int metodaStatement() int a,b,c; double a3[];{
+		
+		if( a==2 && b==3 || c==4 && a>=5){
+			while( b>7) read(a);
+			
+			if(tt > 4)
+				a++;
+			else
+				a--;	
+		}
+		a = b*r*5*(a+5);
+		
+		ggg.foreach(aaa => a++;);
+		
+		b = new int(5);
+		
+		a[2].b.c[3][5][9+a+3].a = 3;
+	}
+}

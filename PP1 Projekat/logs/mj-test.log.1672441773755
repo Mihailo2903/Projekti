@@ -1,0 +1,170 @@
+INFO  00:08:54,892 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\metode.mj
+INFO  00:08:54,928 - #2 program
+INFO  00:08:54,928 - #48 Program
+INFO  00:08:54,928 - #41 {
+INFO  00:08:54,929 - #48 int
+INFO  00:08:54,929 - #48 metoda
+INFO  00:08:54,930 - #43 (
+INFO  00:08:54,930 - #48 int
+INFO  00:08:54,930 - #48 a
+INFO  00:08:54,930 - #38 ,
+INFO  00:08:54,930 - #48 int
+INFO  00:08:54,930 - #48 b
+INFO  00:08:54,930 - #38 ,
+INFO  00:08:54,931 - #48 int
+INFO  00:08:54,931 - #48 c
+INFO  00:08:54,931 - #44 )
+INFO  00:08:54,931 - #41 {
+INFO  00:08:54,931 - #42 }
+INFO  00:08:54,932 - #48 int
+INFO  00:08:54,932 - #48 m2
+INFO  00:08:54,932 - #43 (
+INFO  00:08:54,932 - #44 )
+INFO  00:08:54,932 - #48 int
+INFO  00:08:54,933 - #48 aa
+INFO  00:08:54,933 - #37 ;
+INFO  00:08:54,934 - #41 {
+INFO  00:08:54,934 - #48 aa
+INFO  00:08:54,934 - #33 =
+INFO  00:08:54,934 - #48 metoda
+INFO  00:08:54,934 - #43 (
+INFO  00:08:54,934 - #48 aa
+INFO  00:08:54,935 - #44 )
+INFO  00:08:54,936 - #37 ;
+INFO  00:08:54,936 - #42 }
+INFO  00:08:54,936 - #42 }
+INFO  00:08:54,940 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      Method_Declaration(
+        ReturnType(
+          Type(
+           int
+          ) [Type]
+         metoda
+        ) [ReturnType]
+        MethodParametersList(
+          MethodParameters(
+            MethodParameters(
+              SingleMethodParameter(
+                VarMethodParameter(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [VarMethodParameter]
+              ) [SingleMethodParameter]
+              VarMethodParameter(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [VarMethodParameter]
+            ) [MethodParameters]
+            VarMethodParameter(
+              Type(
+               int
+              ) [Type]
+             c
+            ) [VarMethodParameter]
+          ) [MethodParameters]
+        ) [MethodParametersList]
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [Method_Declaration]
+    ) [MethodDeclarationList]
+    Method_Declaration(
+      ReturnType(
+        Type(
+         int
+        ) [Type]
+       m2
+      ) [ReturnType]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      MethodFieldsDeclaration(
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             aa
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        DesignStatement(
+          DesignatorStatementAssign(
+            DesignatorAssignSimple(
+              DesignatorIdent(
+               aa
+              ) [DesignatorIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              Expr(
+                SingleTerm(
+                  Term(
+                    SingleFactor(
+                      FactorFuncCallParams(
+                        DesignatorIdent(
+                         metoda
+                        ) [DesignatorIdent]
+                        ActPars(
+                          SingleExpression(
+                            Expr(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    FactorSingleDesignator(
+                                      DesignatorIdent(
+                                       aa
+                                      ) [DesignatorIdent]
+                                    ) [FactorSingleDesignator]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Expr]
+                          ) [SingleExpression]
+                        ) [ActPars]
+                      ) [FactorFuncCallParams]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [SingleTerm]
+              ) [Expr]
+            ) [DesignatorAssignSimple]
+          ) [DesignatorStatementAssign]
+        ) [DesignStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  00:08:54,940 - ===================================
+INFO  00:08:54,942 - Deklaracija metoda metoda na liniji 3
+INFO  00:08:54,942 - Deklarisan parametar a tipa int metode metoda na liniji 3
+INFO  00:08:54,942 - Deklarisan parametar b tipa int metode metoda na liniji 3
+INFO  00:08:54,943 - Deklarisan parametar c tipa int metode metoda na liniji 3
+INFO  00:08:54,943 - Deklaracija metoda m2 na liniji 4
+INFO  00:08:54,943 - Deklarisana promenljiva aa tipa int u metodi m2 na liniji 4
+INFO  00:08:54,943 - Upotreba promenljive aa na liniji 5
+INFO  00:08:54,943 - Poziv metode metoda na liniji 5
+INFO  00:08:54,943 - Ubacena metoda metoda u listu sa 3 param na liniji 5
+INFO  00:08:54,943 - Upotreba promenljive aa na liniji 5
+INFO  00:08:54,943 - AA 0 - 3 na liniji 5
+INFO  00:08:54,943 - BB  na liniji 5

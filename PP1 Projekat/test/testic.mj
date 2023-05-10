@@ -1,0 +1,28 @@
+program Prog
+const int k=1,b=2,c=3,a=0;
+const char cc = 'b';
+
+
+int p1,p2,p3;
+
+{
+	int metoda(int a, int b, int c){
+		return a+b*c;
+	}
+	
+	char metod(bool a, int b, char c) int gg,d,f;{
+		a = true;
+		b = b+1+2;
+		c = 'a'+2;
+		return 'e';
+	}
+	
+	void main() int p; char a;{
+  		p1 = 2;
+  		p1 = metoda(1,2,3);
+  		a = metod(true,2,'c');
+  		p2 = p1+k;
+		p = p1 + p2;
+		
+	}
+}

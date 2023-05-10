@@ -1,0 +1,45 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Aktuelne radionice</h2> <br>
+    <div class="center1">
+        Unesite naziv:
+        <input type="text" name="" id="" [(ngModel)]="naziv"> &nbsp;
+        Unesite mesto:
+        <input type="text" name="" id="" [(ngModel)]="mesto"> &nbsp; <br> <br>
+        <button (click)="filterNaziv()" class="btn btn-success">Filtriraj po nazivu</button> &nbsp;
+        <button (click)="filterMesto()" class="btn btn-success">Filtriraj po mestu</button> &nbsp;
+        <button (click)="filterOba()" class="btn btn-success">Filtriraj po oba</button> <br> <br>
+        <button (click)="sortNaziv()" class="btn btn-warning">Sortiraj po nazivu</button> &nbsp;
+        <button (click)="sortDatum()" class="btn btn-warning">Sortiraj po datumu</button>
+    </div>
+    <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja</th>
+                <th>Mesto održavanja</th>
+                <th>Organizator</th>
+                <th>Kratak opis</th>
+                <th>Glavna slika</th>
+                <th *ngIf="ulogovan!=null">Detalji</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of radionice">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td>{{rad.kratak_opis}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+                <td *ngIf="ulogovan!=null"><button class="btn btn-primary" (click)="otvoriDetalje(rad)">Vidi detalje</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<app-footer></app-footer>
+

@@ -1,0 +1,110 @@
+INFO  14:48:44,342 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantikaFinal.mj
+INFO  14:48:44,383 - #2 program
+INFO  14:48:44,383 - #48 Prog
+INFO  14:48:44,383 - #7 const
+INFO  14:48:44,383 - #48 int
+INFO  14:48:44,383 - #48 ci1
+INFO  14:48:44,384 - #33 =
+INFO  14:48:44,384 - #47 3
+INFO  14:48:44,384 - #38 ,
+INFO  14:48:44,384 - #48 ci2
+INFO  14:48:44,384 - #33 =
+INFO  14:48:44,384 - #47 2
+INFO  14:48:44,384 - #37 ;
+INFO  14:48:44,385 - #7 const
+INFO  14:48:44,385 - #48 bool
+INFO  14:48:44,385 - #48 cb1
+INFO  14:48:44,385 - #33 =
+INFO  14:48:44,385 - #50 true
+INFO  14:48:44,385 - #38 ,
+INFO  14:48:44,385 - #48 cb2
+INFO  14:48:44,385 - #33 =
+INFO  14:48:44,385 - #50 false
+INFO  14:48:44,386 - #37 ;
+INFO  14:48:44,386 - #41 {
+INFO  14:48:44,386 - #15 void
+INFO  14:48:44,386 - #48 main
+INFO  14:48:44,386 - #43 (
+INFO  14:48:44,386 - #44 )
+INFO  14:48:44,387 - #41 {
+INFO  14:48:44,387 - #42 }
+INFO  14:48:44,387 - #42 }
+INFO  14:48:44,391 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             int
+            ) [Type]
+          ) [TypeConst]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               ci1
+                IntegerConstant(
+                 3
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             ci2
+              IntegerConstant(
+               2
+              ) [IntegerConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationConst(
+      Const_Declaration(
+        TypeConst(
+          Type(
+           bool
+          ) [Type]
+        ) [TypeConst]
+        ListConstDecl(
+          SingleConstDecl(
+            ConstantDecl(
+             cb1
+              BoolConstant(
+               true
+              ) [BoolConstant]
+            ) [ConstantDecl]
+          ) [SingleConstDecl]
+          ConstantDecl(
+           cb2
+            BoolConstant(
+             false
+            ) [BoolConstant]
+          ) [ConstantDecl]
+        ) [ListConstDecl]
+      ) [Const_Declaration]
+    ) [DeclarationConst]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:48:44,392 - ===================================
+INFO  14:48:44,394 - Parsiranje uspeno
+INFO  14:48:44,394 - ===================================

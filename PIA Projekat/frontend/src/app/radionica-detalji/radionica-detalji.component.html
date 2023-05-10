@@ -1,0 +1,136 @@
+<app-meni></app-meni>
+<div style="text-align: center; padding-top: 3%;">
+    <h2>{{radionica.naziv}}</h2> 
+</div>
+<br>
+    <p style="text-align: left; padding: 0 0 10px 10px; font-style: italic;">{{radionica.duzi_opis}}</p>
+    <div class="center">
+        <div class="istaKolona">
+            <div class="levi">
+                <h3>Informacije o radionici</h3>
+                <br>
+                <table class="table table-bordered table-striped table-hover ">
+                    <tbody>
+                       <tr>
+                        <td>Organizator </td>
+                        <td>{{radionica.organizator}}</td>
+                       </tr>
+                       <tr>
+                        <td>Mesto održavanja </td>
+                        <td>{{radionica.mesto}}</td>
+                       </tr>
+                       <tr>
+                        <td>Datum održavanja</td>
+                        <td>
+                            <span *ngIf="radionica.datum.getDate() < 10">0</span>{{radionica.datum.getDate()}} / 
+                            <span *ngIf="radionica.datum.getMonth() < 9">0</span>{{radionica.datum.getMonth() + 1}} / 
+                            {{radionica.datum.getFullYear()}}
+                        </td>
+                       </tr>
+                       <tr>
+                        <td>Broj preostalih mesta</td>
+                        <td>{{radionica.preostalo_mesta}}</td>
+                       </tr> 
+                       <tr *ngIf="ulogovan && ulogovan.tip=='ucesnik' && (radionica.preostalo_mesta > 0 && ucestvuje==false && rezervisao==false)">
+                        <td colspan="2">
+                            <button class="btn btn-success" (click)="prijaviMe()">Prijavi me</button>
+                        </td>
+                       </tr>
+                       <tr *ngIf="ulogovan && ulogovan.tip=='ucesnik' && (radionica.preostalo_mesta <= 0 && ucestvuje==false && rezervisao==false && naCekanju==false)">
+                        <td colspan="2">
+                            <button class="btn btn-success" (click)="dodajNaListu()">Obavesti me kad se oslobodi mesto</button>
+                        </td>
+                       </tr>
+                       <tr *ngIf="ulogovan && ulogovan.tip=='ucesnik' && (radionica.preostalo_mesta <= 0 && naCekanju==true)">
+                        <td colspan="2">
+                            Već ste na listi za čekanje za učešće u ovoj radionici
+                        </td>
+                       </tr>
+                       <tr *ngIf="ulogovan && ulogovan.tip=='ucesnik' && (ucestvuje==true || rezervisao==true)">
+                        <td colspan="2">
+                            Već ste se prijavili za učešće u ovoj radionici
+                        </td>
+                       </tr>
+                       <tr *ngIf="ulogovan && ulogovan.tip=='ucesnik' && (ucestvovaoNaRadSaIstimNazivom==true)">
+                        <td colspan="2">
+                            <button class="btn btn-warning" (click)="pogledajAktivnosti()">Pogledaj lajkove i komentare</button>
+                        </td>
+                       </tr>
+                       <tr *ngIf="ulogovan && ulogovan.tip=='ucesnik'">
+                        <td colspan="2">
+                            <button class="btn ljubicasto" (click)="otvori()">{{imeDugmeta}}</button>
+                        </td>
+                       </tr>
+                   
+                    </tbody>
+                </table>
+            </div>
+            <div class="srednji">
+                <h3>Lokacija</h3> <br>
+                <app-mapa [radionica]="radionica.naziv" [placeName]="radionica.mesto"></app-mapa>
+            </div>
+            <div class="desni">
+                <h3>Slike</h3> <br>
+                <app-slide-show [images]="images"></app-slide-show>
+            </div>
+        </div>
+
+        <div class="istaKolona1">     
+            <div *ngIf="imeDugmeta == 'Sakrij poruke'" class="desni1">
+                <h3>Poruke sa organizatorom</h3>
+                <div *ngIf="poruke">
+                    <div class="prostorPoruke1">
+                        <div *ngFor="let por of poruke" style="padding-right: 10px;">
+                            <div *ngIf="por.tip == 'korisnik'" class="porukaDiv1 porukaDivLevo1">
+                                <img *ngIf="ulogovan.slika!=null" src="{{ulogovan.slika}}" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                                <img *ngIf="ulogovan.slika==null" src="assets/anoniman.png" alt="" height="60px" width="60px" class="rounded rounded-circle">  &nbsp;
+                                <div style="display: inline-block;">
+                                    <div class="porukaZag1">
+                                        <span style="font-weight: bold;">
+                                            Ja,
+                                        </span>
+                                        <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                        <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                                    </div>
+                                    <div class="poruka1 porukaKor1">
+                                    {{por.sadrzaj}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div *ngIf="por.tip != 'korisnik'" class="porukaDiv1 porukaDivDesno1">
+                                <div style="display: inline-block;">
+                                    <div class="porukaZag1">
+                                        <span style="font-weight: bold;">
+                                            {{radionica.organizator}}
+                                        </span>
+                                        <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                        <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                                    </div>
+                                    <div class="poruka1 porukaOrg1">
+                                        {{por.sadrzaj}}
+                                    </div>
+                                </div> &nbsp;
+                                <img *ngIf="slikaOrg!=null" src="{{slikaOrg}}" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                                <img *ngIf="slikaOrg==null" src="assets/anoniman.png" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                            </div>           
+                        </div>
+                    </div>
+                    <hr>
+                    <span class="slanjePoruke1">
+                        <span>
+                            Unesite poruku: &nbsp; <input type="text" style="width: 500px;" [(ngModel)]="novaPoruka">
+                        </span>
+                        <span style="padding-right: 10px;">
+                            <button (click)="posaljiPoruku()" class="btn btn-success">
+                                Pošalji poruku
+                            </button>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div> 
+<app-footer></app-footer>
+

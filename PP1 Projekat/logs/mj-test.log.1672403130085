@@ -1,0 +1,215 @@
+INFO  13:22:45,316 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantika.mj
+INFO  13:22:45,352 - #2 program
+INFO  13:22:45,352 - #48 Program
+INFO  13:22:45,352 - #7 const
+INFO  13:22:45,353 - #48 int
+INFO  13:22:45,353 - #48 a
+INFO  13:22:45,354 - #33 =
+INFO  13:22:45,354 - #47 3
+INFO  13:22:45,354 - #38 ,
+INFO  13:22:45,354 - #48 b
+INFO  13:22:45,354 - #33 =
+INFO  13:22:45,355 - #47 4
+INFO  13:22:45,355 - #38 ,
+INFO  13:22:45,355 - #48 zz
+INFO  13:22:45,355 - #33 =
+INFO  13:22:45,355 - #49 c
+INFO  13:22:45,355 - #37 ;
+INFO  13:22:45,355 - #7 const
+INFO  13:22:45,356 - #48 bool
+INFO  13:22:45,356 - #48 ba
+INFO  13:22:45,356 - #33 =
+INFO  13:22:45,356 - #50 true
+INFO  13:22:45,356 - #38 ,
+INFO  13:22:45,361 - #48 c4
+INFO  13:22:45,361 - #33 =
+INFO  13:22:45,361 - #50 false
+INFO  13:22:45,361 - #38 ,
+INFO  13:22:45,361 - #48 b
+INFO  13:22:45,361 - #33 =
+INFO  13:22:45,361 - #50 false
+INFO  13:22:45,361 - #37 ;
+INFO  13:22:45,361 - #7 const
+INFO  13:22:45,361 - #48 char
+INFO  13:22:45,361 - #48 p
+INFO  13:22:45,361 - #33 =
+INFO  13:22:45,361 - #49 c
+INFO  13:22:45,361 - #38 ,
+INFO  13:22:45,361 - #48 a3
+INFO  13:22:45,361 - #33 =
+INFO  13:22:45,361 - #47 1
+INFO  13:22:45,361 - #37 ;
+INFO  13:22:45,361 - #48 int
+INFO  13:22:45,361 - #48 a
+INFO  13:22:45,362 - #38 ,
+INFO  13:22:45,362 - #48 b
+INFO  13:22:45,362 - #38 ,
+INFO  13:22:45,362 - #48 c
+INFO  13:22:45,362 - #37 ;
+INFO  13:22:45,362 - #41 {
+INFO  13:22:45,362 - #15 void
+INFO  13:22:45,363 - #48 m
+INFO  13:22:45,363 - #43 (
+INFO  13:22:45,363 - #44 )
+INFO  13:22:45,363 - #41 {
+INFO  13:22:45,364 - #42 }
+INFO  13:22:45,364 - #42 }
+INFO  13:22:45,368 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarations(
+          ) [NoDeclarations]
+          DeclarationConst(
+            Const_Declaration(
+              TypeConst(
+                Type(
+                 int
+                ) [Type]
+              ) [TypeConst]
+              ListConstDecl(
+                ListConstDecl(
+                  SingleConstDecl(
+                    ConstantDecl(
+                     a
+                      IntegerConstant(
+                       3
+                      ) [IntegerConstant]
+                    ) [ConstantDecl]
+                  ) [SingleConstDecl]
+                  ConstantDecl(
+                   b
+                    IntegerConstant(
+                     4
+                    ) [IntegerConstant]
+                  ) [ConstantDecl]
+                ) [ListConstDecl]
+                ConstantDecl(
+                 zz
+                  CharConstant(
+                   c
+                  ) [CharConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+            ) [Const_Declaration]
+          ) [DeclarationConst]
+        ) [DeclarationList]
+        DeclarationConst(
+          Const_Declaration(
+            TypeConst(
+              Type(
+               bool
+              ) [Type]
+            ) [TypeConst]
+            ListConstDecl(
+              ListConstDecl(
+                SingleConstDecl(
+                  ConstantDecl(
+                   ba
+                    BoolConstant(
+                     true
+                    ) [BoolConstant]
+                  ) [ConstantDecl]
+                ) [SingleConstDecl]
+                ConstantDecl(
+                 c4
+                  BoolConstant(
+                   false
+                  ) [BoolConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+              ConstantDecl(
+               b
+                BoolConstant(
+                 false
+                ) [BoolConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             char
+            ) [Type]
+          ) [TypeConst]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               p
+                CharConstant(
+                 c
+                ) [CharConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             a3
+              IntegerConstant(
+               1
+              ) [IntegerConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              VariableDecl(
+               a
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+            VariableDecl(
+             b
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           c
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       m
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  13:22:45,368 - ===================================
+INFO  13:22:45,370 - Deklarisana konstanta a vrednosti 3 na liniji 3
+INFO  13:22:45,370 - Deklarisana konstanta b vrednosti 4 na liniji 3
+ERROR 13:22:45,370 - GRESKA: Los tip konstane zz na liniji 3
+INFO  13:22:45,370 - Deklarisana konstanta ba vrednosti 1 na liniji 4
+INFO  13:22:45,370 - Deklarisana konstanta c4 vrednosti 0 na liniji 4
+ERROR 13:22:45,370 - GRESKA: Konstanta b vec deklarisana  na liniji 4
+INFO  13:22:45,371 - Deklarisana konstanta p vrednosti 99 na liniji 5
+ERROR 13:22:45,371 - GRESKA: Los tip konstane a3 na liniji 5
+ERROR 13:22:45,371 - GRESKA: Promenljiva a vec deklarisana  na liniji 7
+ERROR 13:22:45,371 - GRESKA: Promenljiva b vec deklarisana  na liniji 7
+INFO  13:22:45,371 - Deklarisana promenljiva c tipa int na liniji 7
+ERROR 13:22:45,371 - Parsiranje nije uspesno
+INFO  13:22:45,371 - ===================================

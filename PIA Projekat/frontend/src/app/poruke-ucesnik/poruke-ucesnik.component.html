@@ -1,0 +1,79 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Moje poruke</h2> <br>
+    <div class="istaKolona">
+        <div class="levi">
+            <h3>Radionice</h3>
+            <br>
+            <table class="table table-bordered table-striped table-hover ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Radionica</th>
+                        <th>Vidi poruke</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let rad of radionice">
+                        <td>{{rad.naziv}}</td>        
+                        <td><button class="btn btn-success" (click)="otvori(rad)">Vidi poruke</button></td>    
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="desni">
+            <div *ngIf="poruke">
+                <div #scrollableDiv class="prostorPoruke">
+                    <div *ngFor="let por of poruke" style="padding-right: 10px;">
+                        <div *ngIf="por.tip == 'korisnik'" class="porukaDiv porukaDivLevo">
+                            <img *ngIf="ulogovan.slika!=null" src="{{ulogovan.slika}}" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                            <img *ngIf="ulogovan.slika==null" src="assets/anoniman.png" alt="" height="60px" width="60px" class="rounded rounded-circle">  &nbsp;
+                            <div style="display: inline-block;">
+                                <div class="porukaZag">
+                                    <span style="font-weight: bold;">
+                                        Ja,
+                                    </span>
+                                    <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                    <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                                </div>
+                                <div class="poruka porukaKor">
+                                {{por.sadrzaj}}
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="por.tip != 'korisnik'" class="porukaDiv porukaDivDesno">
+                            <div style="display: inline-block;">
+                                <div class="porukaZag">
+                                    <span style="font-weight: bold;">
+                                        {{odabranaRadionica.organizator}}
+                                    </span>
+                                    <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                    <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                                </div>
+                                <div class="poruka porukaOrg">
+                                    {{por.sadrzaj}}
+                                </div>
+                            </div> &nbsp;
+                            <img *ngIf="slikaOrg!=null" src="{{slikaOrg}}" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                            <img *ngIf="slikaOrg==null" src="assets/anoniman.png" alt="" height="60px" width="60px" class="rounded rounded-circle"> 
+                        </div>           
+                    </div>
+                </div>
+                <hr>
+                <span class="slanjePoruke">
+                    <span>
+                        Unesite poruku: &nbsp; <input type="text" style="width: 400px;" [(ngModel)]="novaPoruka">
+                    </span>
+                    <span style="padding-right: 10px;">
+                        <button (click)="posaljiPoruku()" class="btn btn-success">
+                            Pošalji poruku
+                        </button>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div> 
+<app-footer></app-footer>
+
+

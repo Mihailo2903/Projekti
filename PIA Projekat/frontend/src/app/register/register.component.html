@@ -1,0 +1,124 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2 *ngIf="!ulogovan">Registruj se</h2> 
+    <h2 *ngIf="ulogovan && ulogovan.tip=='admin'">Dodaj novog korisnika</h2> 
+    <br>
+    <table>
+        <tr>
+            <td>Korisničko ime:</td>
+            <td>
+                <input type="text" name="korisnicko_ime" [(ngModel)]="korisnicko_ime">
+            </td>
+        </tr>
+        <tr>
+            <td>Ime:</td>
+            <td>
+                <input type="text" name="ime" [(ngModel)]="ime">
+            </td>
+        </tr>
+        <tr>
+            <td>Prezime:</td>
+            <td>
+                <input type="text" name="prezime" [(ngModel)]="prezime">
+            </td>
+        </tr>
+        <tr>
+            <td>Lozinka:</td>
+            <td>
+                <input type="password" name="lozinka" [(ngModel)]="lozinka">
+            </td>
+        </tr>
+        <tr>
+            <td>Potvrda lozinke:</td>
+            <td>
+                <input type="password" name="lozinka" [(ngModel)]="potvrda">
+            </td>
+        </tr>
+        <tr>
+            <td>Mejl:</td>
+            <td>
+                <input type="text" name="mejl" [(ngModel)]="mejl">
+            </td>
+        </tr>
+        <tr>
+            <td>Broj telefona:</td>
+            <td>
+                <input type="number" name="telefon" [(ngModel)]="telefon">
+            </td>
+        </tr>
+        
+        <tr *ngIf="organizator == true">
+            <td>Naziv organizacije:</td>
+            <td>
+                <input type="text" name="naziv_organizacije" [(ngModel)]="naziv_organizacije">
+            </td>
+        </tr>
+        <tr *ngIf="organizator == true">
+            <td>Država:</td>
+            <td>
+                <input type="text" name="drzava" [(ngModel)]="drzava">
+            </td>
+        </tr>
+        <tr *ngIf="organizator == true">
+            <td>Grad:</td>
+            <td>
+                <input type="text" name="grad" [(ngModel)]="grad">
+            </td>
+        </tr>
+        <tr *ngIf="organizator == true">
+            <td>Poštanski broj:</td>
+            <td>
+                <input type="number" name="postanski_broj" [(ngModel)]="postanski_broj">
+            </td>
+        </tr>
+        <tr *ngIf="organizator == true">
+            <td>Ulica:</td>
+            <td>
+                <input type="text" name="prezime" [(ngModel)]="ulica">
+            </td>
+        </tr>
+        <tr *ngIf="organizator == true">
+            <td>Broj:</td>
+            <td>
+                <input type="number" name="broj" [(ngModel)]="broj">
+            </td>
+        </tr>
+        <tr *ngIf="organizator == true">
+            <td>Matični broj:</td>
+            <td>
+                <input type="number" name="maticni_broj" [(ngModel)]="maticni_broj">
+            </td>
+        </tr>
+        <tr>
+            <td><span *ngIf="!ulogovan">Registruj se kao organizator</span>
+                <span *ngIf="ulogovan">Dodaj organizatora</span>
+                &nbsp;</td>
+            <td><input type="checkbox" name="" id="org" [(ngModel)]="organizator"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="center1">
+                <input type="file" id="dugmeZaSliku" style="display: none;" (change)="onFileChange($event)" accept=".jpg, .png, .jpeg" />
+                <label for="dugmeZaSliku" class="btn btn-info">
+                    Unesite sliku 
+                </label>
+                <span *ngIf="slika != null">   
+                    &nbsp;        
+                    <td><img src="{{slika}}" width="100" height="100"></td>
+                </span>
+            </td>
+        </tr>     
+        <tr>
+            <td colspan="2" class="center1">
+                <button (click)="register()" class="btn btn-primary ">
+                    <span *ngIf="!ulogovan">Registruj se</span>
+                    <span *ngIf="ulogovan">Dodaj korisnika</span>
+                </button>
+            </td>     
+        </tr>
+    </table>
+    <span style="color: red;" [style.white-space]="'pre'">{{poruka}}</span>
+    <span style="color: red;" [style.white-space]="'pre'">{{porukaSlikaGreska}}</span> <br>
+    <!--<a routerLink="">Uloguj se </a> -->
+</div>
+<app-footer></app-footer>
+

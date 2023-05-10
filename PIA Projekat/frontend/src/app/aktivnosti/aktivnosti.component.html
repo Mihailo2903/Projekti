@@ -1,0 +1,71 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Moje aktivnosti</h2> <br>
+    <div class="istaKolona">
+        <div class="levi">
+            <h3>Lajkovi</h3>
+            <br>
+            <table class="table table-bordered table-striped table-hover ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Radionica</th>
+                        <th>Trenutak Lajkovanja</th>
+                        <th>Obriši lajk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let rad of aktivnosti">
+                        <td *ngIf="rad.tip=='lajk'">{{rad.naziv}}</td>
+                        <td *ngIf="rad.tip=='lajk'"> <span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}}/<span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}}/{{rad.datum.getFullYear()}} -
+                            <span *ngIf="rad.datum.getHours() < 10">0</span>{{rad.datum.getHours()}} :
+                            <span *ngIf="rad.datum.getMinutes() < 10">0</span>{{rad.datum.getMinutes()}} :
+                            <span *ngIf="rad.datum.getSeconds() < 10">0</span>{{rad.datum.getSeconds()}}
+                        </td>           
+                        <td *ngIf="rad.tip=='lajk'"><button class="btn btn-danger" (click)="obrisi(rad)">Obriši lajk</button></td>    
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="desni">
+            <h3>Komentari</h3>
+            <br>
+            <table class="table table-bordered table-striped table-hover ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Radionica</th>
+                        <th>Trenutak Komentarisanja</th>
+                        <th>Sadržaj</th>
+                        <th>Ažuriraj komentar</th>
+                        <th>Obriši komentar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let rad of aktivnosti">
+                        <td *ngIf="rad.tip=='komentar'">{{rad.naziv}}</td>
+                        <td *ngIf="rad.tip=='komentar'"> <span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}}/<span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}}/{{rad.datum.getFullYear()}} -
+                            <span *ngIf="rad.datum.getHours() < 10">0</span>{{rad.datum.getHours()}} : 
+                            <span *ngIf="rad.datum.getMinutes() < 10">0</span>{{rad.datum.getMinutes()}} : 
+                            <span *ngIf="rad.datum.getSeconds() < 10">0</span>{{rad.datum.getSeconds()}}
+                        </td>               
+                        <td *ngIf="rad.tip=='komentar'" [style.white-space]="'pre'" (contextmenu)="promeni(rad)" >
+                          <span *ngIf="!rad.promenaUToku">
+                            {{rad.sadrzaj}}
+                          </span>
+                          <span *ngIf="rad.promenaUToku" class="inp">
+                            <textarea name="" id="" class="inp" [(ngModel)]="rad.noviSadrzaj">
+                                {{rad.sadrzaj}}
+                            </textarea>
+                          </span>
+                        </td>
+                        <td *ngIf="rad.tip=='komentar'"><button class="btn btn-primary" (click)="azuriraj(rad)">Ažuriraj komentar</button></td> 
+                        <td *ngIf="rad.tip=='komentar'"><button class="btn btn-danger" (click)="obrisi(rad)">Obriši komentar</button></td> 
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> 
+<app-footer></app-footer>
+
+

@@ -1,0 +1,219 @@
+INFO  15:33:47,249 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\oporavak.mj
+INFO  15:33:47,290 - #2 program
+INFO  15:33:47,290 - #48 first
+INFO  15:33:47,291 - #48 int
+INFO  15:33:47,291 - #48 a
+INFO  15:33:47,292 - #38 ,
+INFO  15:33:47,293 - #48 b
+INFO  15:33:47,293 - #20 -
+ERROR 15:33:47,293 - 
+Sintaksna greska na liniji 3
+INFO  15:33:47,293 - #47 2
+INFO  15:33:47,293 - #38 ,
+INFO  15:33:47,293 - #48 c
+INFO  15:33:47,293 - #38 ,
+INFO  15:33:47,293 - #48 d
+ERROR 15:33:47,293 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 3
+INFO  15:33:47,294 - #21 +
+ERROR 15:33:47,294 - 
+Sintaksna greska na liniji 3
+INFO  15:33:47,294 - #37 ;
+INFO  15:33:47,294 - #48 int
+INFO  15:33:47,298 - #48 e
+INFO  15:33:47,298 - #21 +
+ERROR 15:33:47,298 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 3
+ERROR 15:33:47,298 - 
+Sintaksna greska na liniji 4
+INFO  15:33:47,299 - #47 3
+INFO  15:33:47,299 - #38 ,
+INFO  15:33:47,299 - #37 ;
+INFO  15:33:47,299 - #41 {
+INFO  15:33:47,299 - #15 void
+INFO  15:33:47,299 - #48 main2
+ERROR 15:33:47,299 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 4
+INFO  15:33:47,299 - #43 (
+INFO  15:33:47,300 - #48 int
+INFO  15:33:47,300 - #48 p
+INFO  15:33:47,300 - #21 +
+ERROR 15:33:47,300 - 
+Sintaksna greska na liniji 7
+INFO  15:33:47,300 - #47 3
+INFO  15:33:47,300 - #38 ,
+INFO  15:33:47,300 - #48 int
+INFO  15:33:47,300 - #48 p2
+INFO  15:33:47,300 - #44 )
+ERROR 15:33:47,300 - Izvrsen oporavak do , ili ) pri deklaraciji formalnog parametra u liniji 7
+INFO  15:33:47,301 - #48 int
+INFO  15:33:47,301 - #48 param1
+INFO  15:33:47,301 - #37 ;
+INFO  15:33:47,301 - #41 {
+INFO  15:33:47,301 - #48 d
+INFO  15:33:47,302 - #33 =
+INFO  15:33:47,302 - #48 a
+INFO  15:33:47,303 - #21 +
+INFO  15:33:47,303 - #22 *
+ERROR 15:33:47,303 - 
+Sintaksna greska na liniji 8
+INFO  15:33:47,303 - #37 ;
+INFO  15:33:47,303 - #8 if
+INFO  15:33:47,303 - #43 (
+INFO  15:33:47,303 - #48 a
+ERROR 15:33:47,303 - Izvrsen oporavak do ; pri konstrukciji iskaza dodele u liniji 41
+INFO  15:33:47,304 - #21 +
+INFO  15:33:47,304 - #48 b
+INFO  15:33:47,305 - #27 >
+INFO  15:33:47,305 - #47 0
+INFO  15:33:47,306 - #31 &&
+INFO  15:33:47,306 - #48 c
+INFO  15:33:47,306 - #21 +
+INFO  15:33:47,306 - #27 >
+ERROR 15:33:47,306 - 
+Sintaksna greska na liniji 9
+INFO  15:33:47,306 - #47 2
+INFO  15:33:47,306 - #44 )
+INFO  15:33:47,306 - #48 c
+INFO  15:33:47,306 - #34 ++
+INFO  15:33:47,306 - #37 ;
+ERROR 15:33:47,306 - Izvrsen oporavak do ) pri konstrukciji logickog izraza unutar if naredbe u liniji 9
+INFO  15:33:47,307 - #42 }
+INFO  15:33:47,307 - #15 void
+INFO  15:33:47,308 - #48 main
+INFO  15:33:47,308 - #43 (
+INFO  15:33:47,308 - #44 )
+INFO  15:33:47,308 - #41 {
+INFO  15:33:47,308 - #42 }
+INFO  15:33:47,308 - #42 }
+INFO  15:33:47,312 - Program(
+  ProgName(
+   first
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationVar(
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          ListVarDecl(
+            ListVarDecl(
+              ListVarDecl(
+                SingleVarDecl(
+                  VariableDecl(
+                   a
+                  ) [VariableDecl]
+                ) [SingleVarDecl]
+                ErrorVariableDeclaration(
+                ) [ErrorVariableDeclaration]
+              ) [ListVarDecl]
+              VariableDecl(
+               c
+              ) [VariableDecl]
+            ) [ListVarDecl]
+            ErrorVariableDeclaration(
+            ) [ErrorVariableDeclaration]
+          ) [ListVarDecl]
+        ) [Var_Declaration]
+      ) [DeclarationVar]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        SingleVarDecl(
+          ErrorVariableDeclaration(
+          ) [ErrorVariableDeclaration]
+        ) [SingleVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      Method_Declaration(
+        ReturnVoid(
+         main2
+        ) [ReturnVoid]
+        MethodParametersList(
+          MethodParameters(
+            SingleMethodParameter(
+              ErrorFunctionparameter(
+              ) [ErrorFunctionparameter]
+            ) [SingleMethodParameter]
+            VarMethodParameter(
+              Type(
+               int
+              ) [Type]
+             p2
+            ) [VarMethodParameter]
+          ) [MethodParameters]
+        ) [MethodParametersList]
+        MethodFieldsDeclaration(
+          NoMethodFieldsDeclaration(
+          ) [NoMethodFieldsDeclaration]
+          Var_Declaration(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            SingleVarDecl(
+              VariableDecl(
+               param1
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+          ) [Var_Declaration]
+        ) [MethodFieldsDeclaration]
+        StatementList(
+          StatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            DesignStatement(
+              DesignatorStatementAssign(
+                DesignatorAssignError(
+                ) [DesignatorAssignError]
+              ) [DesignatorStatementAssign]
+            ) [DesignStatement]
+          ) [StatementList]
+          IfStatement(
+            ErrorConditionIf(
+            ) [ErrorConditionIf]
+            DesignStatement(
+              DesignStatementOperation(
+                DesignatorIdent(
+                 c
+                ) [DesignatorIdent]
+                DesignatorInc(
+                ) [DesignatorInc]
+              ) [DesignStatementOperation]
+            ) [DesignStatement]
+            NoElseStatement(
+            ) [NoElseStatement]
+          ) [IfStatement]
+        ) [StatementList]
+      ) [Method_Declaration]
+    ) [MethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:33:47,312 - ===================================
+INFO  15:33:47,316 - Upotreba promenljive c, Var, int, 1, 0 na liniji 9
+ERROR 15:33:47,316 - Parsiranje nije uspesno
+INFO  15:33:47,316 - ===================================

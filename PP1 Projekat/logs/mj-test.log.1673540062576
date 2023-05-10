@@ -1,0 +1,127 @@
+INFO  17:14:13,591 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\proba.mj
+INFO  17:14:13,625 - #2 program
+INFO  17:14:13,626 - #48 Prog
+INFO  17:14:13,626 - #48 int
+INFO  17:14:13,626 - #48 a
+INFO  17:14:13,627 - #38 ,
+INFO  17:14:13,627 - #48 b
+INFO  17:14:13,627 - #38 ,
+INFO  17:14:13,627 - #48 c
+INFO  17:14:13,628 - #38 ,
+INFO  17:14:13,628 - #48 d
+INFO  17:14:13,628 - #37 ;
+INFO  17:14:13,628 - #41 {
+INFO  17:14:13,628 - #15 void
+INFO  17:14:13,628 - #48 main
+INFO  17:14:13,628 - #43 (
+INFO  17:14:13,628 - #44 )
+INFO  17:14:13,629 - #41 {
+INFO  17:14:13,629 - #8 if
+INFO  17:14:13,629 - #43 (
+INFO  17:14:13,630 - #48 a
+INFO  17:14:13,630 - #27 >
+INFO  17:14:13,631 - #48 b
+INFO  17:14:13,632 - #31 &&
+INFO  17:14:13,633 - #48 b
+INFO  17:14:13,633 - #27 >
+INFO  17:14:13,633 - #48 c
+INFO  17:14:13,633 - #32 ||
+INFO  17:14:13,633 - #48 c
+INFO  17:14:13,633 - #27 >
+INFO  17:14:13,633 - #48 d
+INFO  17:14:13,633 - #31 &&
+INFO  17:14:13,633 - #48 b
+INFO  17:14:13,633 - #27 >
+INFO  17:14:13,634 - #48 d
+INFO  17:14:13,634 - #31 &&
+INFO  17:14:13,634 - #31 &&
+ERROR 17:14:13,634 - 
+Sintaksna greska na liniji 6
+INFO  17:14:13,634 - #48 c
+INFO  17:14:13,634 - #28 >=
+INFO  17:14:13,634 - #48 B
+INFO  17:14:13,634 - #31 &&
+INFO  17:14:13,634 - #48 d
+INFO  17:14:13,634 - #27 >
+INFO  17:14:13,634 - #48 a
+INFO  17:14:13,634 - #44 )
+INFO  17:14:13,634 - #48 b
+INFO  17:14:13,634 - #34 ++
+INFO  17:14:13,634 - #37 ;
+ERROR 17:14:13,634 - Izvrsen oporavak do ) pri konstrukciji logickog izraza unutar if naredbe u liniji 6
+INFO  17:14:13,635 - #42 }
+INFO  17:14:13,635 - #42 }
+INFO  17:14:13,639 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            ListVarDecl(
+              SingleVarDecl(
+                VariableDecl(
+                 a
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+              VariableDecl(
+               b
+              ) [VariableDecl]
+            ) [ListVarDecl]
+            VariableDecl(
+             c
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           d
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        IfStatement(
+          ErrorConditionIf(
+          ) [ErrorConditionIf]
+          DesignStatement(
+            DesignStatementOperation(
+              DesignatorIdent(
+               b
+              ) [DesignatorIdent]
+              DesignatorInc(
+              ) [DesignatorInc]
+            ) [DesignStatementOperation]
+          ) [DesignStatement]
+          NoElseStatement(
+          ) [NoElseStatement]
+        ) [IfStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:14:13,639 - ===================================
+INFO  17:14:13,643 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+ERROR 17:14:13,643 - Parsiranje nije uspesno
+INFO  17:14:13,643 - ===================================

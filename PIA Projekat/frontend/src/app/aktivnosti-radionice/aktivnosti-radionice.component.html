@@ -1,0 +1,79 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Aktivnosti radionice {{radionica.naziv}}</h2> <br>
+    <div class="istaKolona">
+        <div class="levi">
+            <h3>
+                <img src="assets/fullHeart.png" height="60px" width="60px">
+                {{radionica.broj_lajkova}}
+            </h3>
+            <br>
+            <div class="lajkovi">
+                <table class="table table-bordered table-striped table-hover ">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Korisnik</th>
+                            <th>Trenutak Lajkovanja</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let rad of aktivnosti">
+                            <td *ngIf="rad.tip=='lajk'">{{rad.korisnik}}</td>
+                            <td *ngIf="rad.tip=='lajk'"> <span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}}/<span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}}/{{rad.datum.getFullYear()}} -
+                                <span *ngIf="rad.datum.getHours() < 10">0</span>{{rad.datum.getHours()}} :
+                                <span *ngIf="rad.datum.getMinutes() < 10">0</span>{{rad.datum.getMinutes()}} :
+                                <span *ngIf="rad.datum.getSeconds() < 10">0</span>{{rad.datum.getSeconds()}}
+                            </td>             
+                        </tr>
+                    </tbody>
+                </table>
+            </div>   
+            <div class="lajkuj">
+                <img *ngIf="vecLajkovao==false" src="assets/emptyHeart.png" height="60px" width="60px" (click)="lajkuj()">
+                <img *ngIf="vecLajkovao==true" src="assets/fullHeart.png" height="60px" width="60px">               
+            </div>
+        </div>
+    
+
+        <div class="desni1">
+            <h3>
+                <img src="assets/comment.png" height="60px" width="60px">
+                {{radionica.broj_komentara}}
+            </h3>
+            <div class="prostorPoruke1">
+                <div *ngFor="let por of aktivnosti" style="padding-right: 10px;">
+                    <div *ngIf="por.tip == 'komentar'" class="porukaDiv1 porukaDivLevo1">
+                        <div style="display: inline-block;">
+                            <div class="porukaZag1">
+                                <span style="font-weight: bold;">
+                                    <span *ngIf="por.korisnik == ulogovan.korisnicko_ime">Ja, </span>
+                                    <span *ngIf="por.korisnik != ulogovan.korisnicko_ime">{{por.korisnik}}, </span>
+                                </span>
+                                <span *ngIf="por.datum.getDate() < 10">0</span>{{por.datum.getDate()}}.<span *ngIf="por.datum.getMonth() < 9">0</span>{{por.datum.getMonth() + 1}}.{{por.datum.getFullYear()}},
+                                <span *ngIf="por.datum.getHours() < 10">0</span>{{por.datum.getHours()}}:<span *ngIf="por.datum.getMinutes() < 10">0</span>{{por.datum.getMinutes()}}
+                            </div>
+                            <div class="poruka1 porukaKor1">
+                            {{por.sadrzaj}}
+                            </div>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+            <hr>
+            <span class="slanjePoruke1">
+                <span>
+                    Unesite novi komentar: &nbsp; <input type="text" style="width: 500px;" [(ngModel)]="noviKomentar">
+                </span>
+                <span style="padding-right: 10px;">
+                    <button (click)="komentarisi()" class="btn btn-success">
+                        Pošalji komentar
+                    </button>
+                </span>
+            </span>
+        </div>
+    </div>
+</div> 
+<app-footer></app-footer>
+
+
+

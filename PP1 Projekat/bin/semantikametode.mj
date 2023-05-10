@@ -1,0 +1,62 @@
+program Program
+const int ff=4;
+int cc, aaa, vvv;
+char dd;
+int niz[];
+
+class Klasa {
+	int polje;
+	char cpolje;
+	int npolje[];
+	char cnpolje[];
+	{	
+		bool kla(){
+		return false;
+		}
+	}
+}
+
+{
+	int metoda(int a, int b) int d;{ return 1; a++; b++; d++;}
+	
+	int m2() int aa; char bb;{
+		//aa= metoda(aa,aa,metoda(aa,aa,aa));	
+		aa = metoda(aa,vvv); return 2;
+		bb = 'a';
+		//aa = metoda(); //problem ako ima parametre a pozovem da nema
+	}
+	
+	int m3() Klasa kl;{
+		metoda(cc,cc);
+		cc = m2() + m2();
+		cc = m2();
+		//cc = dd;
+		niz[3] = cc;
+		//ff = aca;
+		cc++; cc--; niz[4]++; kl.polje++; //kl.cpolje++;
+		kl.npolje[4]++; 
+		//kl.cnpolje[6]--;
+		[cc,cc,,,cc] = niz;
+		cc=niz[22];
+		
+		niz.foreach( cc => { aaa=cc; aaa=cc; continue;});
+		while(cc != aaa){ cc = aaa; break;}
+		
+		if(cc >= 5) {cc=aaa;} else {cc=aaa+1;}
+		return 4;
+	}
+	
+	int main() char parord;{
+		parord='c';
+		ord('a');
+		chr(2);
+		len(niz);
+		while(true){
+			if(vvv<=9)
+				continue;
+			else
+				break;
+		}
+		return 0;
+	}
+}

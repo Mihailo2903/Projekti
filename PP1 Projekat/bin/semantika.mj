@@ -1,0 +1,53 @@
+program Program
+
+const int a=3, b=4, zz='c';
+const bool ba=true, c4=false, b=false;
+const char p='c', a3=1;
+
+int a33,b33,c33;
+int a22[], b43, cod[];
+
+bool d34; char er,de,gg[];
+float b6;
+
+class Klasa{
+	int ff;
+	int cc, juk;
+	int a33;	
+	char b6[], ff;
+	bool trt;
+	{	
+	
+		void m(int kap){
+		}
+	
+	}
+	
+}
+
+{
+	int metod(int a){
+	}
+	
+	int k(){}
+	
+	void m(bool mka, char deka, int som, int somce[]) 
+	int a400,b9,c00;
+	bool erk;
+	Klasa t;
+	Klasa tt;
+	{
+		a400 = b9+c00;
+		b9 = a400 - erk;
+		t.ff = c00+2;
+		t.cc = a22[6];
+		a400 = somce[b9+2];
+		a400 = b+3;
+		a400 = t.kk;
+		a400 = 3 + metod();
+		a400 = new Klasa();
+		a400 = metod(b9,b9);
+		a400 = k(a400);
+		if(a400 > b9 || a400<b9 && t!=tt) a400++;
+	}
+}

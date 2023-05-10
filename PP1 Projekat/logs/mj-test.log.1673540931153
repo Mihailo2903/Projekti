@@ -1,0 +1,338 @@
+INFO  17:28:12,613 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\proba.mj
+INFO  17:28:12,652 - #2 program
+INFO  17:28:12,652 - #48 Prog
+INFO  17:28:12,652 - #48 int
+INFO  17:28:12,653 - #48 a
+INFO  17:28:12,653 - #38 ,
+INFO  17:28:12,653 - #48 b
+INFO  17:28:12,653 - #38 ,
+INFO  17:28:12,654 - #48 c
+INFO  17:28:12,654 - #38 ,
+INFO  17:28:12,654 - #48 d
+INFO  17:28:12,654 - #37 ;
+INFO  17:28:12,654 - #41 {
+INFO  17:28:12,654 - #15 void
+INFO  17:28:12,654 - #48 main
+INFO  17:28:12,655 - #43 (
+INFO  17:28:12,655 - #44 )
+INFO  17:28:12,655 - #41 {
+INFO  17:28:12,655 - #8 if
+INFO  17:28:12,656 - #43 (
+INFO  17:28:12,656 - #48 a
+INFO  17:28:12,656 - #27 >
+INFO  17:28:12,657 - #48 b
+INFO  17:28:12,658 - #31 &&
+INFO  17:28:12,658 - #48 b
+INFO  17:28:12,658 - #27 >
+INFO  17:28:12,659 - #48 c
+INFO  17:28:12,659 - #32 ||
+INFO  17:28:12,659 - #48 c
+INFO  17:28:12,659 - #27 >
+INFO  17:28:12,659 - #48 d
+INFO  17:28:12,659 - #31 &&
+INFO  17:28:12,659 - #48 b
+INFO  17:28:12,659 - #27 >
+INFO  17:28:12,659 - #48 d
+INFO  17:28:12,659 - #31 &&
+INFO  17:28:12,660 - #48 c
+INFO  17:28:12,660 - #28 >=
+INFO  17:28:12,660 - #48 b
+INFO  17:28:12,660 - #31 &&
+INFO  17:28:12,660 - #48 d
+INFO  17:28:12,660 - #27 >
+INFO  17:28:12,660 - #48 a
+INFO  17:28:12,660 - #44 )
+INFO  17:28:12,661 - #48 b
+INFO  17:28:12,661 - #34 ++
+INFO  17:28:12,661 - #37 ;
+INFO  17:28:12,661 - #42 }
+INFO  17:28:12,662 - #42 }
+INFO  17:28:12,667 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    NoDeclarations(
+    ) [NoDeclarations]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            ListVarDecl(
+              SingleVarDecl(
+                VariableDecl(
+                 a
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+              VariableDecl(
+               b
+              ) [VariableDecl]
+            ) [ListVarDecl]
+            VariableDecl(
+             c
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           d
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        IfStatement(
+          RegularConditionIf(
+            Condition(
+              CondTermsList(
+                CondTerm(
+                  CondFactsList(
+                    CondFactExpressionRelop(
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorSingleDesignator(
+                                DesignatorIdent(
+                                 a
+                                ) [DesignatorIdent]
+                              ) [FactorSingleDesignator]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                      GreaterOperator(
+                      ) [GreaterOperator]
+                      Expr(
+                        SingleTerm(
+                          Term(
+                            SingleFactor(
+                              FactorSingleDesignator(
+                                DesignatorIdent(
+                                 b
+                                ) [DesignatorIdent]
+                              ) [FactorSingleDesignator]
+                            ) [SingleFactor]
+                          ) [Term]
+                        ) [SingleTerm]
+                      ) [Expr]
+                    ) [CondFactExpressionRelop]
+                    SingleCondFact(
+                      CondFactExpressionRelop(
+                        Expr(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                FactorSingleDesignator(
+                                  DesignatorIdent(
+                                   b
+                                  ) [DesignatorIdent]
+                                ) [FactorSingleDesignator]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Expr]
+                        GreaterOperator(
+                        ) [GreaterOperator]
+                        Expr(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                FactorSingleDesignator(
+                                  DesignatorIdent(
+                                   c
+                                  ) [DesignatorIdent]
+                                ) [FactorSingleDesignator]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Expr]
+                      ) [CondFactExpressionRelop]
+                    ) [SingleCondFact]
+                  ) [CondFactsList]
+                ) [CondTerm]
+                SingleCondTerm(
+                  CondTerm(
+                    CondFactsList(
+                      CondFactExpressionRelop(
+                        Expr(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                FactorSingleDesignator(
+                                  DesignatorIdent(
+                                   c
+                                  ) [DesignatorIdent]
+                                ) [FactorSingleDesignator]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Expr]
+                        GreaterOperator(
+                        ) [GreaterOperator]
+                        Expr(
+                          SingleTerm(
+                            Term(
+                              SingleFactor(
+                                FactorSingleDesignator(
+                                  DesignatorIdent(
+                                   d
+                                  ) [DesignatorIdent]
+                                ) [FactorSingleDesignator]
+                              ) [SingleFactor]
+                            ) [Term]
+                          ) [SingleTerm]
+                        ) [Expr]
+                      ) [CondFactExpressionRelop]
+                      CondFactsList(
+                        CondFactExpressionRelop(
+                          Expr(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  FactorSingleDesignator(
+                                    DesignatorIdent(
+                                     b
+                                    ) [DesignatorIdent]
+                                  ) [FactorSingleDesignator]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Expr]
+                          GreaterOperator(
+                          ) [GreaterOperator]
+                          Expr(
+                            SingleTerm(
+                              Term(
+                                SingleFactor(
+                                  FactorSingleDesignator(
+                                    DesignatorIdent(
+                                     d
+                                    ) [DesignatorIdent]
+                                  ) [FactorSingleDesignator]
+                                ) [SingleFactor]
+                              ) [Term]
+                            ) [SingleTerm]
+                          ) [Expr]
+                        ) [CondFactExpressionRelop]
+                        CondFactsList(
+                          CondFactExpressionRelop(
+                            Expr(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    FactorSingleDesignator(
+                                      DesignatorIdent(
+                                       c
+                                      ) [DesignatorIdent]
+                                    ) [FactorSingleDesignator]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Expr]
+                            GreaterEqualOperator(
+                            ) [GreaterEqualOperator]
+                            Expr(
+                              SingleTerm(
+                                Term(
+                                  SingleFactor(
+                                    FactorSingleDesignator(
+                                      DesignatorIdent(
+                                       b
+                                      ) [DesignatorIdent]
+                                    ) [FactorSingleDesignator]
+                                  ) [SingleFactor]
+                                ) [Term]
+                              ) [SingleTerm]
+                            ) [Expr]
+                          ) [CondFactExpressionRelop]
+                          SingleCondFact(
+                            CondFactExpressionRelop(
+                              Expr(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      FactorSingleDesignator(
+                                        DesignatorIdent(
+                                         d
+                                        ) [DesignatorIdent]
+                                      ) [FactorSingleDesignator]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Expr]
+                              GreaterOperator(
+                              ) [GreaterOperator]
+                              Expr(
+                                SingleTerm(
+                                  Term(
+                                    SingleFactor(
+                                      FactorSingleDesignator(
+                                        DesignatorIdent(
+                                         a
+                                        ) [DesignatorIdent]
+                                      ) [FactorSingleDesignator]
+                                    ) [SingleFactor]
+                                  ) [Term]
+                                ) [SingleTerm]
+                              ) [Expr]
+                            ) [CondFactExpressionRelop]
+                          ) [SingleCondFact]
+                        ) [CondFactsList]
+                      ) [CondFactsList]
+                    ) [CondFactsList]
+                  ) [CondTerm]
+                ) [SingleCondTerm]
+              ) [CondTermsList]
+            ) [Condition]
+          ) [RegularConditionIf]
+          DesignStatement(
+            DesignStatementOperation(
+              DesignatorIdent(
+               b
+              ) [DesignatorIdent]
+              DesignatorInc(
+              ) [DesignatorInc]
+            ) [DesignStatementOperation]
+          ) [DesignStatement]
+          NoElseStatement(
+          ) [NoElseStatement]
+        ) [IfStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  17:28:12,668 - ===================================
+INFO  17:28:12,671 - Upotreba promenljive a, Var, int, 0, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive c, Var, int, 2, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive c, Var, int, 2, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive d, Var, int, 3, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  17:28:12,671 - Upotreba promenljive d, Var, int, 3, 0 na liniji 6
+INFO  17:28:12,672 - Upotreba promenljive c, Var, int, 2, 0 na liniji 6
+INFO  17:28:12,672 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  17:28:12,672 - Upotreba promenljive d, Var, int, 3, 0 na liniji 6
+INFO  17:28:12,672 - Upotreba promenljive a, Var, int, 0, 0 na liniji 6
+INFO  17:28:12,672 - Uspeh
+INFO  17:28:12,672 - Upotreba promenljive b, Var, int, 1, 0 na liniji 6
+INFO  17:28:12,674 - Parsiranje uspeno
+INFO  17:28:12,674 - ===================================

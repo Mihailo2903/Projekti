@@ -1,0 +1,104 @@
+<app-meni></app-meni>
+<div class="center">
+    <h2>Prijavljene radionice</h2> <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja </th>
+                <th>Mesto održavanja </th>
+                <th>Organizator</th>
+                <th>Kratak opis </th>
+                <th>Broj lajkova </th>
+                <th>Broj komentara </th>
+                <th>Glavna slika</th>
+                <th>Otkaži</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of radionice">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td [style.white-space]="'pre'">{{rad.kratak_opis}}</td>
+                <td>{{rad.broj_lajkova}}</td>
+                <td>{{rad.broj_komentara}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+                <td><button *ngIf="otkaziva(rad)==true" (click)="otkaziUcesce(rad)" class="btn btn-danger">Otkaži</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Rezervisane radionice</h2> <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja </th>
+                <th>Mesto održavanja </th>
+                <th>Organizator</th>
+                <th>Kratak opis </th>
+                <th>Broj lajkova </th>
+                <th>Broj komentara </th>
+                <th>Glavna slika</th>
+                <th>Otkaži</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of rezervisane">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td [style.white-space]="'pre'">{{rad.kratak_opis}}</td>
+                <td>{{rad.broj_lajkova}}</td>
+                <td>{{rad.broj_komentara}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+                <td><button *ngIf="otkaziva(rad)==true" (click)="otkaziRezervaciju(rad)" class="btn btn-danger">Otkaži</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Zahtevi na cekanju</h2> <br>
+    <table class="table table-bordered table-striped table-hover ">
+        <thead class="thead-dark">
+            <tr>
+                <th>Naziv</th>
+                <th>Datum održavanja </th>
+                <th>Mesto održavanja </th>
+                <th>Organizator</th>
+                <th>Kratak opis </th>
+                <th>Broj lajkova </th>
+                <th>Broj komentara </th>
+                <th>Glavna slika</th>
+                <th>Otkaži</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let rad of naCekanju">
+                <td>{{rad.naziv}}</td>
+                <td><span *ngIf="rad.datum.getDate() < 10">0</span>{{rad.datum.getDate()}} / 
+                    <span *ngIf="rad.datum.getMonth() < 9">0</span>{{rad.datum.getMonth() + 1}} / 
+                    {{rad.datum.getFullYear()}}
+                </td>
+                <td>{{rad.mesto}}</td>
+                <td>{{rad.organizator}}</td>
+                <td [style.white-space]="'pre'">{{rad.kratak_opis}}</td>
+                <td>{{rad.broj_lajkova}}</td>
+                <td>{{rad.broj_komentara}}</td>
+                <td><img src="{{rad.glavna_slika}}" width="100px" height="100px" alt=""></td>
+                <td><button *ngIf="otkaziva(rad)==true" (click)="otkaziPrijavu(rad)" class="btn btn-danger">Otkaži</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div> 
+<app-footer></app-footer>
+
+

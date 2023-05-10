@@ -1,0 +1,201 @@
+INFO  15:33:24,823 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\oporavak.mj
+INFO  15:33:24,861 - #2 program
+INFO  15:33:24,861 - #48 first
+INFO  15:33:24,861 - #48 int
+INFO  15:33:24,862 - #48 a
+INFO  15:33:24,863 - #38 ,
+INFO  15:33:24,863 - #48 b
+INFO  15:33:24,863 - #20 -
+ERROR 15:33:24,863 - 
+Sintaksna greska na liniji 3
+INFO  15:33:24,863 - #47 2
+INFO  15:33:24,863 - #38 ,
+INFO  15:33:24,863 - #48 c
+INFO  15:33:24,863 - #38 ,
+INFO  15:33:24,864 - #48 d
+ERROR 15:33:24,864 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 3
+INFO  15:33:24,864 - #21 +
+ERROR 15:33:24,864 - 
+Sintaksna greska na liniji 3
+INFO  15:33:24,864 - #37 ;
+INFO  15:33:24,864 - #48 int
+INFO  15:33:24,868 - #48 e
+INFO  15:33:24,868 - #21 +
+ERROR 15:33:24,868 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 3
+ERROR 15:33:24,868 - 
+Sintaksna greska na liniji 4
+INFO  15:33:24,868 - #47 3
+INFO  15:33:24,869 - #38 ,
+INFO  15:33:24,869 - #37 ;
+INFO  15:33:24,869 - #41 {
+INFO  15:33:24,869 - #15 void
+INFO  15:33:24,869 - #48 main
+ERROR 15:33:24,869 - Izvrsen oporavak do , ili ; pri definiciji globalne promenljive u liniji 4
+INFO  15:33:24,869 - #43 (
+INFO  15:33:24,870 - #48 int
+INFO  15:33:24,870 - #48 p
+INFO  15:33:24,870 - #21 +
+ERROR 15:33:24,870 - 
+Sintaksna greska na liniji 7
+INFO  15:33:24,870 - #47 3
+INFO  15:33:24,870 - #38 ,
+INFO  15:33:24,870 - #48 int
+INFO  15:33:24,870 - #48 p2
+INFO  15:33:24,870 - #44 )
+ERROR 15:33:24,870 - Izvrsen oporavak do , ili ) pri deklaraciji formalnog parametra u liniji 7
+INFO  15:33:24,871 - #48 int
+INFO  15:33:24,871 - #48 param1
+INFO  15:33:24,871 - #37 ;
+INFO  15:33:24,871 - #41 {
+INFO  15:33:24,871 - #48 d
+INFO  15:33:24,872 - #33 =
+INFO  15:33:24,872 - #48 a
+INFO  15:33:24,872 - #21 +
+INFO  15:33:24,873 - #22 *
+ERROR 15:33:24,873 - 
+Sintaksna greska na liniji 8
+INFO  15:33:24,873 - #37 ;
+INFO  15:33:24,873 - #8 if
+INFO  15:33:24,873 - #43 (
+INFO  15:33:24,874 - #48 a
+ERROR 15:33:24,874 - Izvrsen oporavak do ; pri konstrukciji iskaza dodele u liniji 40
+INFO  15:33:24,874 - #21 +
+INFO  15:33:24,874 - #48 b
+INFO  15:33:24,874 - #27 >
+INFO  15:33:24,875 - #47 0
+INFO  15:33:24,876 - #31 &&
+INFO  15:33:24,876 - #48 c
+INFO  15:33:24,876 - #21 +
+INFO  15:33:24,876 - #27 >
+ERROR 15:33:24,876 - 
+Sintaksna greska na liniji 9
+INFO  15:33:24,876 - #47 2
+INFO  15:33:24,876 - #44 )
+INFO  15:33:24,876 - #48 c
+INFO  15:33:24,876 - #34 ++
+INFO  15:33:24,876 - #37 ;
+ERROR 15:33:24,876 - Izvrsen oporavak do ) pri konstrukciji logickog izraza unutar if naredbe u liniji 9
+INFO  15:33:24,877 - #42 }
+INFO  15:33:24,879 - #42 }
+INFO  15:33:24,882 - Program(
+  ProgName(
+   first
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationVar(
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          ListVarDecl(
+            ListVarDecl(
+              ListVarDecl(
+                SingleVarDecl(
+                  VariableDecl(
+                   a
+                  ) [VariableDecl]
+                ) [SingleVarDecl]
+                ErrorVariableDeclaration(
+                ) [ErrorVariableDeclaration]
+              ) [ListVarDecl]
+              VariableDecl(
+               c
+              ) [VariableDecl]
+            ) [ListVarDecl]
+            ErrorVariableDeclaration(
+            ) [ErrorVariableDeclaration]
+          ) [ListVarDecl]
+        ) [Var_Declaration]
+      ) [DeclarationVar]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        SingleVarDecl(
+          ErrorVariableDeclaration(
+          ) [ErrorVariableDeclaration]
+        ) [SingleVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      MethodParametersList(
+        MethodParameters(
+          SingleMethodParameter(
+            ErrorFunctionparameter(
+            ) [ErrorFunctionparameter]
+          ) [SingleMethodParameter]
+          VarMethodParameter(
+            Type(
+             int
+            ) [Type]
+           p2
+          ) [VarMethodParameter]
+        ) [MethodParameters]
+      ) [MethodParametersList]
+      MethodFieldsDeclaration(
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             param1
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        StatementList(
+          NoStatementList(
+          ) [NoStatementList]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignError(
+              ) [DesignatorAssignError]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+        ) [StatementList]
+        IfStatement(
+          ErrorConditionIf(
+          ) [ErrorConditionIf]
+          DesignStatement(
+            DesignStatementOperation(
+              DesignatorIdent(
+               c
+              ) [DesignatorIdent]
+              DesignatorInc(
+              ) [DesignatorInc]
+            ) [DesignStatementOperation]
+          ) [DesignStatement]
+          NoElseStatement(
+          ) [NoElseStatement]
+        ) [IfStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:33:24,882 - ===================================
+INFO  15:33:24,885 - Upotreba promenljive c, Var, int, 1, 0 na liniji 9
+ERROR 15:33:24,885 - GRESKA: Nije ispravno definisana main funkcija na liniji 1
+ERROR 15:33:24,886 - Parsiranje nije uspesno
+INFO  15:33:24,886 - ===================================

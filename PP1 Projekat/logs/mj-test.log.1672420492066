@@ -1,0 +1,584 @@
+INFO  15:53:12,696 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantika.mj
+INFO  15:53:12,735 - #2 program
+INFO  15:53:12,735 - #48 Program
+INFO  15:53:12,735 - #7 const
+INFO  15:53:12,736 - #48 int
+INFO  15:53:12,736 - #48 a
+INFO  15:53:12,736 - #33 =
+INFO  15:53:12,737 - #47 3
+INFO  15:53:12,737 - #38 ,
+INFO  15:53:12,737 - #48 b
+INFO  15:53:12,737 - #33 =
+INFO  15:53:12,737 - #47 4
+INFO  15:53:12,737 - #38 ,
+INFO  15:53:12,738 - #48 zz
+INFO  15:53:12,738 - #33 =
+INFO  15:53:12,738 - #49 c
+INFO  15:53:12,738 - #37 ;
+INFO  15:53:12,738 - #7 const
+INFO  15:53:12,738 - #48 bool
+INFO  15:53:12,738 - #48 ba
+INFO  15:53:12,738 - #33 =
+INFO  15:53:12,738 - #50 true
+INFO  15:53:12,738 - #38 ,
+INFO  15:53:12,738 - #48 c4
+INFO  15:53:12,738 - #33 =
+INFO  15:53:12,738 - #50 false
+INFO  15:53:12,738 - #38 ,
+INFO  15:53:12,738 - #48 b
+INFO  15:53:12,738 - #33 =
+INFO  15:53:12,738 - #50 false
+INFO  15:53:12,739 - #37 ;
+INFO  15:53:12,739 - #7 const
+INFO  15:53:12,739 - #48 char
+INFO  15:53:12,739 - #48 p
+INFO  15:53:12,739 - #33 =
+INFO  15:53:12,739 - #49 c
+INFO  15:53:12,739 - #38 ,
+INFO  15:53:12,739 - #48 a3
+INFO  15:53:12,739 - #33 =
+INFO  15:53:12,739 - #47 1
+INFO  15:53:12,739 - #37 ;
+INFO  15:53:12,739 - #48 int
+INFO  15:53:12,739 - #48 a33
+INFO  15:53:12,740 - #38 ,
+INFO  15:53:12,740 - #48 b33
+INFO  15:53:12,740 - #38 ,
+INFO  15:53:12,741 - #48 c33
+INFO  15:53:12,741 - #37 ;
+INFO  15:53:12,741 - #48 int
+INFO  15:53:12,741 - #48 a22
+INFO  15:53:12,741 - #45 [
+INFO  15:53:12,741 - #46 ]
+INFO  15:53:12,741 - #38 ,
+INFO  15:53:12,741 - #48 b43
+INFO  15:53:12,741 - #38 ,
+INFO  15:53:12,741 - #48 cod
+INFO  15:53:12,741 - #45 [
+INFO  15:53:12,741 - #46 ]
+INFO  15:53:12,741 - #37 ;
+INFO  15:53:12,741 - #48 bool
+INFO  15:53:12,741 - #48 d34
+INFO  15:53:12,741 - #37 ;
+INFO  15:53:12,741 - #48 char
+INFO  15:53:12,741 - #48 er
+INFO  15:53:12,742 - #38 ,
+INFO  15:53:12,742 - #48 de
+INFO  15:53:12,742 - #38 ,
+INFO  15:53:12,742 - #48 gg
+INFO  15:53:12,742 - #45 [
+INFO  15:53:12,742 - #46 ]
+INFO  15:53:12,742 - #37 ;
+INFO  15:53:12,742 - #48 float
+INFO  15:53:12,742 - #48 b6
+INFO  15:53:12,742 - #37 ;
+INFO  15:53:12,742 - #4 class
+INFO  15:53:12,742 - #48 Klasa
+INFO  15:53:12,742 - #41 {
+INFO  15:53:12,743 - #48 int
+INFO  15:53:12,744 - #48 ff
+INFO  15:53:12,744 - #37 ;
+INFO  15:53:12,744 - #48 int
+INFO  15:53:12,744 - #48 cc
+INFO  15:53:12,744 - #38 ,
+INFO  15:53:12,744 - #48 juk
+INFO  15:53:12,744 - #37 ;
+INFO  15:53:12,744 - #48 int
+INFO  15:53:12,744 - #48 a33
+INFO  15:53:12,744 - #37 ;
+INFO  15:53:12,744 - #48 char
+INFO  15:53:12,744 - #48 b6
+INFO  15:53:12,744 - #45 [
+INFO  15:53:12,744 - #46 ]
+INFO  15:53:12,744 - #38 ,
+INFO  15:53:12,744 - #48 ff
+INFO  15:53:12,744 - #37 ;
+INFO  15:53:12,744 - #48 bool
+INFO  15:53:12,744 - #48 trt
+INFO  15:53:12,744 - #37 ;
+INFO  15:53:12,744 - #41 {
+INFO  15:53:12,744 - #15 void
+INFO  15:53:12,745 - #48 m
+INFO  15:53:12,745 - #43 (
+INFO  15:53:12,746 - #48 int
+INFO  15:53:12,746 - #48 kap
+INFO  15:53:12,746 - #44 )
+INFO  15:53:12,746 - #41 {
+INFO  15:53:12,746 - #42 }
+INFO  15:53:12,747 - #42 }
+INFO  15:53:12,747 - #42 }
+INFO  15:53:12,747 - #41 {
+INFO  15:53:12,748 - #15 void
+INFO  15:53:12,749 - #48 m
+INFO  15:53:12,749 - #43 (
+INFO  15:53:12,749 - #48 bool
+INFO  15:53:12,749 - #48 mka
+INFO  15:53:12,749 - #38 ,
+INFO  15:53:12,749 - #48 char
+INFO  15:53:12,749 - #48 deka
+INFO  15:53:12,749 - #38 ,
+INFO  15:53:12,749 - #48 int
+INFO  15:53:12,749 - #48 som
+INFO  15:53:12,749 - #44 )
+INFO  15:53:12,749 - #48 int
+INFO  15:53:12,749 - #48 a400
+INFO  15:53:12,749 - #38 ,
+INFO  15:53:12,749 - #48 b9
+INFO  15:53:12,749 - #38 ,
+INFO  15:53:12,749 - #48 c00
+INFO  15:53:12,749 - #37 ;
+INFO  15:53:12,749 - #48 bool
+INFO  15:53:12,749 - #48 erk
+INFO  15:53:12,749 - #37 ;
+INFO  15:53:12,749 - #41 {
+INFO  15:53:12,749 - #42 }
+INFO  15:53:12,750 - #42 }
+INFO  15:53:12,754 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  DeclarationList(
+                    NoDeclarations(
+                    ) [NoDeclarations]
+                    DeclarationConst(
+                      Const_Declaration(
+                        TypeConst(
+                          Type(
+                           int
+                          ) [Type]
+                        ) [TypeConst]
+                        ListConstDecl(
+                          ListConstDecl(
+                            SingleConstDecl(
+                              ConstantDecl(
+                               a
+                                IntegerConstant(
+                                 3
+                                ) [IntegerConstant]
+                              ) [ConstantDecl]
+                            ) [SingleConstDecl]
+                            ConstantDecl(
+                             b
+                              IntegerConstant(
+                               4
+                              ) [IntegerConstant]
+                            ) [ConstantDecl]
+                          ) [ListConstDecl]
+                          ConstantDecl(
+                           zz
+                            CharConstant(
+                             c
+                            ) [CharConstant]
+                          ) [ConstantDecl]
+                        ) [ListConstDecl]
+                      ) [Const_Declaration]
+                    ) [DeclarationConst]
+                  ) [DeclarationList]
+                  DeclarationConst(
+                    Const_Declaration(
+                      TypeConst(
+                        Type(
+                         bool
+                        ) [Type]
+                      ) [TypeConst]
+                      ListConstDecl(
+                        ListConstDecl(
+                          SingleConstDecl(
+                            ConstantDecl(
+                             ba
+                              BoolConstant(
+                               true
+                              ) [BoolConstant]
+                            ) [ConstantDecl]
+                          ) [SingleConstDecl]
+                          ConstantDecl(
+                           c4
+                            BoolConstant(
+                             false
+                            ) [BoolConstant]
+                          ) [ConstantDecl]
+                        ) [ListConstDecl]
+                        ConstantDecl(
+                         b
+                          BoolConstant(
+                           false
+                          ) [BoolConstant]
+                        ) [ConstantDecl]
+                      ) [ListConstDecl]
+                    ) [Const_Declaration]
+                  ) [DeclarationConst]
+                ) [DeclarationList]
+                DeclarationConst(
+                  Const_Declaration(
+                    TypeConst(
+                      Type(
+                       char
+                      ) [Type]
+                    ) [TypeConst]
+                    ListConstDecl(
+                      SingleConstDecl(
+                        ConstantDecl(
+                         p
+                          CharConstant(
+                           c
+                          ) [CharConstant]
+                        ) [ConstantDecl]
+                      ) [SingleConstDecl]
+                      ConstantDecl(
+                       a3
+                        IntegerConstant(
+                         1
+                        ) [IntegerConstant]
+                      ) [ConstantDecl]
+                    ) [ListConstDecl]
+                  ) [Const_Declaration]
+                ) [DeclarationConst]
+              ) [DeclarationList]
+              DeclarationVar(
+                Var_Declaration(
+                  TypeVar(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [TypeVar]
+                  ListVarDecl(
+                    ListVarDecl(
+                      SingleVarDecl(
+                        VariableDecl(
+                         a33
+                        ) [VariableDecl]
+                      ) [SingleVarDecl]
+                      VariableDecl(
+                       b33
+                      ) [VariableDecl]
+                    ) [ListVarDecl]
+                    VariableDecl(
+                     c33
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                ) [Var_Declaration]
+              ) [DeclarationVar]
+            ) [DeclarationList]
+            DeclarationVar(
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   int
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  ListVarDecl(
+                    SingleVarDecl(
+                      ArrayVariableDecl(
+                       a22
+                      ) [ArrayVariableDecl]
+                    ) [SingleVarDecl]
+                    VariableDecl(
+                     b43
+                    ) [VariableDecl]
+                  ) [ListVarDecl]
+                  ArrayVariableDecl(
+                   cod
+                  ) [ArrayVariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [DeclarationVar]
+          ) [DeclarationList]
+          DeclarationVar(
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 bool
+                ) [Type]
+              ) [TypeVar]
+              SingleVarDecl(
+                VariableDecl(
+                 d34
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+            ) [Var_Declaration]
+          ) [DeclarationVar]
+        ) [DeclarationList]
+        DeclarationVar(
+          Var_Declaration(
+            TypeVar(
+              Type(
+               char
+              ) [Type]
+            ) [TypeVar]
+            ListVarDecl(
+              ListVarDecl(
+                SingleVarDecl(
+                  VariableDecl(
+                   er
+                  ) [VariableDecl]
+                ) [SingleVarDecl]
+                VariableDecl(
+                 de
+                ) [VariableDecl]
+              ) [ListVarDecl]
+              ArrayVariableDecl(
+               gg
+              ) [ArrayVariableDecl]
+            ) [ListVarDecl]
+          ) [Var_Declaration]
+        ) [DeclarationVar]
+      ) [DeclarationList]
+      DeclarationVar(
+        Var_Declaration(
+          TypeVar(
+            Type(
+             float
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             b6
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [DeclarationVar]
+    ) [DeclarationList]
+    DeclarationClass(
+      Class_Declaration(
+        TypeClass(
+         Klasa
+          NotExtended(
+          ) [NotExtended]
+        ) [TypeClass]
+        ClassBody(
+          ClassVarsDeclarations(
+            ClassVarsDeclarations(
+              ClassVarsDeclarations(
+                ClassVarsDeclarations(
+                  ClassVarsDeclarations(
+                    NoClassVarsDeclarations(
+                    ) [NoClassVarsDeclarations]
+                    Var_Declaration(
+                      TypeVar(
+                        Type(
+                         int
+                        ) [Type]
+                      ) [TypeVar]
+                      SingleVarDecl(
+                        VariableDecl(
+                         ff
+                        ) [VariableDecl]
+                      ) [SingleVarDecl]
+                    ) [Var_Declaration]
+                  ) [ClassVarsDeclarations]
+                  Var_Declaration(
+                    TypeVar(
+                      Type(
+                       int
+                      ) [Type]
+                    ) [TypeVar]
+                    ListVarDecl(
+                      SingleVarDecl(
+                        VariableDecl(
+                         cc
+                        ) [VariableDecl]
+                      ) [SingleVarDecl]
+                      VariableDecl(
+                       juk
+                      ) [VariableDecl]
+                    ) [ListVarDecl]
+                  ) [Var_Declaration]
+                ) [ClassVarsDeclarations]
+                Var_Declaration(
+                  TypeVar(
+                    Type(
+                     int
+                    ) [Type]
+                  ) [TypeVar]
+                  SingleVarDecl(
+                    VariableDecl(
+                     a33
+                    ) [VariableDecl]
+                  ) [SingleVarDecl]
+                ) [Var_Declaration]
+              ) [ClassVarsDeclarations]
+              Var_Declaration(
+                TypeVar(
+                  Type(
+                   char
+                  ) [Type]
+                ) [TypeVar]
+                ListVarDecl(
+                  SingleVarDecl(
+                    ArrayVariableDecl(
+                     b6
+                    ) [ArrayVariableDecl]
+                  ) [SingleVarDecl]
+                  VariableDecl(
+                   ff
+                  ) [VariableDecl]
+                ) [ListVarDecl]
+              ) [Var_Declaration]
+            ) [ClassVarsDeclarations]
+            Var_Declaration(
+              TypeVar(
+                Type(
+                 bool
+                ) [Type]
+              ) [TypeVar]
+              SingleVarDecl(
+                VariableDecl(
+                 trt
+                ) [VariableDecl]
+              ) [SingleVarDecl]
+            ) [Var_Declaration]
+          ) [ClassVarsDeclarations]
+          ClassMethodsDeclarations(
+            ClassMethodsDeclList(
+              NoClassMethodDeclList(
+              ) [NoClassMethodDeclList]
+              Method_Declaration(
+                ReturnVoid(
+                 m
+                ) [ReturnVoid]
+                MethodParametersList(
+                  SingleMethodParameter(
+                    VarMethodParameter(
+                      Type(
+                       int
+                      ) [Type]
+                     kap
+                    ) [VarMethodParameter]
+                  ) [SingleMethodParameter]
+                ) [MethodParametersList]
+                NoMethodFieldsDeclaration(
+                ) [NoMethodFieldsDeclaration]
+                NoStatementList(
+                ) [NoStatementList]
+              ) [Method_Declaration]
+            ) [ClassMethodsDeclList]
+          ) [ClassMethodsDeclarations]
+        ) [ClassBody]
+      ) [Class_Declaration]
+    ) [DeclarationClass]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       m
+      ) [ReturnVoid]
+      MethodParametersList(
+        MethodParameters(
+          MethodParameters(
+            SingleMethodParameter(
+              VarMethodParameter(
+                Type(
+                 bool
+                ) [Type]
+               mka
+              ) [VarMethodParameter]
+            ) [SingleMethodParameter]
+            VarMethodParameter(
+              Type(
+               char
+              ) [Type]
+             deka
+            ) [VarMethodParameter]
+          ) [MethodParameters]
+          VarMethodParameter(
+            Type(
+             int
+            ) [Type]
+           som
+          ) [VarMethodParameter]
+        ) [MethodParameters]
+      ) [MethodParametersList]
+      MethodFieldsDeclaration(
+        MethodFieldsDeclaration(
+          NoMethodFieldsDeclaration(
+          ) [NoMethodFieldsDeclaration]
+          Var_Declaration(
+            TypeVar(
+              Type(
+               int
+              ) [Type]
+            ) [TypeVar]
+            ListVarDecl(
+              ListVarDecl(
+                SingleVarDecl(
+                  VariableDecl(
+                   a400
+                  ) [VariableDecl]
+                ) [SingleVarDecl]
+                VariableDecl(
+                 b9
+                ) [VariableDecl]
+              ) [ListVarDecl]
+              VariableDecl(
+               c00
+              ) [VariableDecl]
+            ) [ListVarDecl]
+          ) [Var_Declaration]
+        ) [MethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             bool
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             erk
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  15:53:12,754 - ===================================
+INFO  15:53:12,756 - Deklarisana konstanta a vrednosti 3 na liniji 3
+INFO  15:53:12,756 - Deklarisana konstanta b vrednosti 4 na liniji 3
+ERROR 15:53:12,757 - GRESKA: Los tip konstane zz , greska na liniji 3
+INFO  15:53:12,757 - Deklarisana konstanta ba vrednosti 1 na liniji 4
+INFO  15:53:12,757 - Deklarisana konstanta c4 vrednosti 0 na liniji 4
+ERROR 15:53:12,757 - GRESKA: Konstanta b vec deklarisana, greska na liniji 4
+INFO  15:53:12,757 - Deklarisana konstanta p vrednosti 99 na liniji 5
+ERROR 15:53:12,757 - GRESKA: Los tip konstane a3 , greska na liniji 5
+INFO  15:53:12,757 - Deklarisana promenljiva a33 tipa int na liniji 7
+INFO  15:53:12,757 - Deklarisana promenljiva b33 tipa int na liniji 7
+INFO  15:53:12,757 - Deklarisana promenljiva c33 tipa int na liniji 7
+INFO  15:53:12,757 - Deklarisana promenljiva a22 tipa int[] na liniji 8
+INFO  15:53:12,757 - Deklarisana promenljiva b43 tipa int na liniji 8
+INFO  15:53:12,757 - Deklarisana promenljiva cod tipa int[] na liniji 8
+INFO  15:53:12,757 - Deklarisana promenljiva d34 tipa bool na liniji 10
+INFO  15:53:12,757 - Deklarisana promenljiva er tipa char na liniji 10
+INFO  15:53:12,757 - Deklarisana promenljiva de tipa char na liniji 10
+INFO  15:53:12,757 - Deklarisana promenljiva gg tipa char[] na liniji 10
+ERROR 15:53:12,757 - GRESKA: Nije pronadjen tip float, greska na liniji 11
+ERROR 15:53:12,757 - GRESKA: Nepostojeci tip promenljive float , greska na liniji 11
+INFO  15:53:12,757 - Deklarisano polje ff tipa int u klasi Klasa na liniji 14
+INFO  15:53:12,757 - Deklarisano polje cc tipa int u klasi Klasa na liniji 15
+INFO  15:53:12,757 - Deklarisano polje juk tipa int u klasi Klasa na liniji 15
+INFO  15:53:12,757 - Deklarisano polje a33 tipa int u klasi Klasa na liniji 16
+INFO  15:53:12,757 - Deklarisano polje b6 tipa char[] u klasi Klasa na liniji 17
+ERROR 15:53:12,757 - GRESKA: Promenljiva ff vec deklarisana, greska na liniji 17
+INFO  15:53:12,757 - Deklarisano polje trt tipa bool u klasi Klasa na liniji 18
+INFO  15:53:12,757 - Deklarisan parametar kap tipa int metode m na liniji 21
+INFO  15:53:12,757 - Deklarisan parametar mka tipa bool metode m na liniji 30
+INFO  15:53:12,757 - Deklarisan parametar deka tipa char metode m na liniji 30
+INFO  15:53:12,757 - Deklarisan parametar som tipa int metode m na liniji 30
+INFO  15:53:12,758 - Deklarisana promenljiva a400 tipa int u metodi m na liniji 31
+INFO  15:53:12,758 - Deklarisana promenljiva b9 tipa int u metodi m na liniji 31
+INFO  15:53:12,758 - Deklarisana promenljiva c00 tipa int u metodi m na liniji 31
+INFO  15:53:12,758 - Deklarisana promenljiva erk tipa bool u metodi m na liniji 32
+ERROR 15:53:12,758 - Parsiranje nije uspesno
+INFO  15:53:12,758 - ===================================

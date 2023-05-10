@@ -1,0 +1,112 @@
+INFO  14:48:10,731 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\semantikaFinal.mj
+INFO  14:48:12,697 - #2 program
+INFO  14:48:12,697 - #48 Prog
+INFO  14:48:12,698 - #7 const
+INFO  14:48:12,730 - #48 int
+INFO  14:48:12,730 - #48 ci1
+INFO  14:48:12,765 - #33 =
+INFO  14:48:12,766 - #47 3
+INFO  14:48:12,766 - #38 ,
+INFO  14:48:12,766 - #48 ci2
+INFO  14:48:12,766 - #33 =
+INFO  14:48:12,767 - #47 2
+INFO  14:48:12,767 - #37 ;
+INFO  14:48:12,767 - #7 const
+INFO  14:48:12,768 - #48 bool
+INFO  14:48:12,768 - #48 cb1
+INFO  14:48:12,768 - #33 =
+INFO  14:48:12,768 - #47 5
+INFO  14:48:12,768 - #38 ,
+INFO  14:48:12,768 - #48 cb2
+INFO  14:48:12,769 - #33 =
+INFO  14:48:12,769 - #47 4
+INFO  14:48:12,769 - #37 ;
+INFO  14:48:12,769 - #41 {
+INFO  14:48:12,770 - #15 void
+INFO  14:48:12,786 - #48 main
+INFO  14:48:12,786 - #43 (
+INFO  14:48:12,787 - #44 )
+INFO  14:48:12,802 - #41 {
+INFO  14:48:12,819 - #42 }
+INFO  14:48:12,836 - #42 }
+INFO  14:48:12,845 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarations(
+      ) [NoDeclarations]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             int
+            ) [Type]
+          ) [TypeConst]
+          ListConstDecl(
+            SingleConstDecl(
+              ConstantDecl(
+               ci1
+                IntegerConstant(
+                 3
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [SingleConstDecl]
+            ConstantDecl(
+             ci2
+              IntegerConstant(
+               2
+              ) [IntegerConstant]
+            ) [ConstantDecl]
+          ) [ListConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationConst(
+      Const_Declaration(
+        TypeConst(
+          Type(
+           bool
+          ) [Type]
+        ) [TypeConst]
+        ListConstDecl(
+          SingleConstDecl(
+            ConstantDecl(
+             cb1
+              IntegerConstant(
+               5
+              ) [IntegerConstant]
+            ) [ConstantDecl]
+          ) [SingleConstDecl]
+          ConstantDecl(
+           cb2
+            IntegerConstant(
+             4
+            ) [IntegerConstant]
+          ) [ConstantDecl]
+        ) [ListConstDecl]
+      ) [Const_Declaration]
+    ) [DeclarationConst]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:48:12,846 - ===================================
+ERROR 14:48:12,852 - GRESKA: Los tip konstane cb1 , greska na liniji 3
+ERROR 14:48:12,852 - GRESKA: Los tip konstane cb2 , greska na liniji 3
+ERROR 14:48:12,852 - Parsiranje nije uspesno
+INFO  14:48:12,853 - ===================================

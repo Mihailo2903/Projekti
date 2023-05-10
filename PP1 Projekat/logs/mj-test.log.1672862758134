@@ -1,0 +1,286 @@
+INFO  21:05:28,890 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\testic.mj
+INFO  21:05:28,937 - #2 program
+INFO  21:05:28,937 - #48 Prog
+INFO  21:05:28,937 - #7 const
+INFO  21:05:28,938 - #48 int
+INFO  21:05:28,938 - #48 k
+INFO  21:05:28,939 - #33 =
+INFO  21:05:28,939 - #47 1
+INFO  21:05:28,939 - #38 ,
+INFO  21:05:28,939 - #48 b
+INFO  21:05:28,939 - #33 =
+INFO  21:05:28,939 - #47 2
+INFO  21:05:28,940 - #38 ,
+INFO  21:05:28,940 - #48 c
+INFO  21:05:28,940 - #33 =
+INFO  21:05:28,940 - #47 3
+INFO  21:05:28,940 - #37 ;
+INFO  21:05:28,940 - #7 const
+INFO  21:05:28,940 - #48 char
+INFO  21:05:28,940 - #48 cc
+INFO  21:05:28,940 - #33 =
+INFO  21:05:28,941 - #49 a
+INFO  21:05:28,941 - #37 ;
+INFO  21:05:28,941 - #48 int
+INFO  21:05:28,941 - #48 p1
+INFO  21:05:28,941 - #38 ,
+INFO  21:05:28,942 - #48 p2
+INFO  21:05:28,942 - #38 ,
+INFO  21:05:28,942 - #48 p3
+INFO  21:05:28,942 - #37 ;
+INFO  21:05:28,942 - #41 {
+INFO  21:05:28,942 - #15 void
+INFO  21:05:28,942 - #48 main
+INFO  21:05:28,942 - #43 (
+INFO  21:05:28,943 - #44 )
+INFO  21:05:28,943 - #48 int
+INFO  21:05:28,943 - #48 p
+INFO  21:05:28,943 - #37 ;
+INFO  21:05:28,943 - #41 {
+INFO  21:05:28,943 - #48 p1
+INFO  21:05:28,944 - #33 =
+INFO  21:05:28,944 - #47 2
+INFO  21:05:28,945 - #37 ;
+INFO  21:05:28,945 - #48 pa
+INFO  21:05:28,946 - #33 =
+INFO  21:05:28,946 - #48 p1
+INFO  21:05:28,946 - #21 +
+INFO  21:05:28,946 - #48 k
+INFO  21:05:28,946 - #37 ;
+INFO  21:05:28,947 - #48 p
+INFO  21:05:28,947 - #33 =
+INFO  21:05:28,947 - #48 p1
+INFO  21:05:28,947 - #21 +
+INFO  21:05:28,947 - #48 p2
+INFO  21:05:28,947 - #37 ;
+INFO  21:05:28,947 - #42 }
+INFO  21:05:28,947 - #42 }
+INFO  21:05:28,951 - Program(
+  ProgName(
+   Prog
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        NoDeclarations(
+        ) [NoDeclarations]
+        DeclarationConst(
+          Const_Declaration(
+            TypeConst(
+              Type(
+               int
+              ) [Type]
+            ) [TypeConst]
+            ListConstDecl(
+              ListConstDecl(
+                SingleConstDecl(
+                  ConstantDecl(
+                   k
+                    IntegerConstant(
+                     1
+                    ) [IntegerConstant]
+                  ) [ConstantDecl]
+                ) [SingleConstDecl]
+                ConstantDecl(
+                 b
+                  IntegerConstant(
+                   2
+                  ) [IntegerConstant]
+                ) [ConstantDecl]
+              ) [ListConstDecl]
+              ConstantDecl(
+               c
+                IntegerConstant(
+                 3
+                ) [IntegerConstant]
+              ) [ConstantDecl]
+            ) [ListConstDecl]
+          ) [Const_Declaration]
+        ) [DeclarationConst]
+      ) [DeclarationList]
+      DeclarationConst(
+        Const_Declaration(
+          TypeConst(
+            Type(
+             char
+            ) [Type]
+          ) [TypeConst]
+          SingleConstDecl(
+            ConstantDecl(
+             cc
+              CharConstant(
+               a
+              ) [CharConstant]
+            ) [ConstantDecl]
+          ) [SingleConstDecl]
+        ) [Const_Declaration]
+      ) [DeclarationConst]
+    ) [DeclarationList]
+    DeclarationVar(
+      Var_Declaration(
+        TypeVar(
+          Type(
+           int
+          ) [Type]
+        ) [TypeVar]
+        ListVarDecl(
+          ListVarDecl(
+            SingleVarDecl(
+              VariableDecl(
+               p1
+              ) [VariableDecl]
+            ) [SingleVarDecl]
+            VariableDecl(
+             p2
+            ) [VariableDecl]
+          ) [ListVarDecl]
+          VariableDecl(
+           p3
+          ) [VariableDecl]
+        ) [ListVarDecl]
+      ) [Var_Declaration]
+    ) [DeclarationVar]
+  ) [DeclarationList]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       main
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      MethodFieldsDeclaration(
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             p
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        StatementList(
+          StatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            DesignStatement(
+              DesignatorStatementAssign(
+                DesignatorAssignSimple(
+                  DesignatorIdent(
+                   p1
+                  ) [DesignatorIdent]
+                  AssignOperator(
+                  ) [AssignOperator]
+                  Expr(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          FactorNumConstant(
+                           2
+                          ) [FactorNumConstant]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                  ) [Expr]
+                ) [DesignatorAssignSimple]
+              ) [DesignatorStatementAssign]
+            ) [DesignStatement]
+          ) [StatementList]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignSimple(
+                DesignatorIdent(
+                 pa
+                ) [DesignatorIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  TermsList(
+                    SingleTerm(
+                      Term(
+                        SingleFactor(
+                          FactorSingleDesignator(
+                            DesignatorIdent(
+                             p1
+                            ) [DesignatorIdent]
+                          ) [FactorSingleDesignator]
+                        ) [SingleFactor]
+                      ) [Term]
+                    ) [SingleTerm]
+                    PlusOperator(
+                    ) [PlusOperator]
+                    Term(
+                      SingleFactor(
+                        FactorSingleDesignator(
+                          DesignatorIdent(
+                           k
+                          ) [DesignatorIdent]
+                        ) [FactorSingleDesignator]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [TermsList]
+                ) [Expr]
+              ) [DesignatorAssignSimple]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+        ) [StatementList]
+        DesignStatement(
+          DesignatorStatementAssign(
+            DesignatorAssignSimple(
+              DesignatorIdent(
+               p
+              ) [DesignatorIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              Expr(
+                TermsList(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorSingleDesignator(
+                          DesignatorIdent(
+                           p1
+                          ) [DesignatorIdent]
+                        ) [FactorSingleDesignator]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                  PlusOperator(
+                  ) [PlusOperator]
+                  Term(
+                    SingleFactor(
+                      FactorSingleDesignator(
+                        DesignatorIdent(
+                         p2
+                        ) [DesignatorIdent]
+                      ) [FactorSingleDesignator]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [TermsList]
+              ) [Expr]
+            ) [DesignatorAssignSimple]
+          ) [DesignatorStatementAssign]
+        ) [DesignStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  21:05:28,952 - ===================================
+INFO  21:05:28,954 - Upotreba promenljive p1, Var, int, 0, 0 na liniji 9
+ERROR 21:05:28,954 - GRESKA: Upotreba nedeklarisane promenljive pa na liniji 10
+INFO  21:05:28,955 - Upotreba promenljive p1, Var, int, 0, 0 na liniji 10
+INFO  21:05:28,955 - Upotreba konstante k, Con, int, 1, 0 na liniji 10
+ERROR 21:05:28,955 - GRESKA: Los tip designatora na liniji 10
+INFO  21:05:28,955 - Upotreba lokalne promenljive p metode main, Var, int, 0, 1 na liniji 11
+INFO  21:05:28,955 - Upotreba promenljive p1, Var, int, 0, 0 na liniji 11
+INFO  21:05:28,955 - Upotreba promenljive p2, Var, int, 1, 0 na liniji 11
+ERROR 21:05:28,955 - Parsiranje nije uspesno
+INFO  21:05:28,955 - ===================================

@@ -1,0 +1,127 @@
+INFO  23:55:12,600 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\metode.mj
+INFO  23:55:12,635 - #2 program
+INFO  23:55:12,635 - #48 Program
+INFO  23:55:12,635 - #41 {
+INFO  23:55:12,636 - #48 int
+INFO  23:55:12,636 - #48 metoda
+INFO  23:55:12,636 - #43 (
+INFO  23:55:12,636 - #48 int
+INFO  23:55:12,636 - #48 a
+INFO  23:55:12,637 - #44 )
+INFO  23:55:12,637 - #41 {
+INFO  23:55:12,637 - #42 }
+INFO  23:55:12,638 - #48 int
+INFO  23:55:12,638 - #48 m2
+INFO  23:55:12,638 - #43 (
+INFO  23:55:12,638 - #44 )
+INFO  23:55:12,639 - #48 int
+INFO  23:55:12,639 - #48 aa
+INFO  23:55:12,639 - #37 ;
+INFO  23:55:12,640 - #41 {
+INFO  23:55:12,640 - #48 aa
+INFO  23:55:12,640 - #33 =
+INFO  23:55:12,640 - #48 metoda
+INFO  23:55:12,641 - #43 (
+INFO  23:55:12,641 - #44 )
+INFO  23:55:12,641 - #37 ;
+INFO  23:55:12,643 - #42 }
+INFO  23:55:12,643 - #42 }
+INFO  23:55:12,647 - Program(
+  ProgName(
+   Program
+  ) [ProgName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    MethodDeclarationList(
+      NoMethodDeclarationList(
+      ) [NoMethodDeclarationList]
+      Method_Declaration(
+        ReturnType(
+          Type(
+           int
+          ) [Type]
+         metoda
+        ) [ReturnType]
+        MethodParametersList(
+          SingleMethodParameter(
+            VarMethodParameter(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [VarMethodParameter]
+          ) [SingleMethodParameter]
+        ) [MethodParametersList]
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        NoStatementList(
+        ) [NoStatementList]
+      ) [Method_Declaration]
+    ) [MethodDeclarationList]
+    Method_Declaration(
+      ReturnType(
+        Type(
+         int
+        ) [Type]
+       m2
+      ) [ReturnType]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      MethodFieldsDeclaration(
+        NoMethodFieldsDeclaration(
+        ) [NoMethodFieldsDeclaration]
+        Var_Declaration(
+          TypeVar(
+            Type(
+             int
+            ) [Type]
+          ) [TypeVar]
+          SingleVarDecl(
+            VariableDecl(
+             aa
+            ) [VariableDecl]
+          ) [SingleVarDecl]
+        ) [Var_Declaration]
+      ) [MethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        DesignStatement(
+          DesignatorStatementAssign(
+            DesignatorAssignSimple(
+              DesignatorIdent(
+               aa
+              ) [DesignatorIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              Expr(
+                SingleTerm(
+                  Term(
+                    SingleFactor(
+                      FactorFuncCallNoParams(
+                        DesignatorIdent(
+                         metoda
+                        ) [DesignatorIdent]
+                      ) [FactorFuncCallNoParams]
+                    ) [SingleFactor]
+                  ) [Term]
+                ) [SingleTerm]
+              ) [Expr]
+            ) [DesignatorAssignSimple]
+          ) [DesignatorStatementAssign]
+        ) [DesignStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  23:55:12,647 - ===================================
+INFO  23:55:12,649 - Deklaracija metoda metoda na liniji 3
+INFO  23:55:12,649 - Deklarisan parametar a tipa int metode metoda na liniji 3
+INFO  23:55:12,649 - Deklaracija metoda m2 na liniji 4
+INFO  23:55:12,650 - Deklarisana promenljiva aa tipa int u metodi m2 na liniji 4
+INFO  23:55:12,650 - Upotreba promenljive aa na liniji 5
+INFO  23:55:12,650 - Poziv metode metoda na liniji 5
+ERROR 23:55:12,650 - GRESKA: Los broj argumenata u metodi metoda na liniji 5
+ERROR 23:55:12,650 - Parsiranje nije uspesno
+INFO  23:55:12,650 - ===================================

@@ -1,0 +1,74 @@
+INFO  14:21:01,486 - Compiling source file: C:\Users\Mico\eclipse-workspace\Projekat_PP1\test\oporavak.mj
+INFO  14:21:01,520 - #2 program
+INFO  14:21:01,520 - #48 first
+INFO  14:21:01,520 - #41 {
+INFO  14:21:01,521 - #15 void
+INFO  14:21:01,521 - #48 a
+INFO  14:21:01,521 - #43 (
+INFO  14:21:01,521 - #44 )
+INFO  14:21:01,522 - #41 {
+INFO  14:21:01,522 - #8 if
+INFO  14:21:01,523 - #43 (
+INFO  14:21:01,523 - #48 b
+INFO  14:21:01,523 - #21 +
+INFO  14:21:01,524 - #44 )
+ERROR 14:21:01,524 - 
+Sintaksna greska na liniji 4
+INFO  14:21:01,524 - #48 a
+INFO  14:21:01,524 - #33 =
+INFO  14:21:01,524 - #47 3
+ERROR 14:21:01,524 - Izvrsen oporavak do ) pri konstrukciji logickog izraza unutar if naredbe u liniji 4
+INFO  14:21:01,525 - #37 ;
+INFO  14:21:01,529 - #42 }
+INFO  14:21:01,530 - #42 }
+INFO  14:21:01,530 - Program(
+ first
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarationList(
+    NoMethodDeclarationList(
+    ) [NoMethodDeclarationList]
+    Method_Declaration(
+      ReturnVoid(
+       a
+      ) [ReturnVoid]
+      NoMethodParameterList(
+      ) [NoMethodParameterList]
+      NoMethodFieldsDeclaration(
+      ) [NoMethodFieldsDeclaration]
+      StatementList(
+        NoStatementList(
+        ) [NoStatementList]
+        IfStatement(
+          ErrorConditionIf(
+          ) [ErrorConditionIf]
+          DesignStatement(
+            DesignatorStatementAssign(
+              DesignatorAssignSimple(
+                DesignatorIdent(
+                 a
+                ) [DesignatorIdent]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  SingleTerm(
+                    Term(
+                      SingleFactor(
+                        FactorNumConstant(
+                         3
+                        ) [FactorNumConstant]
+                      ) [SingleFactor]
+                    ) [Term]
+                  ) [SingleTerm]
+                ) [Expr]
+              ) [DesignatorAssignSimple]
+            ) [DesignatorStatementAssign]
+          ) [DesignStatement]
+          NoElseStatement(
+          ) [NoElseStatement]
+        ) [IfStatement]
+      ) [StatementList]
+    ) [Method_Declaration]
+  ) [MethodDeclarationList]
+) [Program]
+INFO  14:21:01,531 - ===================================
