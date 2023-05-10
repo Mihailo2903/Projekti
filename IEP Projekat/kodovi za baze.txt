@@ -1,0 +1,69 @@
+kodovi za baze
+autentikacija:
+
+delete from users;
+delete from roles;
+alter table users auto_increment = 0;
+alter table roles auto_increment = 0;
+insert into roles(name) values ('admin');
+insert into roles(name) values ('warehouse');
+insert into roles(name) values ('user');
+
+insert into users (email, password, forename, surname, roleId) values ('admin@admin.com', '1', 'admin', 'admin', 1);
+
+
+store:
+
+delete from orderproduct;
+delete from productcategory;
+delete from products;
+delete from categories;
+delete from orders;
+alter table orderproduct auto_increment = 0;
+alter table productcategory auto_increment = 0;
+alter table products auto_increment = 0;
+alter table orders auto_increment = 0;
+alter table categories auto_increment = 0;
+
+
+
+docker swarm init --advertise-addr 127.0.0.1
+docker stack deploy --compose-file stack.yaml application_stack
+
+=> da li su svi servisi pokrenuti:
+docker service ls
+
+=> gasenje:
+docker swarm leave --force
+
+docker system prune -a  # za brisanje slika i networka
+docker container prune  # za brisanje kontejnera
+docker volume prune  # za brisanje voluma
+docker service ls
+docker network ls
+docker container ls
+
+
+
+python main.py --type authentication --authentication-address http://127.0.0.1:5004 --jwt-secret JWT_SECRET_KEY --roles-field roles --administrator-role admin --customer-role user --warehouse-role warehouse
+
+
+level0:
+python main.py --type level0 --with-authentication --authentication-address http://127.0.0.1:5004 --customer-address http://127.0.0.1:5003 --warehouse-address http://127.0.0.1:5002
+
+
+level1:
+python main.py --type level1 --with-authentication --authentication-address http://127.0.0.1:5004 --customer-address http://127.0.0.1:5003 --warehouse-address http://127.0.0.1:5002
+
+
+level2:
+python main.py --type level2 --with-authentication --authentication-address http://127.0.0.1:5004 --customer-address http://127.0.0.1:5003 --warehouse-address http://127.0.0.1:5002
+ 
+level3:
+
+python main.py --type level3 --with-authentication --authentication-address http://127.0.0.1:5004 --customer-address http://127.0.0.1:5003 --warehouse-address http://127.0.0.1:5002 --administrator-address http://127.0.0.1:5001
+
+svi:
+
+python main.py --type all --with-authentication  --authentication-address http://127.0.0.1:5004 --jwt-secret "JWT_SECRET_KEY" --roles-field "roles" --administrator-role "admin" --customer-role "user" --warehouserole "warehouse" --customer-address http://127.0.0.1:5003 --warehouse-address http://127.0.0.1:5002 --administrator-address http://127.0.0.1:5001
+

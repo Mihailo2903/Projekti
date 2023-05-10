@@ -1,0 +1,29 @@
+from flask import Flask
+from sqlalchemy_utils import database_exists, create_database
+from configuration import Configuration
+from flask_migrate import Migrate, init, upgrade,migrate
+from models import *
+
+application = Flask(__name__)
+application.config.from_object(Configuration)
+
+migrateObject = Migrate(application, database)
+
+done = False
+
+while not done:
+    try:
+        if not database_exists(Configuration.SQLALCHEMY_DATABASE_URI):
+            create_database(Configuration.SQLALCHEMY_DATABASE_URI)
+
+        database.init_app(application)
+
+        with application.app_context() as context:
+            init()
+            migrate(message="Production migration")
+            upgrade()
+
+            done = True
+
+    except Exception as error:
+        print(error)

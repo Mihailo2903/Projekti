@@ -1,0 +1,159 @@
+version: "3"
+
+services:
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+    networks:
+      - daemonNet
+      - warehouseNet
+      - userNet
+      - authNet
+      - adminNet
+
+  redis:
+    image: redis
+    ports:
+      - 6379:6379
+    networks:
+      - daemonNet
+      - warehouseNet
+
+  authenticationDBProject:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 10
+    networks:
+      - authNet
+    volumes:
+      - authVolume:/var/lib/mysql
+
+
+  authenticationDBMigration:
+    image: authenticationdbmigration
+    environment:
+      - DATABASE_URL=authenticationDBProject
+    depends_on:
+      authenticationDBProject:
+        condition: service_healthy
+    build:
+      context: .
+      dockerfile: authenticationdbmigration.dockerfile
+    networks:
+      - authNet
+
+  authentication:
+    image: authentication
+    environment:
+      - DATABASE_URL=authenticationDBProject
+    depends_on:
+      - authenticationDBMigration
+    ports:
+      - 5004:5004
+    build:
+      context: .
+      dockerfile: authentication.dockerfile
+    networks:
+       - authNet
+
+  storeDBProject:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      timeout: 10s
+      retries: 10
+    networks:
+      - userNet
+      - adminNet
+      - daemonNet
+    volumes:
+      - storeVolume:/var/lib/mysql
+
+  storeDBMigration:
+    image: storedbmigration
+    environment:
+      - DATABASE_URL=storeDBProject
+    depends_on:
+      storeDBProject:
+        condition: service_healthy
+    build:
+      context: .
+      dockerfile: storedbmigration.dockerfile
+    networks:
+      - userNet
+      - daemonNet
+      - adminNet
+
+  user:
+    image: user
+    environment:
+      - DATABASE_URL=storeDBProject
+    depends_on:
+      - storeDBMigration
+    ports:
+      - 5003:5003
+    build:
+      context: .
+      dockerfile: user.dockerfile
+    networks:
+      - userNet
+
+  admin:
+    image: admin
+    environment:
+      - DATABASE_URL=storeDBProject
+    depends_on:
+      - storeDBMigration
+    ports:
+      - 5001:5001
+    build:
+      context: .
+      dockerfile: admin.dockerfile
+    networks:
+      - adminNet
+
+  warehouse:
+    image: warehouse
+    environment:
+      - DATABASE_URL=storeDBProject
+    depends_on:
+      - storeDBMigration
+    ports:
+      - 5002:5002
+    build:
+      context: .
+      dockerfile: warehouse.dockerfile
+    networks:
+      - warehouseNet
+
+  daemon:
+    image: daemon
+    environment:
+      - DATABASE_URL=storeDBProject
+    depends_on:
+      - storeDBMigration
+    build:
+      context: .
+      dockerfile: daemon.dockerfile
+    networks:
+      - daemonNet
+
+
+
+networks:
+  userNet:
+  adminNet:
+  warehouseNet:
+  daemonNet:
+  authNet:
+
+volumes:
+  storeVolume:
+  authVolume:
