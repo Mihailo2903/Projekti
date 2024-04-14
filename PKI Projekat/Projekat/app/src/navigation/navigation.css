@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #8964cd;
+ 
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 70px !important;
+}
+
+.menuItem{
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menuItem:hover {
+  background-color: #4117be; 
+}
+
+.bad {
+   margin-left: 15px;
+}

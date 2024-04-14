@@ -1,0 +1,36 @@
+.butD {
+    background-color: #43be21 !important;
+    color: white;
+    font-weight: bold;
+}
+
+.butD:hover{
+    background-color: #2698a0 !important;
+}
+
+.butOdb {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.butOdb:hover{
+    background-color: #dcd62d !important;
+}
+
+.butOdo {
+    background-color: #43be21 !important;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.butOdo:hover{
+    background-color: #2698a0 !important;
+}
+

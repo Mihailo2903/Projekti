@@ -1,0 +1,55 @@
+.tab{
+    background:  #b7e2f3 !important;
+    border: 0px !important;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.cell{
+    background:  #b7e2f3 !important;
+    border: 0px !important;
+}
+
+.butD {
+    background-color: #43be21 !important;
+    color: white;
+    font-weight: bold;
+}
+
+.butD:hover{
+    background-color: #2698a0 !important;
+}
+
+.butU {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+}
+
+.butU:hover{
+    background-color: #dcd62d !important;
+}
+
+.butP {
+    background-color: #43be21 !important;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 28px;
+    display: block !important;
+}
+
+.butP:hover{
+    background-color: #2698a0 !important;
+}
+
+h2{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+}
+

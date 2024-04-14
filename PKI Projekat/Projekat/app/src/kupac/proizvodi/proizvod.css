@@ -1,0 +1,97 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+img {
+    width: 400px !important;
+    height: 280px !important;
+}
+
+.left{
+    width: 35%;
+}
+
+.right{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+label{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+
+input {
+    text-align: left;
+    width: 250px; 
+}
+
+.butPro {
+    background-color: #65ff5b !important;
+    color: black;
+    width: 150px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.butPro:hover{
+    background-color: #069e70 !important;
+}
+
+.opis{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-weight: bolder;
+    padding-left: 50px !important;
+    display: inline !important;
+    align-self: left !important;
+}
+
+.komHead{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.butKom {
+    background-color: #fefe06 !important;
+    color: black;
+    width: 150px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+.butKom:hover{
+    background-color: #2698a0 !important;
+}

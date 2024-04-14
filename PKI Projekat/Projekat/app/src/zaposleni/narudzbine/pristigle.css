@@ -1,0 +1,19 @@
+.butDe {
+    background-color: #43be21 !important;
+    color: white;
+    font-weight: bold;
+}
+
+.butDe:hover{
+    background-color: #2698a0 !important;
+}
+
+.butOd {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+}
+
+.butOd:hover{
+    background-color: #dcd62d !important;
+}

@@ -1,0 +1,44 @@
+.inputProfil{
+    width: 500px !important;
+    float: right;
+}
+
+.form-group1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between !important;
+    margin-bottom: 10px; 
+    font-weight: bold;
+    width: 700px !important;
+  }
+
+.butLO {
+    background-color: red !important;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.butLO:hover{
+    background-color: #dcd62d !important;
+}
+
+.dugmad {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px !important;
+}
+
+.login-form1 {
+    font-size: 24px;
+    justify-content: left;
+}
+
+.login-form1 {
+    width: 670px;
+    margin: auto; 
+    margin-top: 35px;
+}
+
